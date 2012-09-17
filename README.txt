@@ -1,24 +1,19 @@
-* Repository: http://github.com/roblib/ischolartheme
-* Base Theme: http://github.com/krisbulman/aether (--branch 6.x-1.x)
-* Maintainer(s):
- * Kris Bulman
-  * http://www.twitter.com/krisbulman
+WHERE'S THE CODE?
+-----------------
 
-Installation of theme on Drupal 6
-------------------------
+You've just checked out the code from Git's "master" branch. In Drupal contrib
+module development, the code lives in branches that match a naming convention
+which mirrors the released version numbers.
 
-- Download Aether from http://github.com/krisbulman/aether (with --branch 6.x-1.x flag)
-- Download ischolartheme from http://github.com/roblib/ischolartheme
-- Unpack and place the ischolartheme folder in your Drupal installation under
-  one of the following locations:
+For example:
+The code for a project's 7.x-1.x-dev version is found in the 7.x-1.x Git branch.
 
-    * sites/all/themes
-    * sites/default/themes
-    * sites/example.com/themes
+To see a list of all branches for this project using Git on the command line,
+use the following command:
 
-- Log in as an administrator on your Drupal site and go to
-  /Appearance (admin/appearance) and if you installed the theme
-  properly you should see Aether and Ischolartheme.
-- You do not need to enable Aether for this theme to work, it
-  just needs to be in the same directory.
+  git branch -a
 
+To switch from master branch to the 7.x-1.x branch using Git on the command
+line, use the following command:
+
+  git checkout 7.x-1.x

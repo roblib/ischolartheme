@@ -1,0 +1,83 @@
+.g-d-c1, .g-d-c2, .g-d-c3, .g-d-c4, .g-d-c5, .g-d-c6, .g-d-c7, .g-d-c8, .g-d-c9, .g-d-c10, .g-d-c11, .g-d-c12 {
+  float: right;
+}
+
+.g-d-p1 {
+  margin-left: 0%;
+  margin-right: -100%;
+}
+
+.g-d-p2 {
+  margin-left: 8.48375%;
+  margin-right: -100%;
+}
+
+.g-d-p3 {
+  margin-left: 16.96751%;
+  margin-right: -100%;
+}
+
+.g-d-p4 {
+  margin-left: 25.45126%;
+  margin-right: -100%;
+}
+
+.g-d-p5 {
+  margin-left: 33.93502%;
+  margin-right: -100%;
+}
+
+.g-d-p6 {
+  margin-left: 42.41877%;
+  margin-right: -100%;
+}
+
+.g-d-p7 {
+  margin-left: 50.90253%;
+  margin-right: -100%;
+}
+
+.g-d-p8 {
+  margin-left: 59.38628%;
+  margin-right: -100%;
+}
+
+.g-d-p9 {
+  margin-left: 67.87004%;
+  margin-right: -100%;
+}
+
+.g-d-p10 {
+  margin-left: 76.35379%;
+  margin-right: -100%;
+}
+
+.g-d-p11 {
+  margin-left: 84.83755%;
+  margin-right: -100%;
+}
+
+.g-d-p12 {
+  margin-left: 93.3213%;
+  margin-right: -100%;
+}
+
+.g-d-right {
+  display: inline;
+  float: left;
+}
+
+.g-d-left {
+  display: inline;
+  float: right;
+}
+
+.g-d-f {
+  clear: right;
+}
+
+.g-d-l {
+  clear: left;
+  margin-right: 0;
+  #margin-right: -1em;
+}

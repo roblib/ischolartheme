@@ -1,0 +1,106 @@
+/*
+ * ==================================================
+ * Page
+ * 
+ * Styling for elements found in page.tpl.php
+ * ==================================================
+ */
+
+// ---------------------------------------------------------------------------
+// Local mixins are documented in utilities.scss, the rest are Compass mixins.
+// Look here for the Compass mixin docs http://compass-style.org/index/mixins/
+// ---------------------------------------------------------------------------
+
+/* Vertical Rhythm */
+
+// Add and/or remove page elements as your grid needs. 
+
+.main-menu,
+.navigation,
+.preface,
+.feature,
+#content,
+.postscript,
+.sidebar,
+#footer {
+  @include margin-trailer(1, $base-font-size);
+}
+
+// Skip link is hidden until it's tabbed to.
+#skip-link {
+  margin: 0;
+
+  a,
+  a:visited {
+    display: block;
+    width: 100%;
+    padding: 2px 0 3px 0;
+    text-align: center;
+    background-color: #666;
+    color: #fff;
+  }
+}
+
+/* Background colors */
+
+body {
+  &.not-front, &.front, .postscript-wrapper {
+    background-color: #e6e6e6;
+  }
+}
+
+#header, #main {
+  background-color: #f4f4f4;
+}
+
+/* Header */
+
+#page {
+  border-top: 6px solid #363636;
+}
+
+.branding {
+
+  .name-and-slogan {
+    @include inline-block;
+  }
+
+  .logo {
+    @extend .element-invisible;
+  }
+
+  .site-name {
+    @include adjust-font-size-to($font-size-xxl,1);
+    @include margin-leader(0);
+    @include margin-trailer(0.31, $font-size-xxl);
+    font-family: $header-font-family;
+    font-weight: bold;
+    a {
+      @include link-colors($text-color, $hover: $text-color, $focus: $text-color, $visited: $text-color, $active: $text-color);
+      text-decoration: none;
+    }
+  }
+
+  .site-slogan {
+    @include adjust-font-size-to($font-size-xl,1);
+  }
+
+}
+
+/* Postscript */ 
+
+.postscript-wrapper {
+  @include margin-leader(3);
+}
+
+.postscript .region {
+  @include margin-leader(-1.5);
+  @include margin-trailer(1.5);
+}
+
+/* Footer */
+
+.footer-columns {
+  background-color: rgb(87, 87, 87);
+  @include border-radius(5px);
+}

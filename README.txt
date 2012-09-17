@@ -21,3 +21,4 @@ Installation of theme on Drupal 6
   properly you should see Aether and Ischolartheme.
 - You do not need to enable Aether for this theme to work, it
   just needs to be in the same directory.
+

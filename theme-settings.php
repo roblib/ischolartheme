@@ -1,7 +1,6 @@
 <?php
-// Include the definition of aether_settings() and aether_theme_get_default_settings().
-include_once './' . drupal_get_path('theme', 'aether') . '/theme-settings.php';
-
+// Include the definition of aether_theme_get_default_settings().
+include_once './' . drupal_get_path('theme', 'aether') . '/includes/template.theme-registry.inc';
 
 /**
  * Implementation of THEMEHOOK_settings() function.
@@ -11,10 +10,10 @@ include_once './' . drupal_get_path('theme', 'aether') . '/theme-settings.php';
  * @return
  *   A form array.
  */
-function aether_subtheme_settings($saved_settings) {
+function ischolartheme_settings($saved_settings) {
 
   // Get the default values from the .info file.
-  $defaults = aether_theme_get_default_settings('aether_subtheme');
+  $defaults = aether_theme_get_default_settings('ischolartheme');
 
   // Merge the saved variables and their default values.
   $settings = array_merge($defaults, $saved_settings);
@@ -30,7 +29,8 @@ function aether_subtheme_settings($saved_settings) {
     '#default_value' => $settings['aether_subtheme_example'],
     '#description'   => t("This option doesn't do anything; it's just an example."),
   );
-  // */
+  //
+  */
 
   // Add the base theme's settings.
   $form += aether_settings($saved_settings, $defaults);

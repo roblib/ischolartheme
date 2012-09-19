@@ -13,6 +13,10 @@
   @include margin-trailer(1, $base-font-size);
 }
 
+#user-login-form {
+  @extend %inline-login;
+}
+
 /* Search block form */ 
 
 #search-block-form {

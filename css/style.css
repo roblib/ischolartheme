@@ -651,6 +651,38 @@ optgroup {
   text-transform: lowercase;
 }
 
+#user-login-form #user-login-form .item-list ul {
+  margin: 0 !important;
+}
+#user-login-form #edit-submit {
+  margin-top: 1.5em;
+  margin-bottom: 0em;
+}
+.block#user-login-form {
+  margin-bottom: 0em;
+}
+#user-login-form .form-item, #user-login-form .form-actions, #user-login-form label, #user-login-form .item-list ul li {
+  display: -moz-inline-box;
+  -moz-box-orient: vertical;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  display: inline;
+  float: left;
+  margin-bottom: 0em;
+  padding-right: 3px;
+  border-radius: 0;
+}
+#user-login-form .form-item, #user-login-form .form-actions, #user-login-form label, #user-login-form .item-list ul li {
+  *display: inline;
+}
+#user-login-form .item-list {
+  clear: left;
+}
+#user-login-form .item-list ul li {
+  padding-right: 10px;
+}
+
 /*
  * ==================================================
  * Typography

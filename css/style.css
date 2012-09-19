@@ -620,7 +620,7 @@ optgroup {
   color: #acacac;
 }
 
-.element-invisible, .region-user-second .block-menu .block-title, .branding .logo {
+.element-invisible, .region-user-second .block-menu .block-title {
   height: 1px;
   overflow: hidden;
   position: absolute !important;
@@ -766,7 +766,7 @@ h6 small {
   color: #acacac;
 }
 
-h2.element-invisible, .region-user-second .block-menu h2.block-title, .branding h2.logo {
+h2.element-invisible, .region-user-second .block-menu h2.block-title {
   line-height: 0;
 }
 

@@ -30,6 +30,10 @@
   @include margin-leader(1, $base-font-size);
 }
 
+.region-header {
+  float: right;
+}
+
 // Skip link is hidden until it's tabbed to.
 #skip-link {
   margin: 0;
@@ -70,7 +74,8 @@ body {
   }
 
   .logo {
-//    @extend .element-invisible;
+//  @extend .element-invisible;
+    @include margin-trailer(0.5);
   }
 
   .site-name {

@@ -1959,6 +1959,10 @@ ul li.leaf.comments {
   margin-top: 1.5em;
 }
 
+.region-header {
+  float: right;
+}
+
 #skip-link {
   margin: 0;
 }
@@ -1995,6 +1999,9 @@ body.not-front, body.front, body .postscript-wrapper {
 }
 .branding .name-and-slogan {
   *display: inline;
+}
+.branding .logo {
+  margin-bottom: 0.75em;
 }
 .branding .site-name {
   font-size: 1.625em;

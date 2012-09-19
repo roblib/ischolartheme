@@ -26,6 +26,10 @@
   @include margin-trailer(1, $base-font-size);
 }
 
+.content-inner {
+  @include margin-leader(1, $base-font-size);
+}
+
 // Skip link is hidden until it's tabbed to.
 #skip-link {
   margin: 0;

@@ -81,6 +81,17 @@ tr.even .form-item {
   white-space: nowrap;
 }
 
+#user-login-form {
+  text-align:  left;
+}
+
+#user-login-form .item-list ul {
+  margin: $base-line-height 0 0 0 !important;
+  li {
+    list-style: none outside none;
+  }
+}
+
 /* Responsive forms */
 
 // Make advanced search form inline for any browser size

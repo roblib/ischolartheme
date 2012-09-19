@@ -1103,6 +1103,17 @@ tr.even .form-item {
   white-space: nowrap;
 }
 
+#user-login-form {
+  text-align: left;
+}
+
+#user-login-form .item-list ul {
+  margin: 24px 0 0 0 !important;
+}
+#user-login-form .item-list ul li {
+  list-style: none outside none;
+}
+
 /* Responsive forms */
 #edit-basic .form-item input {
   width: 75%;
@@ -1705,9 +1716,6 @@ ul.primary a.active {
 .footer-columns a:active {
   color: #d2d2d2;
 }
-.footer-columns ul {
-  margin-top: 0.75em;
-}
 
 /* Breadcrumbs */
 .breadcrumb {
@@ -1791,6 +1799,9 @@ ul li.leaf {
   list-style-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHBAMAAAA2fErgAAAAD1BMVEX///+/v7+Li4sAAADAwMBFvsw8AAAAAXRSTlMAQObYZgAAAB1JREFUCFtjYAADYwMGBmYVZSDhKAwkFJWhYiAAAB2+Aa/9ugeaAAAAAElFTkSuQmCC');
   *list-style-image: url(../images/menu-leaf.png);
   list-style-type: square;
+}
+ul li.leaf.comments {
+  margin: 0;
 }
 
 /* More Links */

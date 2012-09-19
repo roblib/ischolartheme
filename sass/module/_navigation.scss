@@ -117,9 +117,9 @@
   a {
     @include link-colors($link-color-alt, $hover: $link-color-hover-alt, $focus: $link-color-hover-alt, $visited: $link-color-visited-alt, $active: $link-color-active-alt);
   }
-  ul {
-    @include margin-leader(0.5);
-  }
+//  ul {
+//    @include margin-leader(0.5);
+//  }
 }
 
 /* Breadcrumbs */
@@ -193,6 +193,9 @@ ul li.leaf {
     *list-style-image: url(../images/menu-leaf.png);
   }
   list-style-type: square;
+  &.comments {
+    margin: 0;
+  }
 }
 
 /* More Links */

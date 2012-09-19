@@ -2001,6 +2001,8 @@ body.not-front, body.front, body .postscript-wrapper {
   *display: inline;
 }
 .branding .logo {
+  display: inline;
+  float: left;
   margin-bottom: 0.75em;
 }
 .branding .site-name {

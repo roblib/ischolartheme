@@ -645,7 +645,7 @@ optgroup {
   width: auto;
 }
 
-#secondary > li a, .region-user-second ul.menu > li a {
+#secondary > li a, .region-user-second ul.menu > li a, .branding .site-name {
   font-variant: small-caps;
   letter-spacing: 1px;
   text-transform: lowercase;
@@ -1139,6 +1139,9 @@ tr.even .form-item {
   text-align: left;
 }
 
+#user-login-form {
+  margin-top: 0.6em;
+}
 #user-login-form .item-list ul {
   margin: 24px 0 0 0 !important;
 }
@@ -1996,42 +1999,55 @@ body.not-front, body.front, body .postscript-wrapper {
   display: inline-block;
   vertical-align: middle;
   *vertical-align: auto;
+  color: #333;
+  border-left: 1px solid #C7C7C7;
 }
 .branding .name-and-slogan {
   *display: inline;
+}
+.branding .name-and-slogan.with-logo {
+  padding-top: 3px;
+  padding-left: 15px;
+  padding-left: 10px;
+  margin-top: 5px;
 }
 .branding .logo {
   display: inline;
   float: left;
   margin-bottom: 0.75em;
+  padding-right: 10px;
 }
 .branding .site-name {
   font-size: 1.625em;
-  line-height: 0.92308em;
+  line-height: 0.73846em;
   margin-top: 0em;
-  margin-bottom: 0.28615em;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-weight: bold;
+  margin-bottom: 0.36923em;
+  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+  font-weight: normal;
 }
 .branding .site-name a {
-  color: #222222;
+  color: #8b2004;
   text-decoration: none;
 }
 .branding .site-name a:visited {
-  color: #222222;
+  color: #8b2004;
 }
 .branding .site-name a:focus {
-  color: #222222;
+  color: #8b2004;
 }
 .branding .site-name a:hover {
-  color: #222222;
+  color: #8b2004;
 }
 .branding .site-name a:active {
-  color: #222222;
+  color: #8b2004;
 }
 .branding .site-slogan {
+  letter-spacing: 1px;
+  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+  font-weight: normal;
   font-size: 1.375em;
-  line-height: 1.09091em;
+  line-height: 0.92727em;
+  margin-bottom: 0.20182em;
 }
 
 /* Postscript */

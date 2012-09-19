@@ -85,10 +85,13 @@ tr.even .form-item {
   text-align:  left;
 }
 
-#user-login-form .item-list ul {
-  margin: $base-line-height 0 0 0 !important;
-  li {
-    list-style: none outside none;
+#user-login-form {
+  @include margin-leader(0.4);
+  .item-list ul {
+    margin: $base-line-height 0 0 0 !important;
+    li {
+      list-style: none outside none;
+    }
   }
 }
 

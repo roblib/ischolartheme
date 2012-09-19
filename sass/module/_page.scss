@@ -71,28 +71,45 @@ body {
 
   .name-and-slogan {
     @include inline-block;
+    color: #333;
+    border-left: 1px solid #C7C7C7;
+    &.with-logo {
+      padding: {
+        top: 3px;
+        left: 15px;
+      }
+      padding-left: 10px;
+      margin-top: 5px;
+    }
   }
 
   .logo {
     @include float(left);
 //  @extend .element-invisible;
     @include margin-trailer(0.5);
+    padding-right: 10px;
   }
 
   .site-name {
-    @include adjust-font-size-to($font-size-xxl,1);
+    @include adjust-font-size-to($font-size-xxl,0.8);
     @include margin-leader(0);
-    @include margin-trailer(0.31, $font-size-xxl);
-    font-family: $header-font-family;
-    font-weight: bold;
+    @include margin-trailer(0.4, $font-size-xxl);
+    font-family: $site-name-font-family;
+    font-weight: normal;
+    @extend %uppercase;
     a {
-      @include link-colors($text-color, $hover: $text-color, $focus: $text-color, $visited: $text-color, $active: $text-color);
+      @include link-colors($link-color-alt2, $hover: $link-color-alt2, $focus: $link-color-alt2, $visited: $link-color-alt2, $active: $link-color-alt2);
       text-decoration: none;
     }
   }
 
   .site-slogan {
-    @include adjust-font-size-to($font-size-xl,1);
+//    font-variant: small-caps;
+    letter-spacing:1px;
+    font-family: $site-name-font-family;
+    font-weight: normal;
+    @include adjust-font-size-to($font-size-xl,0.85);
+    @include margin-trailer(0.185, $font-size-xl);
   }
 
 }

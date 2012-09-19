@@ -35,6 +35,7 @@ $font-size-h6: $font-size-sm;
 $typographic-indent:           $font-size-xxl;
 
 // Font Stacks
+$site-name-font-family:        Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
 $header-font-family:           "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 $text-font-family:             "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 $button-font-family:           "Helvetica Neue", "Helvetica", Arial, "Liberation Sans", FreeSans, sans-serif;
@@ -53,6 +54,12 @@ $link-color-alt:               #ACACAC;
 $link-color-hover-alt:         adjust-color($link-color-alt, $lightness: +5);
 $link-color-visited-alt:       $link-color-alt;
 $link-color-active-alt:        adjust-color($link-color-hover-alt, $lightness: +10);
+
+// Alternative Link Colors
+$link-color-alt2:               #8b2004;
+$link-color-hover-alt2:         adjust-color($link-color-alt, $lightness: +5);
+$link-color-visited-alt2:       $link-color-alt;
+$link-color-active-alt2:        adjust-color($link-color-hover-alt, $lightness: +10);
 
 // Text Colors
 $text-color:                   #222;

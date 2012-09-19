@@ -74,6 +74,7 @@ body {
   }
 
   .logo {
+    @include inline-block;
 //  @extend .element-invisible;
     @include margin-trailer(0.5);
   }

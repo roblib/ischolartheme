@@ -1677,12 +1677,21 @@ ul.primary a.active {
   border-right: 0px;
 }
 
-#block-menu-primary-links {
+#block-menu-primary-links ul {
+  padding-left: 0;
+}
+#block-menu-primary-links a {
   font-size: 1.125em;
   line-height: 2.66667em;
 }
 #block-menu-primary-links li {
+  padding-left: 26px;
+  list-style-image: none;
+  list-style-type: none;
   border-top: 1px solid #bbbbbb;
+}
+#block-menu-primary-links li:hover, #block-menu-primary-links li:focus {
+  background-color: #eaeaea;
 }
 #block-menu-primary-links li.last {
   border-bottom: 1px solid #bbbbbb;

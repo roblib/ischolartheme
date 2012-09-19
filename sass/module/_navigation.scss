@@ -65,8 +65,13 @@
 // Primary links block gets fat styling
 
 #block-menu-primary-links {
-  @include adjust-font-size-to($font-size-lg, 2);
+  ul { padding-left: 0; }
+  a { @include adjust-font-size-to($font-size-lg, 2); }
   li {
+    &:hover, &:focus { background-color: #eaeaea; }
+    padding-left: $typographic-indent;
+    list-style-image: none;
+    list-style-type: none;
     border-top: 1px solid $tabs-border;
     &.last {
       border-bottom: 1px solid $tabs-border;

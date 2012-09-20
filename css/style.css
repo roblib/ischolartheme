@@ -116,6 +116,22 @@ a.active {
   color: #0e2e3e;
 }
 
+.postscript {
+  color: #333333;
+}
+.postscript:visited {
+  color: #333333;
+}
+.postscript:focus {
+  color: #404040;
+}
+.postscript:hover {
+  color: #404040;
+}
+.postscript:active {
+  color: #595959;
+}
+
 .postscript a, .postscript a p, aside a, aside a p, blockquote a, blockquote a p, p a, p a p, td a, td a p {
   border-bottom: 1px solid rgba(87, 87, 87, 0.2);
   padding-bottom: 1px;

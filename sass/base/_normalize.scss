@@ -126,6 +126,10 @@ a {
   }
 }
 
+.postscript {
+  @include link-colors($link-color-alt3, $hover: $link-color-hover-alt3, $focus: $link-color-hover-alt3, $visited: $link-color-visited-alt3, $active: $link-color-active-alt3);
+}
+
 .postscript, aside, blockquote, p, td {
   a, a p {
     border-bottom: 1px solid rgba(87, 87, 87, 0.2);

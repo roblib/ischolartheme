@@ -92,19 +92,19 @@ button {
 /* Links */
 a {
   text-decoration: none;
-  color: #333333;
+  color: #073d58;
 }
 a:visited {
-  color: #333333;
+  color: #073d58;
 }
 a:focus {
-  color: #404040;
+  color: #094d70;
 }
 a:hover {
-  color: #404040;
+  color: #094d70;
 }
 a:active {
-  color: #1a1a1a;
+  color: #031c29;
 }
 a:focus {
   outline: thin dotted;
@@ -113,15 +113,18 @@ a:hover, a:active {
   outline: none;
 }
 a.active {
-  color: #1a1a1a;
+  color: #031c29;
 }
 
 .postscript a, .postscript a p, aside a, aside a p, blockquote a, blockquote a p, p a, p a p, td a, td a p {
-  border-bottom: 1px solid #c9c9c9;
+  border-bottom: 1px solid rgba(87, 87, 87, 0.2);
   padding-bottom: 1px;
 }
+.ie6-8 .postscript a, .ie6-8 .postscript a p, .ie6-8 aside a, .ie6-8 aside a p, .ie6-8 blockquote a, .ie6-8 blockquote a p, .ie6-8 p a, .ie6-8 p a p, .ie6-8 td a, .ie6-8 td a p {
+  border-bottom: 1px solid #c9c9c9;
+}
 .postscript a:hover, .postscript a p:hover, aside a:hover, aside a p:hover, blockquote a:hover, blockquote a p:hover, p a:hover, p a p:hover, td a:hover, td a p:hover {
-  border-bottom: 1px solid #404040;
+  border-bottom: 1px solid #094d70;
 }
 
 /* Drupal inline Links */
@@ -1966,7 +1969,7 @@ ul li.leaf.comments {
 }
 
 #block-blockify-blockify-site-slogan {
-  color: #333333;
+  color: #073d58;
   margin-left: -0.8em;
 }
 

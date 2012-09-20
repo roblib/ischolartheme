@@ -128,7 +128,8 @@ a {
 
 .postscript, aside, blockquote, p, td {
   a, a p {
-    border-bottom: 1px solid rgba(87, 87, 87, 0.1);
+    font-weight: bold;
+    border-bottom: 1px solid rgba(87, 87, 87, 0.2);
     padding-bottom: 1px;
     &:hover {
       border-bottom: 1px solid $link-color-hover;

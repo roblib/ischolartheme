@@ -66,9 +66,14 @@
 
 #block-menu-primary-links {
   ul { padding-left: 0; }
-  a { @include adjust-font-size-to($font-size-lg, 2); }
+  a {
+    @include link-colors($link-color-alt3, $link-color-hover-alt3, $link-color-active-alt3, $link-color-visited-alt3, $link-color-hover-alt3);
+    @include adjust-font-size-to($font-size-lg, 2);
+    border-bottom: 0;
+  }
   li {
     &:hover, &:focus { background-color: #eaeaea; }
+    a { text-decoration: none; }
     padding-left: $typographic-indent;
     list-style-image: none;
     list-style-type: none;

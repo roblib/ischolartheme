@@ -44,10 +44,10 @@ $input-font-family:            Arial, "Liberation Sans", FreeSans, sans-serif;
 $mono-font-family:             Menlo, Monaco, "Andale Mono", "lucida console", "Courier New", monospace;
 
 // Main Link Colors
-$link-color:                   #333333;
-$link-color-hover:             adjust-color($link-color, $lightness: -10, $saturation: 10);
+$link-color:                   #8b2004;
+$link-color-hover:             adjust-color($link-color, $lightness: +5);
 $link-color-visited:           $link-color;
-$link-color-active:            adjust-color($link-color-hover, $lightness: -5);
+$link-color-active:            adjust-color($link-color, $lightness: -10);
 
 // Alternative Link Colors
 $link-color-alt:               #ACACAC;
@@ -57,9 +57,16 @@ $link-color-active-alt:        adjust-color($link-color-hover-alt, $lightness: +
 
 // Alternative Link Colors
 $link-color-alt2:               #8b2004;
-$link-color-hover-alt2:         adjust-color($link-color-alt, $lightness: +5);
-$link-color-visited-alt2:       $link-color-alt;
-$link-color-active-alt2:        adjust-color($link-color-hover-alt, $lightness: +10);
+$link-color-hover-alt2:         adjust-color($link-color-alt2, $lightness: +5);
+$link-color-visited-alt2:       $link-color-alt2;
+$link-color-active-alt2:        adjust-color($link-color-hover-alt2, $lightness: +10);
+
+// Alternative Link Colors
+$link-color-alt3:               #333;
+$link-color-hover-alt3:         adjust-color($link-color-alt3, $lightness: +5);
+$link-color-visited-alt3:       $link-color-alt3;
+$link-color-active-alt3:        adjust-color($link-color-hover-alt3, $lightness: +10);
+
 
 // Text Colors
 $text-color:                   #222;

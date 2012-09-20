@@ -113,7 +113,7 @@ button {
 /* Links */
 
 a {
-  @include hover-link;
+  text-decoration: none;
   @include link-colors($link-color, $hover: $link-color-hover, $focus: $link-color-hover, $visited: $link-color-visited, $active: $link-color-active);
   &:focus {
     outline: thin dotted;
@@ -123,6 +123,15 @@ a {
   }
   &.active {
     color: $link-color-active;
+  }
+}
+
+.postscript, aside, blockquote, p {
+  a, a p {
+    border-bottom: 1px solid rgba(139, 32, 4, 0.3);
+    &:hover {
+      border-bottom: 1px solid $link-color-hover;
+    }
   }
 }
 

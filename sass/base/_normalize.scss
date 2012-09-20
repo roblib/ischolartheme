@@ -126,15 +126,23 @@ a {
   }
 }
 
-.postscript a {
-  @include link-colors($link-color-alt3, $hover: $link-color-hover-alt3, $focus: $link-color-hover-alt3, $visited: $link-color-visited-alt3, $active: $link-color-active-alt3);
+.postscript {
+  a, a p {
+    @include link-colors($link-color-alt3, $hover: $link-color-hover-alt3, $focus: $link-color-hover-alt3, $visited: $link-color-visited-alt3, $active: $link-color-active-alt3);
+    border-bottom: 1px solid rgba(87, 87, 87, 0.2);
+    padding-bottom: 1px;
+    .ie6-8 & { border-bottom: 1px solid #c9c9c9; }
+    &:hover {
+      border-bottom: 1px solid $link-color-hover-alt3;
+    }
+  }
 }
 
-.postscript, aside, blockquote, p, td {
+aside, blockquote, p, td {
   a, a p {
     border-bottom: 1px solid rgba(87, 87, 87, 0.2);
-    .ie6-8 & { border-bottom: 1px solid #c9c9c9; }
     padding-bottom: 1px;
+    .ie6-8 & { border-bottom: 1px solid #c9c9c9; }
     &:hover {
       border-bottom: 1px solid $link-color-hover;
     }

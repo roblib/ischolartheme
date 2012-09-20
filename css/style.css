@@ -116,30 +116,38 @@ a.active {
   color: #0e2e3e;
 }
 
-.postscript a {
+.postscript a, .postscript a p {
   color: #333333;
-}
-.postscript a:visited {
-  color: #333333;
-}
-.postscript a:focus {
-  color: #404040;
-}
-.postscript a:hover {
-  color: #404040;
-}
-.postscript a:active {
-  color: #595959;
-}
-
-.postscript a, .postscript a p, aside a, aside a p, blockquote a, blockquote a p, p a, p a p, td a, td a p {
   border-bottom: 1px solid rgba(87, 87, 87, 0.2);
   padding-bottom: 1px;
 }
-.ie6-8 .postscript a, .ie6-8 .postscript a p, .ie6-8 aside a, .ie6-8 aside a p, .ie6-8 blockquote a, .ie6-8 blockquote a p, .ie6-8 p a, .ie6-8 p a p, .ie6-8 td a, .ie6-8 td a p {
+.postscript a:visited, .postscript a p:visited {
+  color: #333333;
+}
+.postscript a:focus, .postscript a p:focus {
+  color: #404040;
+}
+.postscript a:hover, .postscript a p:hover {
+  color: #404040;
+}
+.postscript a:active, .postscript a p:active {
+  color: #595959;
+}
+.ie6-8 .postscript a, .ie6-8 .postscript a p {
   border-bottom: 1px solid #c9c9c9;
 }
-.postscript a:hover, .postscript a p:hover, aside a:hover, aside a p:hover, blockquote a:hover, blockquote a p:hover, p a:hover, p a p:hover, td a:hover, td a p:hover {
+.postscript a:hover, .postscript a p:hover {
+  border-bottom: 1px solid #404040;
+}
+
+aside a, aside a p, blockquote a, blockquote a p, p a, p a p, td a, td a p {
+  border-bottom: 1px solid rgba(87, 87, 87, 0.2);
+  padding-bottom: 1px;
+}
+.ie6-8 aside a, .ie6-8 aside a p, .ie6-8 blockquote a, .ie6-8 blockquote a p, .ie6-8 p a, .ie6-8 p a p, .ie6-8 td a, .ie6-8 td a p {
+  border-bottom: 1px solid #c9c9c9;
+}
+aside a:hover, aside a p:hover, blockquote a:hover, blockquote a p:hover, p a:hover, p a p:hover, td a:hover, td a p:hover {
   border-bottom: 1px solid #1c5c7d;
 }
 

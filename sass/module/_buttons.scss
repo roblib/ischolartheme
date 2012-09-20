@@ -12,7 +12,7 @@ input[type="button"] {
   @include border-radius(4px);
   @include text-shadow(rgba(white, 0) 0 1px 1px);
   -webkit-appearance: none;
-  @include rhythm-borders(1px);
+  @include rhythm-borders(1px, 1, $font-size-sm);
   border-color: $button-border-1 $button-border-2 $button-border-3;
   color: $text-color;
   cursor: pointer;
@@ -20,7 +20,7 @@ input[type="button"] {
   margin-right: 3px;
   outline: 0;
   overflow: visible;
-  padding: 3px 10px;
+  padding: 2px 10px;
   width: auto;
   &:hover {
     @include background-image(linear-gradient($button-color-hover-1, $button-color-hover-2 33%, $button-color-hover-3)); }

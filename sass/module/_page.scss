@@ -130,4 +130,7 @@ body {
 .footer-columns {
   background-color: rgb(87, 87, 87);
   @include border-radius(5px);
+  dl, menu, ol, ul, .item-list ul {
+    margin: 0 0 1.5em 0;
+  }
 }

@@ -1018,8 +1018,8 @@ input[type="button"] {
   text-shadow: rgba(255, 255, 255, 0) 0 1px 1px;
   -webkit-appearance: none;
   border-style: solid;
-  border-width: 0.0625em;
-  padding: 1.4375em;
+  border-width: 0.08333em;
+  padding: 1.91667em;
   border-color: #dddddd #b9b9b9 #989898;
   color: #222222;
   cursor: pointer;
@@ -1027,7 +1027,7 @@ input[type="button"] {
   margin-right: 3px;
   outline: 0;
   overflow: visible;
-  padding: 3px 10px;
+  padding: 2px 10px;
   width: auto;
 }
 button:hover,
@@ -1193,7 +1193,7 @@ input[type=password],
 textarea {
   line-height: 24px;
   max-width: 100%;
-  padding: 2px 0;
+  padding: 2px;
 }
 
 /* Form styling */
@@ -1941,6 +1941,18 @@ ul li.leaf.comments {
 #islandora-solr-simple-search-form label {
   display: none;
 }
+#search-block-form input.form-text,
+#islandora-solr-simple-search-form input.form-text {
+  color: #ccc;
+}
+#search-block-form input.form-text:hover,
+#islandora-solr-simple-search-form input.form-text:hover {
+  color: #888;
+}
+#search-block-form input.form-text:focus,
+#islandora-solr-simple-search-form input.form-text:focus {
+  color: #333;
+}
 
 #block-blockify-blockify-logo {
   margin-bottom: 0.75em;
@@ -2132,6 +2144,9 @@ body.not-front, body.front, body .postscript-wrapper {
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   border-radius: 5px;
+}
+.footer-columns dl, .footer-columns menu, .footer-columns ol, .footer-columns ul, .footer-columns .item-list ul {
+  margin: 0 0 1.5em 0;
 }
 
 /*

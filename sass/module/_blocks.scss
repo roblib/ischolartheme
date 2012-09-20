@@ -27,6 +27,15 @@
   float: right;
   @include margin-trailer(1);
   @include margin-leader(0.8);
+  input.form-text {
+    color: #ccc;
+    &:hover {
+      color: #888;
+    }
+    &:focus {
+      color: #333;
+    }
+  }
 }
 
 #block-blockify-blockify-logo {

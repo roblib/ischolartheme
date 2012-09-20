@@ -94,6 +94,9 @@ a {
   text-decoration: none;
   color: #333333;
 }
+a:hover {
+  border-bottom: 1px solid #404040;
+}
 a:visited {
   color: #333333;
 }
@@ -120,9 +123,6 @@ a.active {
   font-weight: bold;
   border-bottom: 1px solid rgba(87, 87, 87, 0.2);
   padding-bottom: 1px;
-}
-.postscript a:hover, .postscript a p:hover, aside a:hover, aside a p:hover, blockquote a:hover, blockquote a p:hover, p a:hover, p a p:hover, td a:hover, td a p:hover {
-  border-bottom: 1px solid #404040;
 }
 
 /* Drupal inline Links */

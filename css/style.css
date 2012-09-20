@@ -92,19 +92,19 @@ button {
 /* Links */
 a {
   text-decoration: none;
-  color: #073d58;
+  color: #174d68;
 }
 a:visited {
-  color: #073d58;
+  color: #174d68;
 }
 a:focus {
-  color: #094d70;
+  color: #1c5c7d;
 }
 a:hover {
-  color: #094d70;
+  color: #1c5c7d;
 }
 a:active {
-  color: #031c29;
+  color: #0e2e3e;
 }
 a:focus {
   outline: thin dotted;
@@ -113,7 +113,7 @@ a:hover, a:active {
   outline: none;
 }
 a.active {
-  color: #031c29;
+  color: #0e2e3e;
 }
 
 .postscript a, .postscript a p, aside a, aside a p, blockquote a, blockquote a p, p a, p a p, td a, td a p {
@@ -124,7 +124,7 @@ a.active {
   border-bottom: 1px solid #c9c9c9;
 }
 .postscript a:hover, .postscript a p:hover, aside a:hover, aside a p:hover, blockquote a:hover, blockquote a p:hover, p a:hover, p a p:hover, td a:hover, td a p:hover {
-  border-bottom: 1px solid #094d70;
+  border-bottom: 1px solid #1c5c7d;
 }
 
 /* Drupal inline Links */
@@ -1969,7 +1969,7 @@ ul li.leaf.comments {
 }
 
 #block-blockify-blockify-site-slogan {
-  color: #073d58;
+  color: #174d68;
   margin-left: -0.8em;
 }
 

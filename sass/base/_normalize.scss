@@ -126,9 +126,9 @@ a {
   }
 }
 
-.postscript, aside, blockquote, p {
+.postscript, aside, blockquote, p, td {
   a, a p {
-    border-bottom: 1px solid rgba(139, 32, 4, 0.3);
+    border-bottom: 1px solid rgba(139, 32, 4, 0.1);
     &:hover {
       border-bottom: 1px solid $link-color-hover;
     }

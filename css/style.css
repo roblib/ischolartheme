@@ -116,10 +116,10 @@ a.active {
   color: #591503;
 }
 
-.postscript a, .postscript a p, aside a, aside a p, blockquote a, blockquote a p, p a, p a p {
-  border-bottom: 1px solid rgba(139, 32, 4, 0.3);
+.postscript a, .postscript a p, aside a, aside a p, blockquote a, blockquote a p, p a, p a p, td a, td a p {
+  border-bottom: 1px solid rgba(139, 32, 4, 0.1);
 }
-.postscript a:hover, .postscript a p:hover, aside a:hover, aside a p:hover, blockquote a:hover, blockquote a p:hover, p a:hover, p a p:hover {
+.postscript a:hover, .postscript a p:hover, aside a:hover, aside a p:hover, blockquote a:hover, blockquote a p:hover, p a:hover, p a p:hover, td a:hover, td a p:hover {
   border-bottom: 1px solid #a42605;
 }
 

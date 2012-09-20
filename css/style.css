@@ -1730,17 +1730,17 @@ ul.primary a.active {
 }
 #block-menu-primary-links li {
   padding-left: 26px;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  -ms-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s;
   list-style-image: none;
   list-style-type: none;
   border-top: 1px solid #bbbbbb;
 }
 #block-menu-primary-links li:hover, #block-menu-primary-links li:focus {
   background-color: #eaeaea;
-  -webkit-transition: 0.2;
-  -moz-transition: 0.2;
-  -ms-transition: 0.2;
-  -o-transition: 0.2;
-  transition: 0.2;
 }
 #block-menu-primary-links li a {
   text-decoration: none;
@@ -1931,12 +1931,14 @@ ul li.leaf.comments {
 }
 
 /* Search block form */
-#search-block-form {
+#search-block-form,
+#islandora-solr-simple-search-form {
   float: right;
   margin-bottom: 1.5em;
   margin-top: 1.2em;
 }
-#search-block-form label {
+#search-block-form label,
+#islandora-solr-simple-search-form label {
   display: none;
 }
 

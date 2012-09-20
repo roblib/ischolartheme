@@ -72,12 +72,14 @@
     border-bottom: 0;
   }
   li {
+    padding-left: $typographic-indent;
+    @include transition-duration(0.2s);
     &:hover, &:focus {
       background-color: #eaeaea;
-      @include transition(0.2);
     }
-    a { text-decoration: none; }
-    padding-left: $typographic-indent;
+    a {
+      text-decoration: none;
+    }
     list-style-image: none;
     list-style-type: none;
     border-top: 1px solid $tabs-border;

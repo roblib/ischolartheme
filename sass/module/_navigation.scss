@@ -68,16 +68,19 @@
   ul { padding-left: 0; }
   a {
     @include link-colors($link-color-alt3, $link-color-hover-alt3, $link-color-active-alt3, $link-color-visited-alt3, $link-color-hover-alt3);
-    @include adjust-font-size-to($font-size-lg, 2);
+    @include adjust-font-size-to($font-size-lg, 1);
     border-bottom: 0;
   }
   li {
-    padding-left: $typographic-indent;
+    @include padding-leader(0.5);
+    @include padding-trailer(0.5);
     @include transition-duration(0.2s);
     &:hover, &:focus {
       background-color: #eaeaea;
     }
     a {
+    @include padding-leader(0.5);
+    @include padding-trailer(0.5);
       text-decoration: none;
     }
     list-style-image: none;

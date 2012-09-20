@@ -28,6 +28,7 @@
   @include margin-trailer(1);
   @include margin-leader(0.8);
   input.form-text {
+    @include transition-duration(0.2s);
     color: #ccc;
     &:hover {
       color: #888;

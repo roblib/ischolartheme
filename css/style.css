@@ -2100,6 +2100,7 @@ body.not-front, body.front, body .postscript-wrapper {
   color: #8b2004;
 }
 .branding .site-slogan {
+  font-variant: small-caps;
   letter-spacing: 1px;
   font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
   font-weight: normal;

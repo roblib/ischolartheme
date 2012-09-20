@@ -118,10 +118,6 @@ a {
   &:focus {
     outline: thin dotted;
   }
-  &:hover {
-    padding-bottom: 1px;
-    border-bottom: 1px solid $link-color-hover;
-  }
   &:hover, &:active {
     outline: none;
   }

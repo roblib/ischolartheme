@@ -116,19 +116,19 @@ a.active {
   color: #0e2e3e;
 }
 
-.postscript {
+.postscript a {
   color: #333333;
 }
-.postscript:visited {
+.postscript a:visited {
   color: #333333;
 }
-.postscript:focus {
+.postscript a:focus {
   color: #404040;
 }
-.postscript:hover {
+.postscript a:hover {
   color: #404040;
 }
-.postscript:active {
+.postscript a:active {
   color: #595959;
 }
 

@@ -72,7 +72,10 @@
     border-bottom: 0;
   }
   li {
-    &:hover, &:focus { background-color: #eaeaea; }
+    &:hover, &:focus {
+      background-color: #eaeaea;
+      @include transition(0.2);
+    }
     a { text-decoration: none; }
     padding-left: $typographic-indent;
     list-style-image: none;

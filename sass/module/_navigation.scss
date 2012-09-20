@@ -64,6 +64,8 @@
 
 // Primary links block gets fat styling
 
+@include font-icon-family(entypo);
+
 #block-menu-primary-links {
   ul { padding-left: 0; }
   a {

@@ -114,12 +114,13 @@ button {
 
 a {
   text-decoration: none;
-  &:hover {
-    border-bottom: 1px solid $link-color-hover;
-  }
   @include link-colors($link-color, $hover: $link-color-hover, $focus: $link-color-hover, $visited: $link-color-visited, $active: $link-color-active);
   &:focus {
     outline: thin dotted;
+  }
+  &:hover {
+    padding-bottom: 1px;
+    border-bottom: 1px solid $link-color-hover;
   }
   &:hover, &:active {
     outline: none;
@@ -133,6 +134,9 @@ a {
   a, a p {
     border-bottom: 1px solid rgba(87, 87, 87, 0.2);
     padding-bottom: 1px;
+  }
+  &:hover {
+    border-bottom: 1px solid $link-color-hover;
   }
 }
 

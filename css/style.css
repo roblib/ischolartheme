@@ -94,9 +94,6 @@ a {
   text-decoration: none;
   color: #333333;
 }
-a:hover {
-  border-bottom: 1px solid #404040;
-}
 a:visited {
   color: #333333;
 }
@@ -112,6 +109,10 @@ a:active {
 a:focus {
   outline: thin dotted;
 }
+a:hover {
+  padding-bottom: 1px;
+  border-bottom: 1px solid #404040;
+}
 a:hover, a:active {
   outline: none;
 }
@@ -122,6 +123,9 @@ a.active {
 .postscript a, .postscript a p, aside a, aside a p, blockquote a, blockquote a p, p a, p a p, td a, td a p {
   border-bottom: 1px solid rgba(87, 87, 87, 0.2);
   padding-bottom: 1px;
+}
+.postscript:hover, aside:hover, blockquote:hover, p:hover, td:hover {
+  border-bottom: 1px solid #404040;
 }
 
 /* Drupal inline Links */

@@ -82,7 +82,7 @@
       background-color: #eaeaea;
     }
     a {
-      @include font-icon-base(entypo);
+      @include font-icon-base(entypo, 1.1em);
       &.menu-item-id-171 { @extend %entypo-user; }
       &.menu-item-id-172 { @extend %entypo-users; }
       &.menu-item-id-288 { @extend %entypo-docs; }

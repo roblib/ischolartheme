@@ -1807,7 +1807,7 @@ ul.primary a.active {
 #block-menu-primary-links li a:before {
   font-family: "entypo";
   font-style: normal;
-  font-size: 1em;
+  font-size: 1.1em;
   margin-right: 0.8em;
   text-align: center;
   display: inline-block;

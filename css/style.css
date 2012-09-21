@@ -931,7 +931,7 @@ blockquote {
   margin-bottom: 1.5em;
   margin-left: 0;
   padding-left: 26px;
-  border-left: 5px solid #cfcfcf;
+  border-left: 5px solid #dddddd;
 }
 blockquote > p {
   padding: 0;
@@ -949,7 +949,7 @@ blockquote.pull-right {
   padding-left: 0;
   padding-right: 26px;
   border-left: 0;
-  border-right: 5px solid #cfcfcf;
+  border-right: 5px solid #dddddd;
   margin-right: 0;
 }
 blockquote.pull-right p,
@@ -1100,7 +1100,7 @@ input[type="button"]:active {
   -webkit-box-shadow: inset rgba(0, 0, 0, 0.25) 0 1px 2px 0;
   -moz-box-shadow: inset rgba(0, 0, 0, 0.25) 0 1px 2px 0;
   box-shadow: inset rgba(0, 0, 0, 0.25) 0 1px 2px 0;
-  border-color: #8a8a8a #ababab #cfcfcf;
+  border-color: #989898 #b9b9b9 #dddddd;
 }
 
 .ie7 button,
@@ -1123,7 +1123,7 @@ input[type="file"] {
 
 /* Form vertical rhythm */
 fieldset {
-  border-color: #ababab;
+  border-color: #b9b9b9;
   margin: 0 2px;
   border-top-style: solid;
   border-top-width: 0.0625em;
@@ -1794,7 +1794,7 @@ ul.primary a.active {
   transition-duration: 0.2s;
   list-style-image: none;
   list-style-type: none;
-  border-top: 1px solid #bbbbbb;
+  border-top: 1px solid #cfcfcf;
 }
 #block-menu-primary-links li:hover, #block-menu-primary-links li:focus {
   background-color: #eaeaea;
@@ -1814,7 +1814,7 @@ ul.primary a.active {
   width: 1em;
 }
 #block-menu-primary-links li.last {
-  border-bottom: 1px solid #bbbbbb;
+  border-bottom: 1px solid #cfcfcf;
 }
 
 /* Navigation bar */

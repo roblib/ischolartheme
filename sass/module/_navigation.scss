@@ -95,9 +95,9 @@
     }
     list-style-image: none;
     list-style-type: none;
-    border-top: 1px solid $tabs-border;
+    border-top: 1px solid #cfcfcf;
     &.last {
-      border-bottom: 1px solid $tabs-border;
+      border-bottom: 1px solid #cfcfcf;
     }
   }
 }

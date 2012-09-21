@@ -23,6 +23,8 @@ $font-size-normal:             $base-font-size; // 1em
 $font-size-lg:                 unitless-em(18px) * $base-font-size; // 18px / 16px = 1.125em
 $font-size-xl:                 unitless-em(22px) * $base-font-size; // 22px / 16px = 1.375em
 $font-size-xxl:                unitless-em(26px) * $base-font-size; // 26px / 16px = 1.625em
+$font-size-xxxl:               unitless-em(28px) * $base-font-size; // 26px / 16px = 1.625em
+
 
 $font-size-h1: $font-size-xxl;
 $font-size-h2: $font-size-xl;
@@ -36,15 +38,15 @@ $typographic-indent:           $font-size-xxl;
 
 // Font Stacks
 $site-name-font-family:        Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
-$header-font-family:           "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-$text-font-family:             "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+$header-font-family:           "Helvetica Neue", "Helvetica", Arial, "Liberation Sans", FreeSans, sans-serif;
+$text-font-family:             "Helvetica Neue", "Helvetica", Arial, "Liberation Sans", FreeSans, sans-serif;
 $button-font-family:           "Helvetica Neue", "Helvetica", Arial, "Liberation Sans", FreeSans, sans-serif;
 $tab-font-family:              "Helvetica Neue", "Helvetica", Arial, "Liberation Sans", FreeSans, sans-serif;
 $input-font-family:            "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 $mono-font-family:             Menlo, Monaco, "Andale Mono", "lucida console", "Courier New", monospace;
 
 // Main Link Colors
-$link-color:                   #174D68;
+$link-color:                   #8B2004;
 $link-color-hover:             adjust-color($link-color, $lightness: +5);
 $link-color-visited:           $link-color;
 $link-color-active:            adjust-color($link-color, $lightness: -10);

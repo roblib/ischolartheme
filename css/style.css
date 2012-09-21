@@ -69,12 +69,9 @@ audio:not([controls]) {
   display: none;
 }
 
-html {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-}
-
 body {
   margin: 0;
+  font-family: "Helvetica Neue", "Helvetica", Arial, "Liberation Sans", FreeSans, sans-serif;
 }
 
 input,
@@ -92,19 +89,19 @@ button {
 /* Links */
 a {
   text-decoration: none;
-  color: #174d68;
+  color: #8b2004;
 }
 a:visited {
-  color: #174d68;
+  color: #8b2004;
 }
 a:focus {
-  color: #1c5c7d;
+  color: #a42605;
 }
 a:hover {
-  color: #1c5c7d;
+  color: #a42605;
 }
 a:active {
-  color: #0e2e3e;
+  color: #591503;
 }
 a:focus {
   outline: thin dotted;
@@ -113,7 +110,7 @@ a:hover, a:active {
   outline: none;
 }
 a.active {
-  color: #0e2e3e;
+  color: #591503;
 }
 
 .postscript a, .postscript a p {
@@ -146,7 +143,7 @@ aside a, aside a p, blockquote a, blockquote a p, p a, p a p, td a, td a p {
   border-bottom: 1px solid #c9c9c9;
 }
 aside a:hover, aside a p:hover, blockquote a:hover, blockquote a p:hover, p a:hover, p a p:hover, td a:hover, td a p:hover {
-  border-bottom: 1px solid #1c5c7d;
+  border-bottom: 1px solid #a42605;
 }
 
 /* Drupal inline Links */
@@ -675,7 +672,7 @@ optgroup {
   width: auto;
 }
 
-#secondary > li a, .region-user-second ul.menu > li a, .branding .site-name {
+.branding .site-name {
   font-variant: small-caps;
   letter-spacing: 1px;
   text-transform: lowercase;
@@ -726,7 +723,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: "Helvetica Neue", "Helvetica", Arial, "Liberation Sans", FreeSans, sans-serif;
   font-style: normal;
   font-weight: 400;
 }
@@ -1672,11 +1669,12 @@ ul.primary a.active {
   float: left;
   padding-left: 10px;
   padding-right: 10px;
-  font-size: 0.875em;
-  line-height: 0.68571em;
+  font-size: 0.75em;
+  line-height: 0.8em;
   border-right: 1px solid #acacac;
 }
 #secondary > li a, .region-user-second ul.menu > li a {
+  text-transform: uppercase;
   color: #acacac;
 }
 #secondary > li a:visited, .region-user-second ul.menu > li a:visited {
@@ -1705,6 +1703,14 @@ ul.primary a.active {
 }
 #secondary > li.last, .region-user-second ul.menu > li.last {
   border-right: 0px;
+}
+
+@font-face {
+  font-family: "entypo";
+  src: url('fonts/entypo.eot');
+  src: url('fonts/entypo.eot?#iefix') format("embedded-opentype"), url('fonts/entypo.woff') format("woff"), url('fonts/entypo.ttf') format("truetype"), url('fonts/entypo.svg#entypo') format("svg"), url('fonts/entypo.otf') format("opentype");
+  font-weight: normal;
+  font-style: normal;
 }
 
 #block-menu-primary-links ul {
@@ -2018,7 +2024,7 @@ ul li.leaf.comments {
 }
 
 #block-blockify-blockify-site-slogan {
-  color: #174d68;
+  color: #8b2004;
   margin-left: -0.8em;
 }
 
@@ -2107,6 +2113,12 @@ body.not-front, body.front, body .postscript-wrapper {
   margin-bottom: 0.36923em;
   font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
   font-weight: normal;
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  .branding .site-name {
+    font-size: 1.75em;
+    line-height: 0.68571em;
+  }
 }
 .branding .site-name a {
   color: #8b2004;

@@ -49,12 +49,12 @@
   padding: 0 $typographic-indent 6px $typographic-indent;
   > li {
     a {
-      @extend %uppercase;
+      text-transform: uppercase;
       @include link-colors($link-color-alt, $link-color-hover-alt, $link-color-active-alt, $link-color-visited-alt, $link-color-hover-alt);
       &.active { color: $link-color-active-alt }
     }
     @include horizontal-list-item(10px, left);
-    @include adjust-font-size-to($font-size-md, 0.4);
+    @include adjust-font-size-to($font-size-sm, 0.4);
     border-right: 1px solid $link-color-alt;
     &.last {
       border-right: 0px;

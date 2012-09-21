@@ -74,6 +74,7 @@
     border-bottom: 0;
   }
   li {
+    padding-left: 10px;
     @include padding-leader(0.5);
     @include padding-trailer(0.5);
     @include transition-duration(0.2s);
@@ -82,7 +83,12 @@
     }
     a {
       @include font-icon-base(entypo);
-      &.menu-item-id-171 { @extend %entypo-users }
+      &.menu-item-id-171 { @extend %entypo-user; }
+      &.menu-item-id-172 { @extend %entypo-users; }
+      &.menu-item-id-288 { @extend %entypo-docs; }
+      &.menu-item-id-290 { @extend %entypo-folder; }
+      &.menu-item-id-289 { @extend %entypo-archive; }
+      &.menu-item-id-274 { @extend %entypo-upload; }
     @include padding-leader(0.5);
     @include padding-trailer(0.5);
       text-decoration: none;

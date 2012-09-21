@@ -81,6 +81,8 @@
       background-color: #eaeaea;
     }
     a {
+      @include font-icon-base(entypo);
+      &.menu-item-id-171 { @extend %entypo-users }
     @include padding-leader(0.5);
     @include padding-trailer(0.5);
       text-decoration: none;

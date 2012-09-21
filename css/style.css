@@ -1,3 +1,8 @@
+@charset "UTF-8";
+#block-menu-primary-links li a.menu-item-id-171:before {
+  content: "👥";
+}
+
 /*
  * ==================================================
  * Normalize
@@ -991,6 +996,10 @@ address {
   font-style: normal;
 }
 
+#block-menu-primary-links li a.menu-item-id-171:before {
+  content: "👥";
+}
+
 button,
 input[type="reset"],
 input[type="submit"],
@@ -1753,6 +1762,15 @@ ul.primary a.active {
   padding-top: 0.75em;
   padding-bottom: 0.75em;
   text-decoration: none;
+}
+#block-menu-primary-links li a:before {
+  font-family: "entypo";
+  font-style: normal;
+  font-size: 1em;
+  margin-right: 0.8em;
+  text-align: center;
+  display: inline-block;
+  width: 1em;
 }
 #block-menu-primary-links li.last {
   border-bottom: 1px solid #bbbbbb;

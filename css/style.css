@@ -2357,6 +2357,20 @@ div.messages.error {
   display: none;
 }
 
+.islandora_solr_search_facet_list .shown-toggle {
+  font-size: 0.75em;
+  line-height: 2em;
+  margin-bottom: 1.5em;
+}
+
+.islandora_solr_search_facet_list .islandora_solr_search_facet {
+  margin-bottom: 1.5em;
+}
+.islandora_solr_search_facet_list ul {
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
+}
+
 /*
  * ==================================================
  * Global States

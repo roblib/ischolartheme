@@ -20,3 +20,18 @@
 .islandora_solr_search_facet_list .plusminus {
   display: none;
 }
+
+.islandora_solr_search_facet_list .shown-toggle {
+  @include adjust-font-size-to($font-size-sm, 1);
+  @include trailer(1);
+}
+
+.islandora_solr_search_facet_list {
+  .islandora_solr_search_facet {
+    @include trailer(1);
+  }
+  ul {
+    @include leader(0.5);
+    @include trailer(0.5);
+  }
+}

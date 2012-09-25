@@ -50,5 +50,7 @@
 /* Islandora Inline Query block */
 
 .islandora_solr_search_query_inline {
-  @include background-image(linear-gradient(left, #ededed, #e6e6e6));
+  @include background-image(linear-gradient(left, #f4f4f4, #ededed));
+  @include font-icon-base(entypo, 1.1em);
+  @extend %entypo-search;
 }

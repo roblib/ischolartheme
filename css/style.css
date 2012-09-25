@@ -877,10 +877,6 @@ ol ol,
 }
 
 /* Description Lists */
-dl {
-  margin-bottom: 1.5em;
-}
-
 dd {
   /* LTR */
   margin: 0 0 0 26px;

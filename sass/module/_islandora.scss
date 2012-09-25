@@ -15,7 +15,7 @@
 // Look here for the Compass mixin docs http://compass-style.org/index/mixins/
 // ---------------------------------------------------------------------------
 
-/* Islandora Solr Search */
+/* Islandora Solr Facet block */
 
 .islandora_solr_search_facet_list .plusminus {
   display: none;
@@ -34,4 +34,15 @@
     @include leader(0.5);
     @include trailer(0.5);
   }
+}
+
+.islandora_solr_search_facet_wrap ul li {
+  border-bottom: 1px solid #ddd;
+  @include adjust-font-size-to($font-size-md, 1.5);
+}
+
+/* Islandora Search results */
+
+.scholar_pdf a {
+  border-bottom: 0;
 }

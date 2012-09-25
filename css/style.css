@@ -2352,7 +2352,7 @@ div.messages.error {
  * Islandora overrides
  * ==================================================
  */
-/* Islandora Solr Search */
+/* Islandora Solr Facet block */
 .islandora_solr_search_facet_list .plusminus {
   display: none;
 }
@@ -2369,6 +2369,17 @@ div.messages.error {
 .islandora_solr_search_facet_wrap ul {
   margin-top: 0.75em;
   margin-bottom: 0.75em;
+}
+
+.islandora_solr_search_facet_wrap ul li {
+  border-bottom: 1px solid #ddd;
+  font-size: 0.875em;
+  line-height: 2.57143em;
+}
+
+/* Islandora Search results */
+.scholar_pdf a {
+  border-bottom: 0;
 }
 
 /*

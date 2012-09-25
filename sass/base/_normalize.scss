@@ -141,6 +141,9 @@ aside, blockquote, p, td {
     &:hover {
       border-bottom: 1px solid $link-color-hover;
     }
+    .section-admin & {
+      border-bottom: 0;
+    }
   }
 }
 

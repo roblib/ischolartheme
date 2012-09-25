@@ -170,6 +170,9 @@ aside a, aside a p, blockquote a, blockquote a p, p a, p a p, td a, td a p {
 aside a:hover, aside a p:hover, blockquote a:hover, blockquote a p:hover, p a:hover, p a p:hover, td a:hover, td a p:hover {
   border-bottom: 1px solid #a42605;
 }
+.section-admin aside a, .section-admin aside a p, .section-admin blockquote a, .section-admin blockquote a p, .section-admin p a, .section-admin p a p, .section-admin td a, .section-admin td a p {
+  border-bottom: 0;
+}
 
 /* Drupal inline Links */
 ul.links {
@@ -2223,9 +2226,6 @@ body.not-front, body.front, body .postscript-wrapper {
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   border-radius: 5px;
-}
-.footer-columns dl, .footer-columns menu, .footer-columns ol, .footer-columns ul, .footer-columns .item-list ul {
-  margin: 0 0 1.5em 0;
 }
 
 /*

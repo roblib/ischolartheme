@@ -2363,10 +2363,10 @@ div.messages.error {
   margin-bottom: 1.5em;
 }
 
-.islandora_solr_search_facet_list .islandora_solr_search_facet {
+.islandora_solr_search_facet_wrap .islandora_solr_search_facet {
   margin-bottom: 1.5em;
 }
-.islandora_solr_search_facet_list ul {
+.islandora_solr_search_facet_wrap ul {
   margin-top: 0.75em;
   margin-bottom: 0.75em;
 }

@@ -2349,6 +2349,16 @@ div.messages.error {
 
 /*
  * ==================================================
+ * Islandora overrides
+ * ==================================================
+ */
+/* Islandora Solr Search */
+.islandora_solr_search_facet_list .plusminus {
+  display: none;
+}
+
+/*
+ * ==================================================
  * Global States
  * 
  * A state augments and overrides all other styles.

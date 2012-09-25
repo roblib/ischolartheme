@@ -49,7 +49,7 @@
 
 /* Islandora Inline Query block */
 
-.islandora_solr_search_query_inline {
+.islandora_solr_search_query_inline dl {
   @include background-image(linear-gradient(left, #f4f4f4, #ededed));
   @include font-icon-base(entypo, 1.1em);
   @extend %entypo-search;

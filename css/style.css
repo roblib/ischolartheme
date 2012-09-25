@@ -1,5 +1,5 @@
 @charset "UTF-8";
-.islandora_solr_search_query_inline dl:before {
+#block-islandora_solr_search-scholar_current_query .block-inner:before {
   content: "🔍";
 }
 
@@ -1019,7 +1019,7 @@ address {
   font-style: normal;
 }
 
-.islandora_solr_search_query_inline dl:before {
+#block-islandora_solr_search-scholar_current_query .block-inner:before {
   content: "🔍";
 }
 
@@ -2391,15 +2391,7 @@ div.messages.error {
 }
 
 /* Islandora Inline Query block */
-.islandora_solr_search_query_inline dl {
-  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #f4f4f4), color-stop(100%, #ededed));
-  background-image: -webkit-linear-gradient(left, #f4f4f4, #ededed);
-  background-image: -moz-linear-gradient(left, #f4f4f4, #ededed);
-  background-image: -o-linear-gradient(left, #f4f4f4, #ededed);
-  background-image: -ms-linear-gradient(left, #f4f4f4, #ededed);
-  background-image: linear-gradient(left, #f4f4f4, #ededed);
-}
-.islandora_solr_search_query_inline dl:before {
+#block-islandora_solr_search-scholar_current_query .block-inner:before {
   font-family: "entypo";
   font-style: normal;
   font-size: 1.1em;
@@ -2407,6 +2399,15 @@ div.messages.error {
   text-align: center;
   display: inline-block;
   width: 1em;
+}
+
+.islandora_solr_search_query_inline {
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #ededed), color-stop(100%, #f4f4f4));
+  background-image: -webkit-linear-gradient(left, #ededed, #f4f4f4);
+  background-image: -moz-linear-gradient(left, #ededed, #f4f4f4);
+  background-image: -o-linear-gradient(left, #ededed, #f4f4f4);
+  background-image: -ms-linear-gradient(left, #ededed, #f4f4f4);
+  background-image: linear-gradient(left, #ededed, #f4f4f4);
 }
 
 /*

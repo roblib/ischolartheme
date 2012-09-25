@@ -49,11 +49,6 @@
 
 /* Islandora Inline Query block */
 
-#block-islandora_solr_search-scholar_current_query .block-inner {
-  @include font-icon-base(entypo, 1.1em);
-  @extend %entypo-search;
-}
-
-.islandora_solr_search_query_inline {
+.islandora-solr-search-query-inline {
   @include background-image(linear-gradient(left, #ededed, #f4f4f4));
 }

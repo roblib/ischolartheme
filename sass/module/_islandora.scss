@@ -46,3 +46,9 @@
 .scholar_pdf a {
   border-bottom: 0;
 }
+
+/* Islandora Inline Query block */
+
+.islandora_solr_search_query_inline {
+  @include background-image(linear-gradient(left, #ededed, #e6e6e6));
+}

@@ -2382,6 +2382,16 @@ div.messages.error {
   border-bottom: 0;
 }
 
+/* Islandora Inline Query block */
+.islandora_solr_search_query_inline {
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #ededed), color-stop(100%, #e6e6e6));
+  background-image: -webkit-linear-gradient(left, #ededed, #e6e6e6);
+  background-image: -moz-linear-gradient(left, #ededed, #e6e6e6);
+  background-image: -o-linear-gradient(left, #ededed, #e6e6e6);
+  background-image: -ms-linear-gradient(left, #ededed, #e6e6e6);
+  background-image: linear-gradient(left, #ededed, #e6e6e6);
+}
+
 /*
  * ==================================================
  * Global States

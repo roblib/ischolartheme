@@ -2357,7 +2357,7 @@ div.messages.error {
   display: none;
 }
 
-.islandora_solr_search_facet_list .shown-toggle {
+.islandora_solr_search_facet_wrap .shown-toggle {
   font-size: 0.75em;
   line-height: 2em;
   margin-bottom: 1.5em;

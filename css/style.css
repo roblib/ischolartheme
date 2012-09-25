@@ -7,6 +7,10 @@
   content: "👥";
 }
 
+.islandora-solr-search-query-x-icon:before {
+  content: "✖";
+}
+
 #block-menu-primary-links li a.menu-item-id-274:before {
   content: "📤";
 }
@@ -1021,6 +1025,10 @@ address {
 
 #block-menu-primary-links li a.menu-item-id-172:before {
   content: "👥";
+}
+
+.islandora-solr-search-query-x-icon:before {
+  content: "✖";
 }
 
 #block-menu-primary-links li a.menu-item-id-274:before {
@@ -2383,6 +2391,25 @@ div.messages.error {
 }
 
 /* Islandora Inline Query block */
+.islandora-solr-search-query-x-icon:before {
+  font-family: "entypo";
+  font-style: normal;
+  font-size: 1em;
+  margin-right: 0.8em;
+  text-align: center;
+  display: inline-block;
+  width: 0em;
+}
+.islandora-solr-search-query-x-icon:before {
+  color: #8b2004;
+}
+.islandora-solr-search-query-x-icon a {
+  position: absolute;
+  text-indent: -9999px;
+  white-space: nowrap;
+  width: 1em;
+}
+
 .islandora-solr-search-query-inline {
   background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #ededed), color-stop(100%, #f4f4f4));
   background-image: -webkit-linear-gradient(left, #ededed, #f4f4f4);

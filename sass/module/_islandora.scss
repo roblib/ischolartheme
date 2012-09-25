@@ -49,6 +49,20 @@
 
 /* Islandora Inline Query block */
 
+.islandora-solr-search-query-x-icon {
+  @include font-icon-base(entypo, 1em, 0em);
+  @extend %entypo-cancel-circle;
+  &:before {
+    color: $link-color;
+  }
+  a {
+    position: absolute;
+    text-indent: -9999px;
+    white-space: nowrap;
+    width: 1em;
+  }
+}
+
 .islandora-solr-search-query-inline {
   @include background-image(linear-gradient(left, #ededed, #f4f4f4));
 }

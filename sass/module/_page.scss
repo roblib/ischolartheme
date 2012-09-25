@@ -26,7 +26,7 @@
   @include margin-trailer(1, $base-font-size);
 }
 
-.content-inner {
+.front .content-inner {
   @include margin-leader(1, $base-font-size);
 }
 

@@ -13,3 +13,8 @@ Thumbs.db
 # Sass #
 ########
 .sass-cache
+
+# Custom Exclusion #
+####################
+css/fonts/iconic.glyphs
+

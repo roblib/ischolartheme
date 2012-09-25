@@ -2353,28 +2353,28 @@ div.messages.error {
  * ==================================================
  */
 /* Islandora Solr Facet block */
-.islandora_solr_search_facet_list .plusminus {
+.islandora_solr_search_facet_list .plusminus .minus {
   display: none;
 }
 
+.islandora_solr_search_facet_wrap ul {
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
+  padding-left: 0;
+}
+.islandora_solr_search_facet_wrap ul li {
+  border-bottom: 1px solid #ddd;
+  font-size: 0.875em;
+  line-height: 1.71429em;
+  list-style: none;
+}
 .islandora_solr_search_facet_wrap .shown-toggle {
   font-size: 0.875em;
   line-height: 1.71429em;
   margin-bottom: 1.5em;
 }
-
 .islandora_solr_search_facet_wrap .islandora_solr_search_facet {
   margin-bottom: 1.5em;
-}
-.islandora_solr_search_facet_wrap ul {
-  margin-top: 0.75em;
-  margin-bottom: 0.75em;
-}
-
-.islandora_solr_search_facet_wrap ul li {
-  border-bottom: 1px solid #ddd;
-  font-size: 0.875em;
-  line-height: 2.57143em;
 }
 
 /* Islandora Search results */

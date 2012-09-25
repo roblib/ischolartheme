@@ -28,7 +28,7 @@
     padding-left: 0;
     li {
       border-bottom: 1px solid #ddd;
-      @include adjust-font-size-to($font-size-md, 1);
+      @include adjust-font-size-to($font-size-md, 1.25);
       list-style: none;
     }
   }

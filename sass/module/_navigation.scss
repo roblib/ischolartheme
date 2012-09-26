@@ -133,21 +133,26 @@
 
 /* Footer */
 
-.footer-columns {
+.footer-columns, .footer-wrapper .footer {
   @include padding-leader(1);
   color: lighten($link-color-alt, 20);
-  h2.block-title {
-    padding-left: 10px;
-    background-color: #363636;
-    @include border-radius(5px);
-    @include adjust-font-size-to($font-size-md, 1);
+  h2 {
+    &.block-title, &.title {
+      padding-left: 10px;
+      background-color: #363636;
+      @include border-radius(5px);
+      @include adjust-font-size-to($font-size-md, 1);
+    }
   }
   a {
     @include link-colors($link-color-alt, $hover: $link-color-hover-alt, $focus: $link-color-hover-alt, $visited: $link-color-visited-alt, $active: $link-color-active-alt);
   }
-//  ul {
-//    @include margin-leader(0.5);
-//  }
+  ul {
+    padding-left: 10px;
+    li {
+      list-style: none;
+    }
+  }
 }
 
 /* Breadcrumbs */

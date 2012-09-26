@@ -52,7 +52,7 @@ $link-color-visited:           $link-color;
 $link-color-active:            adjust-color($link-color, $lightness: -10);
 
 // Alternative Link Colors
-$link-color-alt:               #ACACAC;
+$link-color-alt:               #b9b9b9;
 $link-color-hover-alt:         adjust-color($link-color-alt, $lightness: +5);
 $link-color-visited-alt:       $link-color-alt;
 $link-color-active-alt:        adjust-color($link-color-hover-alt, $lightness: +10);
@@ -124,6 +124,9 @@ $tabs-border: #bbb;
 $aether-nested-classes:               false;
 
 // Either use a fluid, fixed or hybrid layout
+// Set the default grid type
+$aether-grid-type:                    hybrid; 
+ // Set specific grid types for grid classes at different widths
 $aether-grid-type-desktop:            hybrid;
 $aether-grid-type-tablet-landscape:   hybrid;
 $aether-grid-type-tablet:             hybrid;

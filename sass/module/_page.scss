@@ -22,12 +22,13 @@
 #content,
 .postscript,
 .sidebar,
-#footer {
+#footer,
+.footer-columns-wrapper {
   @include margin-trailer(1, $base-font-size);
 }
 
 .front .content-inner {
-  @include margin-leader(1, $base-font-size);
+  @include margin-leader(0.5, $base-font-size);
 }
 
 .region-header {
@@ -131,7 +132,9 @@ body {
 
 /* Footer */
 
-.footer-columns {
-  background-color: rgb(87, 87, 87);
-  @include border-radius(5px);
+footer {
+  .footer-columns, .footer {
+    background-color: rgb(87, 87, 87);
+    @include border-radius(5px);
+  }
 }

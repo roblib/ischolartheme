@@ -1890,7 +1890,7 @@ ul.primary a.active {
 .footer-columns ul, .footer-wrapper .footer ul {
   padding-left: 10px;
 }
-.footer-columns ul li, .footer-wrapper .footer ul li {
+.footer-columns ul li, .footer-columns ul li.leaf, .footer-wrapper .footer ul li, .footer-wrapper .footer ul li.leaf {
   list-style: none;
 }
 

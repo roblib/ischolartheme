@@ -22,10 +22,10 @@ input[type="button"] {
   overflow: visible;
   padding: 3px 10px;
   width: auto;
-  &:hover {
-    @include background(linear-gradient($button-color-hover-1, $button-color-hover-2 33%, $button-color-hover-3)); }
+  &:hover, &:active {
+    @include background(linear-gradient($button-color-hover-1, $button-color-hover-2 33%, $button-color-hover-3));
+  }
   &:active {
-    @include background(linear-gradient($button-color-active-1, $button-color-active-2 33%, $button-color-active-3));
     @include box-shadow(inset rgba(black, 0.25) 0 1px 2px 0);
     border-color: $text-border-alt-2 $text-border-alt $text-border;
   }

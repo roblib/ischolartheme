@@ -11,6 +11,14 @@
   content: "✖";
 }
 
+.my-list-add .form-submit:before {
+  content: "+";
+}
+
+.my-list-remove .form-submit:before {
+  content: "-";
+}
+
 #block-menu-primary-links li a.menu-item-id-274:before {
   content: "📤";
 }
@@ -1033,6 +1041,14 @@ address {
 
 .islandora-solr-search-query-x-icon:before {
   content: "✖";
+}
+
+.my-list-add .form-submit:before {
+  content: "+";
+}
+
+.my-list-remove .form-submit:before {
+  content: "-";
 }
 
 #block-menu-primary-links li a.menu-item-id-274:before {
@@ -2432,6 +2448,26 @@ div.messages.error {
   background-image: -o-linear-gradient(left, #ededed, #f4f4f4);
   background-image: -ms-linear-gradient(left, #ededed, #f4f4f4);
   background-image: linear-gradient(left, #ededed, #f4f4f4);
+}
+
+.my-list-remove .form-submit:before {
+  font-family: "entypo";
+  font-style: normal;
+  font-size: 1em;
+  margin-right: 0.8em;
+  text-align: center;
+  display: inline-block;
+  width: 0em;
+}
+
+.my-list-add .form-submit:before {
+  font-family: "entypo";
+  font-style: normal;
+  font-size: 1em;
+  margin-right: 0.8em;
+  text-align: center;
+  display: inline-block;
+  width: 0em;
 }
 
 /*

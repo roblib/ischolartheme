@@ -70,3 +70,17 @@
 .islandora-solr-search-query-inline {
   @include background-image(linear-gradient(left, #ededed, #f4f4f4));
 }
+
+.my-list-remove {
+  .form-submit {
+    @include font-icon-base(entypo, 1em, 0em);
+    @extend %entypo-minus;
+  }
+}
+
+.my-list-add {
+  .form-submit {
+    @include font-icon-base(entypo, 1em, 0em);
+    @extend %entypo-plus;
+  }
+}

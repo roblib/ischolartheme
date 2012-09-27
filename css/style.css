@@ -2441,60 +2441,64 @@ div.messages.error {
   padding-left: 21px;
 }
 .my-list-remove .form-submit {
-  background: url('../images/button-minus.png?1348772421'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #dedede));
-  background: url('../images/button-minus.png?1348772421'), -webkit-linear-gradient(#ffffff, #dedede);
-  background: url('../images/button-minus.png?1348772421'), -moz-linear-gradient(#ffffff, #dedede);
-  background: url('../images/button-minus.png?1348772421'), -o-linear-gradient(#ffffff, #dedede);
-  background: url('../images/button-minus.png?1348772421'), -ms-linear-gradient(#ffffff, #dedede);
-  background: url('../images/button-minus.png?1348772421'), linear-gradient(#ffffff, #dedede);
+  background: url('../images/button-minus-darkgrey.png?1348772421'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #dedede));
+  background: url('../images/button-minus-darkgrey.png?1348772421'), -webkit-linear-gradient(#ffffff, #dedede);
+  background: url('../images/button-minus-darkgrey.png?1348772421'), -moz-linear-gradient(#ffffff, #dedede);
+  background: url('../images/button-minus-darkgrey.png?1348772421'), -o-linear-gradient(#ffffff, #dedede);
+  background: url('../images/button-minus-darkgrey.png?1348772421'), -ms-linear-gradient(#ffffff, #dedede);
+  background: url('../images/button-minus-darkgrey.png?1348772421'), linear-gradient(#ffffff, #dedede);
   background-position: 6px 5px, 0 0;
   background-repeat: no-repeat, repeat;
 }
 .my-list-remove .form-submit:hover {
-  background: url('../images/button-minus.png?1348772421'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(33%, #dedede), color-stop(100%, #cccccc));
-  background: url('../images/button-minus.png?1348772421'), -webkit-linear-gradient(#ffffff, #dedede 33%, #cccccc);
-  background: url('../images/button-minus.png?1348772421'), -moz-linear-gradient(#ffffff, #dedede 33%, #cccccc);
-  background: url('../images/button-minus.png?1348772421'), -o-linear-gradient(#ffffff, #dedede 33%, #cccccc);
-  background: url('../images/button-minus.png?1348772421'), -ms-linear-gradient(#ffffff, #dedede 33%, #cccccc);
-  background: url('../images/button-minus.png?1348772421'), linear-gradient(#ffffff, #dedede 33%, #cccccc);
+  background: url('../images/button-minus-red.png?1348788097'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(33%, #dedede), color-stop(100%, #cccccc));
+  background: url('../images/button-minus-red.png?1348788097'), -webkit-linear-gradient(#ffffff, #dedede 33%, #cccccc);
+  background: url('../images/button-minus-red.png?1348788097'), -moz-linear-gradient(#ffffff, #dedede 33%, #cccccc);
+  background: url('../images/button-minus-red.png?1348788097'), -o-linear-gradient(#ffffff, #dedede 33%, #cccccc);
+  background: url('../images/button-minus-red.png?1348788097'), -ms-linear-gradient(#ffffff, #dedede 33%, #cccccc);
+  background: url('../images/button-minus-red.png?1348788097'), linear-gradient(#ffffff, #dedede 33%, #cccccc);
   background-position: 6px 5px, 0 0;
   background-repeat: no-repeat, repeat;
 }
 .my-list-remove .form-submit:active {
-  background: url('../images/button-minus.png?1348772421'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(33%, #dedede), color-stop(100%, #ededed));
-  background: url('../images/button-minus.png?1348772421'), -webkit-linear-gradient(#ffffff, #dedede 33%, #ededed);
-  background: url('../images/button-minus.png?1348772421'), -moz-linear-gradient(#ffffff, #dedede 33%, #ededed);
-  background: url('../images/button-minus.png?1348772421'), -o-linear-gradient(#ffffff, #dedede 33%, #ededed);
-  background: url('../images/button-minus.png?1348772421'), -ms-linear-gradient(#ffffff, #dedede 33%, #ededed);
-  background: url('../images/button-minus.png?1348772421'), linear-gradient(#ffffff, #dedede 33%, #ededed);
+  background: url('../images/button-minus-red.png?1348788097'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(33%, #dedede), color-stop(100%, #ededed));
+  background: url('../images/button-minus-red.png?1348788097'), -webkit-linear-gradient(#ffffff, #dedede 33%, #ededed);
+  background: url('../images/button-minus-red.png?1348788097'), -moz-linear-gradient(#ffffff, #dedede 33%, #ededed);
+  background: url('../images/button-minus-red.png?1348788097'), -o-linear-gradient(#ffffff, #dedede 33%, #ededed);
+  background: url('../images/button-minus-red.png?1348788097'), -ms-linear-gradient(#ffffff, #dedede 33%, #ededed);
+  background: url('../images/button-minus-red.png?1348788097'), linear-gradient(#ffffff, #dedede 33%, #ededed);
+  background-position: 6px 5px, 0 0;
+  background-repeat: no-repeat, repeat;
 }
 .my-list-add .form-submit {
-  background: url('../images/button-plus.png?1348772241'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #dedede));
-  background: url('../images/button-plus.png?1348772241'), -webkit-linear-gradient(#ffffff, #dedede);
-  background: url('../images/button-plus.png?1348772241'), -moz-linear-gradient(#ffffff, #dedede);
-  background: url('../images/button-plus.png?1348772241'), -o-linear-gradient(#ffffff, #dedede);
-  background: url('../images/button-plus.png?1348772241'), -ms-linear-gradient(#ffffff, #dedede);
-  background: url('../images/button-plus.png?1348772241'), linear-gradient(#ffffff, #dedede);
+  background: url('../images/button-plus-darkgrey.png?1348772241'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #dedede));
+  background: url('../images/button-plus-darkgrey.png?1348772241'), -webkit-linear-gradient(#ffffff, #dedede);
+  background: url('../images/button-plus-darkgrey.png?1348772241'), -moz-linear-gradient(#ffffff, #dedede);
+  background: url('../images/button-plus-darkgrey.png?1348772241'), -o-linear-gradient(#ffffff, #dedede);
+  background: url('../images/button-plus-darkgrey.png?1348772241'), -ms-linear-gradient(#ffffff, #dedede);
+  background: url('../images/button-plus-darkgrey.png?1348772241'), linear-gradient(#ffffff, #dedede);
   background-position: 6px 5px, 0 0;
   background-repeat: no-repeat, repeat;
 }
 .my-list-add .form-submit:hover {
-  background: url('../images/button-plus.png?1348772241'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(33%, #dedede), color-stop(100%, #cccccc));
-  background: url('../images/button-plus.png?1348772241'), -webkit-linear-gradient(#ffffff, #dedede 33%, #cccccc);
-  background: url('../images/button-plus.png?1348772241'), -moz-linear-gradient(#ffffff, #dedede 33%, #cccccc);
-  background: url('../images/button-plus.png?1348772241'), -o-linear-gradient(#ffffff, #dedede 33%, #cccccc);
-  background: url('../images/button-plus.png?1348772241'), -ms-linear-gradient(#ffffff, #dedede 33%, #cccccc);
-  background: url('../images/button-plus.png?1348772241'), linear-gradient(#ffffff, #dedede 33%, #cccccc);
+  background: url('../images/button-plus-red.png?1348788134'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(33%, #dedede), color-stop(100%, #cccccc));
+  background: url('../images/button-plus-red.png?1348788134'), -webkit-linear-gradient(#ffffff, #dedede 33%, #cccccc);
+  background: url('../images/button-plus-red.png?1348788134'), -moz-linear-gradient(#ffffff, #dedede 33%, #cccccc);
+  background: url('../images/button-plus-red.png?1348788134'), -o-linear-gradient(#ffffff, #dedede 33%, #cccccc);
+  background: url('../images/button-plus-red.png?1348788134'), -ms-linear-gradient(#ffffff, #dedede 33%, #cccccc);
+  background: url('../images/button-plus-red.png?1348788134'), linear-gradient(#ffffff, #dedede 33%, #cccccc);
   background-position: 6px 5px, 0 0;
   background-repeat: no-repeat, repeat;
 }
 .my-list-add .form-submit:active {
-  background: url('../images/button-plus.png?1348772241'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(33%, #dedede), color-stop(100%, #cccccc));
-  background: url('../images/button-plus.png?1348772241'), -webkit-linear-gradient(#ffffff, #dedede 33%, #cccccc);
-  background: url('../images/button-plus.png?1348772241'), -moz-linear-gradient(#ffffff, #dedede 33%, #cccccc);
-  background: url('../images/button-plus.png?1348772241'), -o-linear-gradient(#ffffff, #dedede 33%, #cccccc);
-  background: url('../images/button-plus.png?1348772241'), -ms-linear-gradient(#ffffff, #dedede 33%, #cccccc);
-  background: url('../images/button-plus.png?1348772241'), linear-gradient(#ffffff, #dedede 33%, #cccccc);
+  background: url('../images/button-plus-red.png?1348788134'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(33%, #dedede), color-stop(100%, #cccccc));
+  background: url('../images/button-plus-red.png?1348788134'), -webkit-linear-gradient(#ffffff, #dedede 33%, #cccccc);
+  background: url('../images/button-plus-red.png?1348788134'), -moz-linear-gradient(#ffffff, #dedede 33%, #cccccc);
+  background: url('../images/button-plus-red.png?1348788134'), -o-linear-gradient(#ffffff, #dedede 33%, #cccccc);
+  background: url('../images/button-plus-red.png?1348788134'), -ms-linear-gradient(#ffffff, #dedede 33%, #cccccc);
+  background: url('../images/button-plus-red.png?1348788134'), linear-gradient(#ffffff, #dedede 33%, #cccccc);
+  background-position: 6px 5px, 0 0;
+  background-repeat: no-repeat, repeat;
 }
 
 /*

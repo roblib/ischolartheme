@@ -80,29 +80,33 @@
     padding-left: 21px;
   }
   .my-list-remove & {
-    @include background(image-url('button-minus.png'), linear-gradient($button-color-1, $button-color-3));
+    @include background(image-url('button-minus-darkgrey.png'), linear-gradient($button-color-1, $button-color-3));
     background-position: 6px 5px, 0 0;
     background-repeat: no-repeat, repeat;
     &:hover {
-      @include background(image-url('button-minus.png'), linear-gradient($button-color-hover-1, $button-color-hover-2 33%, $button-color-hover-3));
+      @include background(image-url('button-minus-red.png'), linear-gradient($button-color-hover-1, $button-color-hover-2 33%, $button-color-hover-3));
       background-position: 6px 5px, 0 0;
       background-repeat: no-repeat, repeat;
     }
     &:active {
-      @include background(image-url('button-minus.png'), linear-gradient($button-color-active-1, $button-color-active-2 33%, $button-color-active-3));
+      @include background(image-url('button-minus-red.png'), linear-gradient($button-color-active-1, $button-color-active-2 33%, $button-color-active-3));
+      background-position: 6px 5px, 0 0;
+      background-repeat: no-repeat, repeat;
     }
   }
   .my-list-add & {
-    @include background(image-url('button-plus.png'), linear-gradient($button-color-1, $button-color-3));
+    @include background(image-url('button-plus-darkgrey.png'), linear-gradient($button-color-1, $button-color-3));
     background-position: 6px 5px, 0 0;
     background-repeat: no-repeat, repeat;
     &:hover {
-      @include background(image-url('button-plus.png'), linear-gradient($button-color-hover-1, $button-color-hover-2 33%, $button-color-hover-3));
+      @include background(image-url('button-plus-red.png'), linear-gradient($button-color-hover-1, $button-color-hover-2 33%, $button-color-hover-3));
       background-position: 6px 5px, 0 0;
       background-repeat: no-repeat, repeat;
     }
     &:active {
-      @include background(image-url('button-plus.png'), linear-gradient($button-color-hover-1, $button-color-hover-2 33%, $button-color-hover-3));
+      @include background(image-url('button-plus-red.png'), linear-gradient($button-color-hover-1, $button-color-hover-2 33%, $button-color-hover-3));
+      background-position: 6px 5px, 0 0;
+      background-repeat: no-repeat, repeat;
     }
   }
 }

@@ -2445,7 +2445,7 @@ div.messages.error {
   background: url('../images/button-minus.png?1348772421'), -ms-linear-gradient(#ffffff, #dedede);
   background: url('../images/button-minus.png?1348772421'), linear-gradient(#ffffff, #dedede);
   background-position: 6px 5px, 0 0;
-  background-repeat: no-repeat, repeat-x;
+  background-repeat: no-repeat, repeat;
 }
 .my-list-remove .form-submit:hover, .my-list-remove .form-submit:active {
   background: url('../images/button-minus.png?1348772421'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(33%, #dedede), color-stop(100%, #ededed));
@@ -2455,7 +2455,7 @@ div.messages.error {
   background: url('../images/button-minus.png?1348772421'), -ms-linear-gradient(#ffffff, #dedede 33%, #ededed);
   background: url('../images/button-minus.png?1348772421'), linear-gradient(#ffffff, #dedede 33%, #ededed);
   background-position: 6px 5px, 0 0;
-  background-repeat: no-repeat, repeat-x;
+  background-repeat: no-repeat, repeat;
 }
 .my-list-add .form-submit {
   background: url('../images/button-plus.png?1348772241'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #dedede));
@@ -2465,7 +2465,7 @@ div.messages.error {
   background: url('../images/button-plus.png?1348772241'), -ms-linear-gradient(#ffffff, #dedede);
   background: url('../images/button-plus.png?1348772241'), linear-gradient(#ffffff, #dedede);
   background-position: 6px 5px, 0 0;
-  background-repeat: no-repeat, repeat-x;
+  background-repeat: no-repeat, repeat;
 }
 .my-list-add .form-submit:hover, .my-list-add .form-submit:active {
   background: url('../images/button-plus.png?1348772241'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(33%, #dedede), color-stop(100%, #ededed));
@@ -2475,7 +2475,7 @@ div.messages.error {
   background: url('../images/button-plus.png?1348772241'), -ms-linear-gradient(#ffffff, #dedede 33%, #ededed);
   background: url('../images/button-plus.png?1348772241'), linear-gradient(#ffffff, #dedede 33%, #ededed);
   background-position: 6px 5px, 0 0;
-  background-repeat: no-repeat, repeat-x;
+  background-repeat: no-repeat, repeat;
 }
 
 /*

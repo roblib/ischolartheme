@@ -82,21 +82,21 @@
   .my-list-remove & {
     @include background(image-url('button-minus.png'), linear-gradient($button-color-1, $button-color-3));
     background-position: 6px 5px, 0 0;
-    background-repeat: no-repeat, repeat-x;
+    background-repeat: no-repeat, repeat;
     &:hover, &:active {
       @include background(image-url('button-minus.png'), linear-gradient($button-color-active-1, $button-color-active-2 33%, $button-color-active-3));
       background-position: 6px 5px, 0 0;
-      background-repeat: no-repeat, repeat-x;
+      background-repeat: no-repeat, repeat;
     }
   }
   .my-list-add & {
     @include background(image-url('button-plus.png'), linear-gradient($button-color-1, $button-color-3));
     background-position: 6px 5px, 0 0;
-    background-repeat: no-repeat, repeat-x;
+    background-repeat: no-repeat, repeat;
     &:hover, &:active {
       @include background(image-url('button-plus.png'), linear-gradient($button-color-active-1, $button-color-active-2 33%, $button-color-active-3));
       background-position: 6px 5px, 0 0;
-      background-repeat: no-repeat, repeat-x;
+      background-repeat: no-repeat, repeat;
     }
   }
 }

@@ -1059,12 +1059,12 @@ input[type="button"] {
   -moz-background-clip: padding;
   background-clip: padding-box;
   background: #dddddd url('../images/button.png?1347889282') repeat-x;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #dedede));
-  background-image: -webkit-linear-gradient(#ffffff, #dedede);
-  background-image: -moz-linear-gradient(#ffffff, #dedede);
-  background-image: -o-linear-gradient(#ffffff, #dedede);
-  background-image: -ms-linear-gradient(#ffffff, #dedede);
-  background-image: linear-gradient(#ffffff, #dedede);
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #dedede));
+  background: -webkit-linear-gradient(#ffffff, #dedede);
+  background: -moz-linear-gradient(#ffffff, #dedede);
+  background: -o-linear-gradient(#ffffff, #dedede);
+  background: -ms-linear-gradient(#ffffff, #dedede);
+  background: linear-gradient(#ffffff, #dedede);
   font-size: 0.75em;
   line-height: 2em;
   -webkit-border-radius: 4px;
@@ -1091,23 +1091,23 @@ button:hover,
 input[type="reset"]:hover,
 input[type="submit"]:hover,
 input[type="button"]:hover {
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(33%, #dedede), color-stop(100%, #cccccc));
-  background-image: -webkit-linear-gradient(#ffffff, #dedede 33%, #cccccc);
-  background-image: -moz-linear-gradient(#ffffff, #dedede 33%, #cccccc);
-  background-image: -o-linear-gradient(#ffffff, #dedede 33%, #cccccc);
-  background-image: -ms-linear-gradient(#ffffff, #dedede 33%, #cccccc);
-  background-image: linear-gradient(#ffffff, #dedede 33%, #cccccc);
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(33%, #dedede), color-stop(100%, #cccccc));
+  background: -webkit-linear-gradient(#ffffff, #dedede 33%, #cccccc);
+  background: -moz-linear-gradient(#ffffff, #dedede 33%, #cccccc);
+  background: -o-linear-gradient(#ffffff, #dedede 33%, #cccccc);
+  background: -ms-linear-gradient(#ffffff, #dedede 33%, #cccccc);
+  background: linear-gradient(#ffffff, #dedede 33%, #cccccc);
 }
 button:active,
 input[type="reset"]:active,
 input[type="submit"]:active,
 input[type="button"]:active {
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(33%, #dedede), color-stop(100%, #ededed));
-  background-image: -webkit-linear-gradient(#ffffff, #dedede 33%, #ededed);
-  background-image: -moz-linear-gradient(#ffffff, #dedede 33%, #ededed);
-  background-image: -o-linear-gradient(#ffffff, #dedede 33%, #ededed);
-  background-image: -ms-linear-gradient(#ffffff, #dedede 33%, #ededed);
-  background-image: linear-gradient(#ffffff, #dedede 33%, #ededed);
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(33%, #dedede), color-stop(100%, #ededed));
+  background: -webkit-linear-gradient(#ffffff, #dedede 33%, #ededed);
+  background: -moz-linear-gradient(#ffffff, #dedede 33%, #ededed);
+  background: -o-linear-gradient(#ffffff, #dedede 33%, #ededed);
+  background: -ms-linear-gradient(#ffffff, #dedede 33%, #ededed);
+  background: linear-gradient(#ffffff, #dedede 33%, #ededed);
   -webkit-box-shadow: inset rgba(0, 0, 0, 0.25) 0 1px 2px 0;
   -moz-box-shadow: inset rgba(0, 0, 0, 0.25) 0 1px 2px 0;
   box-shadow: inset rgba(0, 0, 0, 0.25) 0 1px 2px 0;
@@ -2434,8 +2434,33 @@ div.messages.error {
   background-image: linear-gradient(left, #ededed, #f4f4f4);
 }
 
+.my-list-remove .form-submit, .my-list-remove .form-submit:hover {
+  background: url('../images/button-plus.png?1348772241'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #dedede));
+  background: url('../images/button-plus.png?1348772241'), -webkit-linear-gradient(#ffffff, #dedede);
+  background: url('../images/button-plus.png?1348772241'), -moz-linear-gradient(#ffffff, #dedede);
+  background: url('../images/button-plus.png?1348772241'), -o-linear-gradient(#ffffff, #dedede);
+  background: url('../images/button-plus.png?1348772241'), -ms-linear-gradient(#ffffff, #dedede);
+  background: url('../images/button-plus.png?1348772241'), linear-gradient(#ffffff, #dedede);
+  background-position: 6px 5px, 0 0;
+  background-repeat: no-repeat, repeat-x;
+}
+
+.my-list-add .form-submit, .my-list-add .form-submit:hover {
+  background: url('../images/button-minus.png?1348772421'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #dedede));
+  background: url('../images/button-minus.png?1348772421'), -webkit-linear-gradient(#ffffff, #dedede);
+  background: url('../images/button-minus.png?1348772421'), -moz-linear-gradient(#ffffff, #dedede);
+  background: url('../images/button-minus.png?1348772421'), -o-linear-gradient(#ffffff, #dedede);
+  background: url('../images/button-minus.png?1348772421'), -ms-linear-gradient(#ffffff, #dedede);
+  background: url('../images/button-minus.png?1348772421'), linear-gradient(#ffffff, #dedede);
+  background-position: 6px 5px, 0 0;
+  background-repeat: no-repeat, repeat-x;
+}
+
 .my-list-remove .form-submit {
-  /* test */
+  padding-left: 21px;
+}
+.my-list-add .form-submit {
+  padding-left: 21px;
 }
 
 /*

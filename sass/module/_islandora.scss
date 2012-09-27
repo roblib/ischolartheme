@@ -71,14 +71,32 @@
   @include background-image(linear-gradient(left, #ededed, #f4f4f4));
 }
 
-.my-list-remove {
-  .form-submit {
-    /* test */
-  }
+
+%button-icon-plus {
+  @include background(image-url('button-plus.png'), linear-gradient($button-color-1, $button-color-3));
+  background-position: 6px 5px, 0 0;
+  background-repeat: no-repeat, repeat-x;
 }
 
-.my-list-add {
-  .form-submit {
+%button-icon-minus {
+  @include background(image-url('button-minus.png'), linear-gradient($button-color-1, $button-color-3));
+  background-position: 6px 5px, 0 0;
+  background-repeat: no-repeat, repeat-x;
+}
 
+.form-submit {
+  .my-list-remove & {
+    @extend %button-icon-plus;
+    padding-left: 21px;
+    &:hover {
+      @extend %button-icon-plus;
+    }
+  }
+  .my-list-add & {
+    @extend %button-icon-minus;
+    padding-left: 21px;
+    &:hover {
+      @extend %button-icon-minus;
+    }
   }
 }

@@ -2396,6 +2396,9 @@ div.messages.error {
 .scholar_pdf a {
   border-bottom: 0;
 }
+.scholar_pdf a:hover {
+  border-bottom: 0;
+}
 
 /* Islandora Inline Query block */
 .islandora-solr-search-query-x-icon:before {

@@ -45,6 +45,10 @@
 
 .scholar_pdf a {
   border-bottom: 0;
+  padding-bottom: 0;
+  &:hover {
+    border-bottom: 0;
+  }
 }
 
 /* Islandora Inline Query block */

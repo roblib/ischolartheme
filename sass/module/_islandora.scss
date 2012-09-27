@@ -73,14 +73,12 @@
 
 .my-list-remove {
   .form-submit {
-    @include font-icon-base(entypo, 1em, 0em);
-    @extend %entypo-minus;
+    /* test */
   }
 }
 
 .my-list-add {
   .form-submit {
-    @include font-icon-base(entypo, 1em, 0em);
-    @extend %entypo-plus;
+
   }
 }

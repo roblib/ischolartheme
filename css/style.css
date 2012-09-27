@@ -1052,6 +1052,7 @@ address {
 }
 
 button,
+.button,
 input[type="reset"],
 input[type="submit"],
 input[type="button"] {
@@ -1088,6 +1089,7 @@ input[type="button"] {
   width: auto;
 }
 button:hover,
+.button:hover,
 input[type="reset"]:hover,
 input[type="submit"]:hover,
 input[type="button"]:hover {
@@ -1099,6 +1101,7 @@ input[type="button"]:hover {
   background: linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
 }
 button:active,
+.button:active,
 input[type="reset"]:active,
 input[type="submit"]:active,
 input[type="button"]:active {
@@ -1115,7 +1118,8 @@ input[type="button"]:active {
 }
 
 .ie7 button,
-.ie7 input[type="reset"],
+.ie7 .button
+input[type="reset"],
 .ie7 input[type="submit"],
 .ie7 input[type="button"] {
   padding-bottom: 0;

@@ -2,6 +2,7 @@
 $relative-font-sizing: true;
 
 button,
+.button,
 input[type="reset"],
 input[type="submit"],
 input[type="button"] {
@@ -36,6 +37,7 @@ input[type="button"] {
 @if $legacy-support-for-ie7 {
   .ie7 {
     button,
+    .button
     input[type="reset"],
     input[type="submit"],
     input[type="button"] {

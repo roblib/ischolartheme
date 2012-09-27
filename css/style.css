@@ -2434,7 +2434,7 @@ div.messages.error {
   background-image: linear-gradient(left, #ededed, #f4f4f4);
 }
 
-.my-list-remove .form-submit, .my-list-remove .form-submit:hover {
+.my-list-add .form-submit, .my-list-add .form-submit:hover {
   background: url('../images/button-plus.png?1348772241'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #dedede));
   background: url('../images/button-plus.png?1348772241'), -webkit-linear-gradient(#ffffff, #dedede);
   background: url('../images/button-plus.png?1348772241'), -moz-linear-gradient(#ffffff, #dedede);
@@ -2445,7 +2445,7 @@ div.messages.error {
   background-repeat: no-repeat, repeat-x;
 }
 
-.my-list-add .form-submit, .my-list-add .form-submit:hover {
+.my-list-remove .form-submit, .my-list-remove .form-submit:hover {
   background: url('../images/button-minus.png?1348772421'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #dedede));
   background: url('../images/button-minus.png?1348772421'), -webkit-linear-gradient(#ffffff, #dedede);
   background: url('../images/button-minus.png?1348772421'), -moz-linear-gradient(#ffffff, #dedede);

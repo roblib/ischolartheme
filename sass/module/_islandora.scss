@@ -86,17 +86,17 @@
 
 .form-submit {
   .my-list-remove & {
-    @extend %button-icon-plus;
-    padding-left: 21px;
-    &:hover {
-      @extend %button-icon-plus;
-    }
-  }
-  .my-list-add & {
     @extend %button-icon-minus;
     padding-left: 21px;
     &:hover {
       @extend %button-icon-minus;
+    }
+  }
+  .my-list-add & {
+    @extend %button-icon-plus;
+    padding-left: 21px;
+    &:hover {
+      @extend %button-icon-plus;
     }
   }
 }

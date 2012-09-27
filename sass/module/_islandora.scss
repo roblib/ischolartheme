@@ -72,31 +72,28 @@
 }
 
 
-%button-icon-plus {
-  @include background(image-url('button-plus.png'), linear-gradient($button-color-1, $button-color-3));
-  background-position: 6px 5px, 0 0;
-  background-repeat: no-repeat, repeat-x;
-}
-
-%button-icon-minus {
-  @include background(image-url('button-minus.png'), linear-gradient($button-color-1, $button-color-3));
-  background-position: 6px 5px, 0 0;
-  background-repeat: no-repeat, repeat-x;
-}
-
 .form-submit {
-  .my-list-remove & {
-    @extend %button-icon-minus;
+  .my-list-remove &, .my-list-add & {
     padding-left: 21px;
+  }
+  .my-list-remove & {
+    @include background(image-url('button-minus.png'), linear-gradient($button-color-1, $button-color-3));
+    background-position: 6px 5px, 0 0;
+    background-repeat: no-repeat, repeat-x;
     &:hover {
-      @extend %button-icon-minus;
+      @include background(image-url('button-minus.png'), linear-gradient($button-color-active-1, $button-color-active-2 33%, $button-color-active-3));
+      background-position: 6px 5px, 0 0;
+      background-repeat: no-repeat, repeat-x;
     }
   }
   .my-list-add & {
-    @extend %button-icon-plus;
-    padding-left: 21px;
+    @include background(image-url('button-plus.png'), linear-gradient($button-color-1, $button-color-3));
+    background-position: 6px 5px, 0 0;
+    background-repeat: no-repeat, repeat-x;
     &:hover {
-      @extend %button-icon-plus;
+      @include background(image-url('button-plus.png'), linear-gradient($button-color-active-1, $button-color-active-2 33%, $button-color-active-3));
+      background-position: 6px 5px, 0 0;
+      background-repeat: no-repeat, repeat-x;
     }
   }
 }

@@ -2434,18 +2434,10 @@ div.messages.error {
   background-image: linear-gradient(left, #ededed, #f4f4f4);
 }
 
-.my-list-add .form-submit, .my-list-add .form-submit:hover {
-  background: url('../images/button-plus.png?1348772241'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #dedede));
-  background: url('../images/button-plus.png?1348772241'), -webkit-linear-gradient(#ffffff, #dedede);
-  background: url('../images/button-plus.png?1348772241'), -moz-linear-gradient(#ffffff, #dedede);
-  background: url('../images/button-plus.png?1348772241'), -o-linear-gradient(#ffffff, #dedede);
-  background: url('../images/button-plus.png?1348772241'), -ms-linear-gradient(#ffffff, #dedede);
-  background: url('../images/button-plus.png?1348772241'), linear-gradient(#ffffff, #dedede);
-  background-position: 6px 5px, 0 0;
-  background-repeat: no-repeat, repeat-x;
+.my-list-remove .form-submit, .my-list-add .form-submit {
+  padding-left: 21px;
 }
-
-.my-list-remove .form-submit, .my-list-remove .form-submit:hover {
+.my-list-remove .form-submit {
   background: url('../images/button-minus.png?1348772421'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #dedede));
   background: url('../images/button-minus.png?1348772421'), -webkit-linear-gradient(#ffffff, #dedede);
   background: url('../images/button-minus.png?1348772421'), -moz-linear-gradient(#ffffff, #dedede);
@@ -2455,12 +2447,35 @@ div.messages.error {
   background-position: 6px 5px, 0 0;
   background-repeat: no-repeat, repeat-x;
 }
-
-.my-list-remove .form-submit {
-  padding-left: 21px;
+.my-list-remove .form-submit:hover {
+  background: url('../images/button-minus.png?1348772421'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(33%, #dedede), color-stop(100%, #ededed));
+  background: url('../images/button-minus.png?1348772421'), -webkit-linear-gradient(#ffffff, #dedede 33%, #ededed);
+  background: url('../images/button-minus.png?1348772421'), -moz-linear-gradient(#ffffff, #dedede 33%, #ededed);
+  background: url('../images/button-minus.png?1348772421'), -o-linear-gradient(#ffffff, #dedede 33%, #ededed);
+  background: url('../images/button-minus.png?1348772421'), -ms-linear-gradient(#ffffff, #dedede 33%, #ededed);
+  background: url('../images/button-minus.png?1348772421'), linear-gradient(#ffffff, #dedede 33%, #ededed);
+  background-position: 6px 5px, 0 0;
+  background-repeat: no-repeat, repeat-x;
 }
 .my-list-add .form-submit {
-  padding-left: 21px;
+  background: url('../images/button-plus.png?1348772241'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #dedede));
+  background: url('../images/button-plus.png?1348772241'), -webkit-linear-gradient(#ffffff, #dedede);
+  background: url('../images/button-plus.png?1348772241'), -moz-linear-gradient(#ffffff, #dedede);
+  background: url('../images/button-plus.png?1348772241'), -o-linear-gradient(#ffffff, #dedede);
+  background: url('../images/button-plus.png?1348772241'), -ms-linear-gradient(#ffffff, #dedede);
+  background: url('../images/button-plus.png?1348772241'), linear-gradient(#ffffff, #dedede);
+  background-position: 6px 5px, 0 0;
+  background-repeat: no-repeat, repeat-x;
+}
+.my-list-add .form-submit:hover {
+  background: url('../images/button-plus.png?1348772241'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(33%, #dedede), color-stop(100%, #ededed));
+  background: url('../images/button-plus.png?1348772241'), -webkit-linear-gradient(#ffffff, #dedede 33%, #ededed);
+  background: url('../images/button-plus.png?1348772241'), -moz-linear-gradient(#ffffff, #dedede 33%, #ededed);
+  background: url('../images/button-plus.png?1348772241'), -o-linear-gradient(#ffffff, #dedede 33%, #ededed);
+  background: url('../images/button-plus.png?1348772241'), -ms-linear-gradient(#ffffff, #dedede 33%, #ededed);
+  background: url('../images/button-plus.png?1348772241'), linear-gradient(#ffffff, #dedede 33%, #ededed);
+  background-position: 6px 5px, 0 0;
+  background-repeat: no-repeat, repeat-x;
 }
 
 /*

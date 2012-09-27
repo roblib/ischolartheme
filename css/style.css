@@ -252,6 +252,10 @@ a:active {
   outline: 0;
 }
 
+a img {
+  vertical-align: bottom;
+}
+
 img,
 object,
 video {
@@ -2395,6 +2399,7 @@ div.messages.error {
 /* Islandora Search results */
 .scholar_pdf a {
   border-bottom: 0;
+  padding-bottom: 0;
 }
 .scholar_pdf a:hover {
   border-bottom: 0;

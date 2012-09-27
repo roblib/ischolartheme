@@ -177,6 +177,12 @@ a:active {
   outline: 0;
 }
 
+
+// Remove whitespace under image when linked
+a img {
+  vertical-align: bottom;
+}
+
 // Embedded content
 
 img,

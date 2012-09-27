@@ -2427,6 +2427,11 @@ div.messages.error {
   white-space: nowrap;
   width: 1em;
 }
+.ie6-8 .islandora-solr-search-query-x-icon a {
+  position: relative;
+  text-indent: 0px;
+  width: auto;
+}
 
 .islandora-solr-search-query-inline {
   background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #ededed), color-stop(100%, #f4f4f4));
@@ -2481,22 +2486,22 @@ div.messages.error {
   background-repeat: no-repeat, repeat;
 }
 .my-list-add .form-submit:hover {
-  background: url('../images/button-plus-green.png?1348788670'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(33%, #ebebeb), color-stop(100%, #e6e6e6));
-  background: url('../images/button-plus-green.png?1348788670'), -webkit-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
-  background: url('../images/button-plus-green.png?1348788670'), -moz-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
-  background: url('../images/button-plus-green.png?1348788670'), -o-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
-  background: url('../images/button-plus-green.png?1348788670'), -ms-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
-  background: url('../images/button-plus-green.png?1348788670'), linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
+  background: url('../images/button-plus-green.png?1348789094'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(33%, #ebebeb), color-stop(100%, #e6e6e6));
+  background: url('../images/button-plus-green.png?1348789094'), -webkit-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
+  background: url('../images/button-plus-green.png?1348789094'), -moz-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
+  background: url('../images/button-plus-green.png?1348789094'), -o-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
+  background: url('../images/button-plus-green.png?1348789094'), -ms-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
+  background: url('../images/button-plus-green.png?1348789094'), linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
   background-position: 6px 5px, 0 0;
   background-repeat: no-repeat, repeat;
 }
 .my-list-add .form-submit:active {
-  background: url('../images/button-plus-green.png?1348788670'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(33%, #ebebeb), color-stop(100%, #e6e6e6));
-  background: url('../images/button-plus-green.png?1348788670'), -webkit-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
-  background: url('../images/button-plus-green.png?1348788670'), -moz-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
-  background: url('../images/button-plus-green.png?1348788670'), -o-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
-  background: url('../images/button-plus-green.png?1348788670'), -ms-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
-  background: url('../images/button-plus-green.png?1348788670'), linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
+  background: url('../images/button-plus-green.png?1348789094'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(33%, #ebebeb), color-stop(100%, #e6e6e6));
+  background: url('../images/button-plus-green.png?1348789094'), -webkit-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
+  background: url('../images/button-plus-green.png?1348789094'), -moz-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
+  background: url('../images/button-plus-green.png?1348789094'), -o-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
+  background: url('../images/button-plus-green.png?1348789094'), -ms-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
+  background: url('../images/button-plus-green.png?1348789094'), linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
   background-position: 6px 5px, 0 0;
   background-repeat: no-repeat, repeat;
 }

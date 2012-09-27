@@ -67,6 +67,11 @@
     text-indent: -9999px;
     white-space: nowrap;
     width: 1em;
+    .ie6-8 & {
+      position: relative;
+      text-indent: 0px;
+      width: auto;
+    }
   }
 }
 

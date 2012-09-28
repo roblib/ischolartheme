@@ -2412,33 +2412,33 @@ div.messages.error {
   border-bottom: 1px solid #989898;
   padding-top: 5px;
   padding-bottom: 4px;
-  background: url('../images/button-pdf-darkgrey.png?1348797140'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #dedede));
-  background: url('../images/button-pdf-darkgrey.png?1348797140'), -webkit-linear-gradient(#ffffff, #dedede);
-  background: url('../images/button-pdf-darkgrey.png?1348797140'), -moz-linear-gradient(#ffffff, #dedede);
-  background: url('../images/button-pdf-darkgrey.png?1348797140'), -o-linear-gradient(#ffffff, #dedede);
-  background: url('../images/button-pdf-darkgrey.png?1348797140'), -ms-linear-gradient(#ffffff, #dedede);
-  background: url('../images/button-pdf-darkgrey.png?1348797140'), linear-gradient(#ffffff, #dedede);
+  background: url('../images/button-pdf-darkgrey.png?1348797722'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #dedede));
+  background: url('../images/button-pdf-darkgrey.png?1348797722'), -webkit-linear-gradient(#ffffff, #dedede);
+  background: url('../images/button-pdf-darkgrey.png?1348797722'), -moz-linear-gradient(#ffffff, #dedede);
+  background: url('../images/button-pdf-darkgrey.png?1348797722'), -o-linear-gradient(#ffffff, #dedede);
+  background: url('../images/button-pdf-darkgrey.png?1348797722'), -ms-linear-gradient(#ffffff, #dedede);
+  background: url('../images/button-pdf-darkgrey.png?1348797722'), linear-gradient(#ffffff, #dedede);
   background-position: 6px 5px, 0 0;
   background-repeat: no-repeat, repeat;
 }
 .scholar_pdf.button a:hover {
-  background: url('../images/button-pdf-darkgrey.png?1348797140'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(33%, #ebebeb), color-stop(100%, #e6e6e6));
-  background: url('../images/button-pdf-darkgrey.png?1348797140'), -webkit-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
-  background: url('../images/button-pdf-darkgrey.png?1348797140'), -moz-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
-  background: url('../images/button-pdf-darkgrey.png?1348797140'), -o-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
-  background: url('../images/button-pdf-darkgrey.png?1348797140'), -ms-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
-  background: url('../images/button-pdf-darkgrey.png?1348797140'), linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
+  background: url('../images/button-pdf-darkgrey.png?1348797722'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(33%, #ebebeb), color-stop(100%, #e6e6e6));
+  background: url('../images/button-pdf-darkgrey.png?1348797722'), -webkit-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
+  background: url('../images/button-pdf-darkgrey.png?1348797722'), -moz-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
+  background: url('../images/button-pdf-darkgrey.png?1348797722'), -o-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
+  background: url('../images/button-pdf-darkgrey.png?1348797722'), -ms-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
+  background: url('../images/button-pdf-darkgrey.png?1348797722'), linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
   background-position: 6px 5px, 0 0;
   background-repeat: no-repeat, repeat;
   border-bottom: 1px solid #989898;
 }
 .scholar_pdf.button a:active {
-  background: url('../images/button-pdf-darkgrey.png?1348797140'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(33%, #dedede), color-stop(100%, #ededed));
-  background: url('../images/button-pdf-darkgrey.png?1348797140'), -webkit-linear-gradient(#ffffff, #dedede 33%, #ededed);
-  background: url('../images/button-pdf-darkgrey.png?1348797140'), -moz-linear-gradient(#ffffff, #dedede 33%, #ededed);
-  background: url('../images/button-pdf-darkgrey.png?1348797140'), -o-linear-gradient(#ffffff, #dedede 33%, #ededed);
-  background: url('../images/button-pdf-darkgrey.png?1348797140'), -ms-linear-gradient(#ffffff, #dedede 33%, #ededed);
-  background: url('../images/button-pdf-darkgrey.png?1348797140'), linear-gradient(#ffffff, #dedede 33%, #ededed);
+  background: url('../images/button-pdf-darkgrey.png?1348797722'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(33%, #dedede), color-stop(100%, #ededed));
+  background: url('../images/button-pdf-darkgrey.png?1348797722'), -webkit-linear-gradient(#ffffff, #dedede 33%, #ededed);
+  background: url('../images/button-pdf-darkgrey.png?1348797722'), -moz-linear-gradient(#ffffff, #dedede 33%, #ededed);
+  background: url('../images/button-pdf-darkgrey.png?1348797722'), -o-linear-gradient(#ffffff, #dedede 33%, #ededed);
+  background: url('../images/button-pdf-darkgrey.png?1348797722'), -ms-linear-gradient(#ffffff, #dedede 33%, #ededed);
+  background: url('../images/button-pdf-darkgrey.png?1348797722'), linear-gradient(#ffffff, #dedede 33%, #ededed);
   background-position: 6px 5px, 0 0;
   background-repeat: no-repeat, repeat;
 }
@@ -2487,62 +2487,62 @@ div.messages.error {
   padding-left: 21px;
 }
 .my-list-remove .form-submit {
-  background: url('../images/button-minus-darkgrey.png?1348772421'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #dedede));
-  background: url('../images/button-minus-darkgrey.png?1348772421'), -webkit-linear-gradient(#ffffff, #dedede);
-  background: url('../images/button-minus-darkgrey.png?1348772421'), -moz-linear-gradient(#ffffff, #dedede);
-  background: url('../images/button-minus-darkgrey.png?1348772421'), -o-linear-gradient(#ffffff, #dedede);
-  background: url('../images/button-minus-darkgrey.png?1348772421'), -ms-linear-gradient(#ffffff, #dedede);
-  background: url('../images/button-minus-darkgrey.png?1348772421'), linear-gradient(#ffffff, #dedede);
+  background: url('../images/button-list-darkgrey.png?1348858394'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #dedede));
+  background: url('../images/button-list-darkgrey.png?1348858394'), -webkit-linear-gradient(#ffffff, #dedede);
+  background: url('../images/button-list-darkgrey.png?1348858394'), -moz-linear-gradient(#ffffff, #dedede);
+  background: url('../images/button-list-darkgrey.png?1348858394'), -o-linear-gradient(#ffffff, #dedede);
+  background: url('../images/button-list-darkgrey.png?1348858394'), -ms-linear-gradient(#ffffff, #dedede);
+  background: url('../images/button-list-darkgrey.png?1348858394'), linear-gradient(#ffffff, #dedede);
   background-position: 6px 5px, 0 0;
   background-repeat: no-repeat, repeat;
 }
 .my-list-remove .form-submit:hover {
-  background: url('../images/button-minus-red.png?1348788097'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(33%, #ebebeb), color-stop(100%, #e6e6e6));
-  background: url('../images/button-minus-red.png?1348788097'), -webkit-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
-  background: url('../images/button-minus-red.png?1348788097'), -moz-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
-  background: url('../images/button-minus-red.png?1348788097'), -o-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
-  background: url('../images/button-minus-red.png?1348788097'), -ms-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
-  background: url('../images/button-minus-red.png?1348788097'), linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
+  background: url('../images/button-list-darkgrey.png?1348858394'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(33%, #ebebeb), color-stop(100%, #e6e6e6));
+  background: url('../images/button-list-darkgrey.png?1348858394'), -webkit-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
+  background: url('../images/button-list-darkgrey.png?1348858394'), -moz-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
+  background: url('../images/button-list-darkgrey.png?1348858394'), -o-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
+  background: url('../images/button-list-darkgrey.png?1348858394'), -ms-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
+  background: url('../images/button-list-darkgrey.png?1348858394'), linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
   background-position: 6px 5px, 0 0;
   background-repeat: no-repeat, repeat;
 }
 .my-list-remove .form-submit:active {
-  background: url('../images/button-minus-red.png?1348788097'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(33%, #dedede), color-stop(100%, #ededed));
-  background: url('../images/button-minus-red.png?1348788097'), -webkit-linear-gradient(#ffffff, #dedede 33%, #ededed);
-  background: url('../images/button-minus-red.png?1348788097'), -moz-linear-gradient(#ffffff, #dedede 33%, #ededed);
-  background: url('../images/button-minus-red.png?1348788097'), -o-linear-gradient(#ffffff, #dedede 33%, #ededed);
-  background: url('../images/button-minus-red.png?1348788097'), -ms-linear-gradient(#ffffff, #dedede 33%, #ededed);
-  background: url('../images/button-minus-red.png?1348788097'), linear-gradient(#ffffff, #dedede 33%, #ededed);
+  background: url('../images/button-list-darkgrey.png?1348858394'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(33%, #dedede), color-stop(100%, #ededed));
+  background: url('../images/button-list-darkgrey.png?1348858394'), -webkit-linear-gradient(#ffffff, #dedede 33%, #ededed);
+  background: url('../images/button-list-darkgrey.png?1348858394'), -moz-linear-gradient(#ffffff, #dedede 33%, #ededed);
+  background: url('../images/button-list-darkgrey.png?1348858394'), -o-linear-gradient(#ffffff, #dedede 33%, #ededed);
+  background: url('../images/button-list-darkgrey.png?1348858394'), -ms-linear-gradient(#ffffff, #dedede 33%, #ededed);
+  background: url('../images/button-list-darkgrey.png?1348858394'), linear-gradient(#ffffff, #dedede 33%, #ededed);
   background-position: 6px 5px, 0 0;
   background-repeat: no-repeat, repeat;
 }
 .my-list-add .form-submit {
-  background: url('../images/button-plus-darkgrey.png?1348772241'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #dedede));
-  background: url('../images/button-plus-darkgrey.png?1348772241'), -webkit-linear-gradient(#ffffff, #dedede);
-  background: url('../images/button-plus-darkgrey.png?1348772241'), -moz-linear-gradient(#ffffff, #dedede);
-  background: url('../images/button-plus-darkgrey.png?1348772241'), -o-linear-gradient(#ffffff, #dedede);
-  background: url('../images/button-plus-darkgrey.png?1348772241'), -ms-linear-gradient(#ffffff, #dedede);
-  background: url('../images/button-plus-darkgrey.png?1348772241'), linear-gradient(#ffffff, #dedede);
+  background: url('../images/button-addlist-darkgrey.png?1348858325'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #dedede));
+  background: url('../images/button-addlist-darkgrey.png?1348858325'), -webkit-linear-gradient(#ffffff, #dedede);
+  background: url('../images/button-addlist-darkgrey.png?1348858325'), -moz-linear-gradient(#ffffff, #dedede);
+  background: url('../images/button-addlist-darkgrey.png?1348858325'), -o-linear-gradient(#ffffff, #dedede);
+  background: url('../images/button-addlist-darkgrey.png?1348858325'), -ms-linear-gradient(#ffffff, #dedede);
+  background: url('../images/button-addlist-darkgrey.png?1348858325'), linear-gradient(#ffffff, #dedede);
   background-position: 6px 5px, 0 0;
   background-repeat: no-repeat, repeat;
 }
 .my-list-add .form-submit:hover {
-  background: url('../images/button-plus-green.png?1348789094'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(33%, #ebebeb), color-stop(100%, #e6e6e6));
-  background: url('../images/button-plus-green.png?1348789094'), -webkit-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
-  background: url('../images/button-plus-green.png?1348789094'), -moz-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
-  background: url('../images/button-plus-green.png?1348789094'), -o-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
-  background: url('../images/button-plus-green.png?1348789094'), -ms-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
-  background: url('../images/button-plus-green.png?1348789094'), linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
+  background: url('../images/button-addlist-darkgrey.png?1348858325'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(33%, #ebebeb), color-stop(100%, #e6e6e6));
+  background: url('../images/button-addlist-darkgrey.png?1348858325'), -webkit-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
+  background: url('../images/button-addlist-darkgrey.png?1348858325'), -moz-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
+  background: url('../images/button-addlist-darkgrey.png?1348858325'), -o-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
+  background: url('../images/button-addlist-darkgrey.png?1348858325'), -ms-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
+  background: url('../images/button-addlist-darkgrey.png?1348858325'), linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
   background-position: 6px 5px, 0 0;
   background-repeat: no-repeat, repeat;
 }
 .my-list-add .form-submit:active {
-  background: url('../images/button-plus-green.png?1348789094'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(33%, #ebebeb), color-stop(100%, #e6e6e6));
-  background: url('../images/button-plus-green.png?1348789094'), -webkit-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
-  background: url('../images/button-plus-green.png?1348789094'), -moz-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
-  background: url('../images/button-plus-green.png?1348789094'), -o-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
-  background: url('../images/button-plus-green.png?1348789094'), -ms-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
-  background: url('../images/button-plus-green.png?1348789094'), linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
+  background: url('../images/button-addlist-darkgrey.png?1348858325'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(33%, #ebebeb), color-stop(100%, #e6e6e6));
+  background: url('../images/button-addlist-darkgrey.png?1348858325'), -webkit-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
+  background: url('../images/button-addlist-darkgrey.png?1348858325'), -moz-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
+  background: url('../images/button-addlist-darkgrey.png?1348858325'), -o-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
+  background: url('../images/button-addlist-darkgrey.png?1348858325'), -ms-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
+  background: url('../images/button-addlist-darkgrey.png?1348858325'), linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
   background-position: 6px 5px, 0 0;
   background-repeat: no-repeat, repeat;
 }
@@ -2704,7 +2704,7 @@ tr.selected td {
 }
 .progress .filled {
   background-color: #0072b9;
-  background-image: url('data:image/gif;base64,R0lGODlhFAAUAJEDAMDAwN7c3P///////yH/C05FVFNDQVBFMi4wAwEAAAAh+QQFCAADACwAAAAAFAAUAAACN0QUqQntftZ6FCDJKsRZmyt5TYSJH2eSoahOLOh6rZLC9MsFOCrbtzb7VYKdoa9IIep6uV1JUwAAIfkEBQgAAwAsAAAAABQAFAAAAjeEI6Gr5o8YezTKRp29+aUbdBoYisA2mehinp/Urpgol/Sb3mCMs2rv69RsmeGPdNzplELgzFEAACH5BAUIAAMALAAAAAAUABQAAAI0hB0Sy3uPVGPwpUlrxE6Dy3mfhIkAOZlc54Gp6DYqmrU0q8V1fgdzCOv9gLxV0GhDFomAAgAh+QQFCAADACwAAAAAFAAUAAACNoQPIcHNCJVzEMn5qrlY74UFXgJ2HjeNKDWWqRqKqtuMZGiv2Unvmi7j4WZDocl4rACDyl6mAAAh+QQFCAADACwAAAAAFAAUAAACNYR/IcHNCJVzEMn5qrlY74UFHsBNY0l5aHOCneqaY5yqodiGI0lnsJ57/YSaFW4oQ9aKPUYBACH5BAUIAAMALAAAAAAUABQAAAI2DI4ZEu2W4novKkabRTPD3WXbEVIjUFZj6pystmJi7H3Wa1uy6dYnumu5gjDazMhDqpRCZqAAACH5BAUIAAMALAAAAAAUABQAAAI2jIGpIeanInsuykaDXThvNGXaF3pkR31AmZ7iuLGPKleuSKPzbX66TXqpVj9YrDisGS3KJKoAACH5BAUIAAMALAAAAAAUABQAAAI1jA2pG3K/ImjvSOZquIpqnngVOGUfJ46oqV4ptGpILIOvRZ8uC+/ylmtdeDjUj3QDBou+QAEAIfkEBQgAAwAsAAAAABQAFAAAAjSMH6DLIXiYBA6a2Z7Fq25OaRAYWgnojaioYmk7vchqni47c3Kk4/xdo5mEH+AQ5LuggqsCACH5BAUIAAMALAAAAAAUABQAAAI1VI4Hy53fIgjmBekqxIvay01aEopf6VnoiKxnmKpcvGE0ObNt/oG2ruC9fj0Y0Ce57YhDTAEAOw==');
+  background-image: url('data:image/gif;base64,R0lGODlhFAAUAPEDAMDAwN7c3P///wAAACH/C05FVFNDQVBFMi4wAwEAAAAh+QQFCAADACwAAAAAFAAUAAACN0QUqQntftZ6FCDJKsRZmyt5TYSJH2eSoahOLOh6rZLC9MsFOCrbtzb7VYKdoa9IIep6uV1JUwAAIfkEBQgAAwAsAAAAABQAFAAAAjeEJ6Gr5o8YezTKRp29+aUbdA6IidskAueSqp/UrmUnh2kdv6ips3fvowFnlaFNSPoleUskKFMAACH5BAUIAAMALAAAAAAUABQAAAI0hB0Sy3uPVGPwpUlrxE6Dy3mfhIkAOZlc54Gp6DYqmrU0q8V1fgdzCOv9gLxV0GhDFomAAgAh+QQFCAADACwAAAAAFAAUAAACNoQPI8HNCJVzEMn5qrlY74UFXgJ2HjeNKDWW6Rhmp9uMZGivsqaLKr2r9HJA3wz3iyWRvKKvAAAh+QQFCAADACwAAAAAFAAUAAACNYR/I8HNCJVzEMn5qrlY74UFHsBNY0l5aHOCneqaY5x6YQaHI0nj2ipq6YSvXPHXCxply0kBACH5BAUIAAMALAAAAAAUABQAAAI2DI45Eu2W4novKkabRTPD3WXbEVIjUFZj6pystmJi7H3Wa1uyeda5tGu5gjDazMhDqpRCZqAAACH5BAUIAAMALAAAAAAUABQAAAI2jIGpI+anInsuykaDXThvNGXaF3pkR31AmZ7iuLGPKleuSKPzbX66/XnBYr+hpWa84HJLXqAAACH5BAUIAAMALAAAAAAUABQAAAI0jA2pO3K/ImjvSOZquIpqnngVOGUfJ46oqV4ptGpILIOvRZ8uC+/ylmtdeDjODxgs+nTLAgAh+QQFCAADACwAAAAAFAAUAAACNIwfoMsheJgEDprZnsWrbk5pEBhaCeiNqKhiaTu9yGqeLjtzcqTj/F2jmYQf4BDku6CCqwIAIfkEBQgAAwAsAAAAABQAFAAAAjRUjgfLnd8iGOYF2ai9eGnbeRUUfmRnJuE0qmWLrKmLzTEK33Wu4Bu3+72Evs3QWAQlT5gCADs=');
   *background-image: url(../images/progress.gif);
 }
 

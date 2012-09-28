@@ -2405,15 +2405,41 @@ div.messages.error {
   margin-top: 2px;
 }
 .scholar_pdf.button {
-  margin-top: 0;
+  margin-top: 1px;
 }
 .scholar_pdf.button a {
   border-bottom: 1px solid #989898;
   padding-top: 5px;
   padding-bottom: 4px;
+  background: url('../images/button-pdf-darkgrey.png?1348797140'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #dedede));
+  background: url('../images/button-pdf-darkgrey.png?1348797140'), -webkit-linear-gradient(#ffffff, #dedede);
+  background: url('../images/button-pdf-darkgrey.png?1348797140'), -moz-linear-gradient(#ffffff, #dedede);
+  background: url('../images/button-pdf-darkgrey.png?1348797140'), -o-linear-gradient(#ffffff, #dedede);
+  background: url('../images/button-pdf-darkgrey.png?1348797140'), -ms-linear-gradient(#ffffff, #dedede);
+  background: url('../images/button-pdf-darkgrey.png?1348797140'), linear-gradient(#ffffff, #dedede);
+  background-position: 6px 5px, 0 0;
+  background-repeat: no-repeat, repeat;
 }
 .scholar_pdf.button a:hover {
+  background: url('../images/button-pdf-darkgrey.png?1348797140'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(33%, #ebebeb), color-stop(100%, #e6e6e6));
+  background: url('../images/button-pdf-darkgrey.png?1348797140'), -webkit-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
+  background: url('../images/button-pdf-darkgrey.png?1348797140'), -moz-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
+  background: url('../images/button-pdf-darkgrey.png?1348797140'), -o-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
+  background: url('../images/button-pdf-darkgrey.png?1348797140'), -ms-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
+  background: url('../images/button-pdf-darkgrey.png?1348797140'), linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
+  background-position: 6px 5px, 0 0;
+  background-repeat: no-repeat, repeat;
   border-bottom: 1px solid #989898;
+}
+.scholar_pdf.button a:active {
+  background: url('../images/button-pdf-darkgrey.png?1348797140'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(33%, #dedede), color-stop(100%, #ededed));
+  background: url('../images/button-pdf-darkgrey.png?1348797140'), -webkit-linear-gradient(#ffffff, #dedede 33%, #ededed);
+  background: url('../images/button-pdf-darkgrey.png?1348797140'), -moz-linear-gradient(#ffffff, #dedede 33%, #ededed);
+  background: url('../images/button-pdf-darkgrey.png?1348797140'), -o-linear-gradient(#ffffff, #dedede 33%, #ededed);
+  background: url('../images/button-pdf-darkgrey.png?1348797140'), -ms-linear-gradient(#ffffff, #dedede 33%, #ededed);
+  background: url('../images/button-pdf-darkgrey.png?1348797140'), linear-gradient(#ffffff, #dedede 33%, #ededed);
+  background-position: 6px 5px, 0 0;
+  background-repeat: no-repeat, repeat;
 }
 .scholar_pdf a {
   border-bottom: 0;

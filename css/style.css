@@ -2408,6 +2408,7 @@ div.messages.error {
   margin-top: 1px;
 }
 .scholar_pdf.button a {
+  padding-left: 21px;
   border-bottom: 1px solid #989898;
   padding-top: 5px;
   padding-bottom: 4px;

@@ -2483,9 +2483,6 @@ div.messages.error {
   background-image: linear-gradient(left, #ededed, #f4f4f4);
 }
 
-.my-list-remove .form-submit, .my-list-add .form-submit {
-  padding-left: 21px;
-}
 .my-list-remove .form-submit {
   background: url('../images/button-list-darkgrey.png?1348858394'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #dedede));
   background: url('../images/button-list-darkgrey.png?1348858394'), -webkit-linear-gradient(#ffffff, #dedede);
@@ -2493,8 +2490,9 @@ div.messages.error {
   background: url('../images/button-list-darkgrey.png?1348858394'), -o-linear-gradient(#ffffff, #dedede);
   background: url('../images/button-list-darkgrey.png?1348858394'), -ms-linear-gradient(#ffffff, #dedede);
   background: url('../images/button-list-darkgrey.png?1348858394'), linear-gradient(#ffffff, #dedede);
-  background-position: 6px 5px, 0 0;
+  background-position: 6px 7px, 0 0;
   background-repeat: no-repeat, repeat;
+  padding-left: 24px;
 }
 .my-list-remove .form-submit:hover {
   background: url('../images/button-list-darkgrey.png?1348858394'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(33%, #ebebeb), color-stop(100%, #e6e6e6));
@@ -2503,7 +2501,7 @@ div.messages.error {
   background: url('../images/button-list-darkgrey.png?1348858394'), -o-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
   background: url('../images/button-list-darkgrey.png?1348858394'), -ms-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
   background: url('../images/button-list-darkgrey.png?1348858394'), linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
-  background-position: 6px 5px, 0 0;
+  background-position: 6px 7px, 0 0;
   background-repeat: no-repeat, repeat;
 }
 .my-list-remove .form-submit:active {
@@ -2513,7 +2511,7 @@ div.messages.error {
   background: url('../images/button-list-darkgrey.png?1348858394'), -o-linear-gradient(#ffffff, #dedede 33%, #ededed);
   background: url('../images/button-list-darkgrey.png?1348858394'), -ms-linear-gradient(#ffffff, #dedede 33%, #ededed);
   background: url('../images/button-list-darkgrey.png?1348858394'), linear-gradient(#ffffff, #dedede 33%, #ededed);
-  background-position: 6px 5px, 0 0;
+  background-position: 6px 7px, 0 0;
   background-repeat: no-repeat, repeat;
 }
 .my-list-add .form-submit {
@@ -2523,8 +2521,9 @@ div.messages.error {
   background: url('../images/button-addlist-darkgrey.png?1348858325'), -o-linear-gradient(#ffffff, #dedede);
   background: url('../images/button-addlist-darkgrey.png?1348858325'), -ms-linear-gradient(#ffffff, #dedede);
   background: url('../images/button-addlist-darkgrey.png?1348858325'), linear-gradient(#ffffff, #dedede);
-  background-position: 6px 5px, 0 0;
+  background-position: 6px 7px, 0 0;
   background-repeat: no-repeat, repeat;
+  padding-left: 28px;
 }
 .my-list-add .form-submit:hover {
   background: url('../images/button-addlist-darkgrey.png?1348858325'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(33%, #ebebeb), color-stop(100%, #e6e6e6));
@@ -2533,7 +2532,7 @@ div.messages.error {
   background: url('../images/button-addlist-darkgrey.png?1348858325'), -o-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
   background: url('../images/button-addlist-darkgrey.png?1348858325'), -ms-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
   background: url('../images/button-addlist-darkgrey.png?1348858325'), linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
-  background-position: 6px 5px, 0 0;
+  background-position: 6px 7px, 0 0;
   background-repeat: no-repeat, repeat;
 }
 .my-list-add .form-submit:active {
@@ -2543,7 +2542,7 @@ div.messages.error {
   background: url('../images/button-addlist-darkgrey.png?1348858325'), -o-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
   background: url('../images/button-addlist-darkgrey.png?1348858325'), -ms-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
   background: url('../images/button-addlist-darkgrey.png?1348858325'), linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
-  background-position: 6px 5px, 0 0;
+  background-position: 6px 7px, 0 0;
   background-repeat: no-repeat, repeat;
 }
 

@@ -46,6 +46,12 @@
 .scholar_pdf {
   margin-top: 2px;
   a {
+    &.button {
+      border-bottom: 1px;
+      &:hover {
+        border-bottom: 1px;
+      }
+    }
     border-bottom: 0;
     &:hover {
       border-bottom: 0;

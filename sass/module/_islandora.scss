@@ -46,9 +46,9 @@
 .scholar_pdf {
   margin-top: 2px;
     &.button a {
-      border-bottom: 1px;
+      border-bottom: 1px solid $button-border-3;
       &:hover a {
-        border-bottom: 1px;
+        border-bottom: 1px solid $button-border-3;
       }
     }
   a {

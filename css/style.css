@@ -2405,10 +2405,10 @@ div.messages.error {
   margin-top: 2px;
 }
 .scholar_pdf.button a {
-  border-bottom: 1px;
+  border-bottom: 1px solid #989898;
 }
 .scholar_pdf.button a:hover a {
-  border-bottom: 1px;
+  border-bottom: 1px solid #989898;
 }
 .scholar_pdf a {
   border-bottom: 0;

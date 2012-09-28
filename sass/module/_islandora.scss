@@ -45,10 +45,15 @@
 
 .scholar_pdf {
   margin-top: 2px;
-    &.button a {
-      border-bottom: 1px solid $button-border-3;
-      &:hover a {
+    &.button {
+      margin-top: 0;
+      a {
         border-bottom: 1px solid $button-border-3;
+        padding-top: 5px;
+        padding-bottom: 4px;
+        &:hover {
+          border-bottom: 1px solid $button-border-3;
+        }
       }
     }
   a {

@@ -2404,14 +2404,14 @@ div.messages.error {
 .scholar_pdf {
   margin-top: 2px;
 }
+.scholar_pdf.button a {
+  border-bottom: 1px;
+}
+.scholar_pdf.button a:hover a {
+  border-bottom: 1px;
+}
 .scholar_pdf a {
   border-bottom: 0;
-}
-.scholar_pdf a.button {
-  border-bottom: 1px;
-}
-.scholar_pdf a.button:hover {
-  border-bottom: 1px;
 }
 .scholar_pdf a:hover {
   border-bottom: 0;

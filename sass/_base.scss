@@ -148,8 +148,8 @@ $aether-grid-width-tablet:            752px; // http://gridcalculator.dk/#/752/1
 $aether-grid-width-handheld-landscape:428px; // http://gridcalculator.dk/#/428/12/20/20
 $aether-grid-width-handheld:          308px; // http://gridcalculator.dk/#/308/12/20/20
 
-// Used by aether-grid/debug, aether-grid/default-layout, aether-grid/mediaquery-layout.
 // Grid overlay
+// Used by aether-grids to create a grid debugging overlay.
 $aether-show-grid-background:         false;
 $show-column-grid-backgrounds:        true;
 $show-baseline-grid-backgrounds:      false;

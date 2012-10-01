@@ -2,6 +2,7 @@
 @import '../base';
 
 $aether-show-grid-background: true;
+$aether-float-direction: right;
 
 @if $aether-grid-type-desktop or $aether-grid-type-tablet-landscape or $aether-grid-type-tablet or $aether-grid-type-tablet-landscape or $aether-grid-type-handheld-landscape or $aether-grid-type-handheld == fluid {
   $grid-background-force-fluid: true;

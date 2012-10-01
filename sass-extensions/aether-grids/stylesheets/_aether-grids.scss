@@ -107,12 +107,20 @@ $aether-col-prefix: "c";
   }
   @if $position == last {
     @include aether-clear(right);
-    margin-right: 0;
-    #margin-right: -1em;
+    $dir: right;
+    @if $aether-float-direction == right {
+      $dir: aether-reverse-dir($dir);
+    }
+    margin-#{$dir}: 0;
+    #margin-#{$dir}: -1em;
   } @else if $position == first {
     @include aether-clear(left);
   } @else {
-    margin-right: gutters($columns);
+    $dir: right;
+    @if $aether-float-direction == right {
+      $dir: aether-reverse-dir($dir);
+    }
+    margin-#{$dir}: gutters($columns);
   }
   @if $aether-include-grid-item-base == true {
     @include grid-item-base;
@@ -148,7 +156,7 @@ $aether-col-prefix: "c";
   $n,
   $columns: $aether-columns
 ) {
-  $dir: $aether-float-direction;
+  $dir: left;
   @if $aether-float-direction == right {
     $dir: aether-reverse-dir($dir);
   }
@@ -364,7 +372,12 @@ $debug-column-lightness: 70%;
     $col-width-pc: percentage($col-width / ($grid-width - $aether-gutter-width));
     $gutter-width-pc: percentage($aether-gutter-width / ($grid-width - $aether-gutter-width));
     @for $n from 1 through $columns {
-      $left: ($n - 1) * ($col-width-pc + $gutter-width-pc);
+      $left: '';
+      @if $aether-float-direction == right {
+        $left: (($n - 1) * ($col-width-pc + $gutter-width-pc)) + $gutter-width-pc*2;        
+      } @else {
+        $left: ($n - 1) * ($col-width-pc + $gutter-width-pc);
+      }
       $top: (-$n + 1) * 18px;
       $output: join(
         $output,
@@ -434,26 +447,27 @@ $debug-column-lightness: 70%;
 
   // If rtl include these classes
   @if $rtl == rtl {
-    @if $default == default {
-      #{selector-list(".#{$aether-gridprefix}-#{$media}-#{$aether-col_prefix}", $columns)},
-      #{selector-list(".#{$aether-gridprefix}-all-#{$aether-col_prefix}", $columns)} {
-        float: $aether-float-direction;
-      }
-    } @else {
-      #{selector-list(".#{$aether-gridprefix}-#{$media}-#{$aether-col_prefix}", $columns)} {
-        float: $aether-float-direction;
+    #{selector-list(".#{$aether-gridprefix}-all-#{$aether-col_prefix}", $columns)},
+    #{selector-list(".#{$aether-gridprefix}-#{$media}-#{$aether-col_prefix}", $columns)} {
+      float: $aether-float-direction;
+    }
+
+    // Generate column classes and reset opposite value.
+    @for $n from 1 through $columns {
+      .#{$aether-gridprefix}-#{$media}-#{$aether-col_prefix}#{$n}, .g-all-c#{$n} {
+        @include span-columns($n,$aether-columns);
+        margin-right: 0;
       }
     }
+
   }
 
   // If rtl these classes aren't included.
   @if $rtl == ltr {
 
-    @if $default == default {
-
       // Assure column classes get the grid base
-      #{selector-list(".#{$aether-gridprefix}-#{$media}-#{$aether-col_prefix}", $columns)},
-      #{selector-list(".#{$aether-gridprefix}-all-#{$aether-col_prefix}", $columns)} {
+      #{selector-list(".#{$aether-gridprefix}-all-#{$aether-col_prefix}", $columns)},
+      #{selector-list(".#{$aether-gridprefix}-#{$media}-#{$aether-col_prefix}", $columns)} {
         @include grid-item-base;
       }
 
@@ -475,72 +489,32 @@ $debug-column-lightness: 70%;
          // Generate nested classes.
         @for $x from 1 through $columns - 1 {
           @for $n from 1 through $x {
-            .#{$aether-gridprefix}-all-#{$aether-col_prefix}#{$n}-#{$x},
-            .#{$aether-gridprefix}-#{$media}-#{$aether-col_prefix}#{$n}-#{$x} {
+            .#{$aether-gridprefix}-all-#{$aether-col_prefix}#{$n}-#{$x}, .#{$aether-gridprefix}-#{$media}-#{$aether-col_prefix}#{$n}-#{$x} {
               @include span-columns($n,$x);
             }
           }
         }
       }
 
-    } @else {
-
-      // Assure column classes get the grid base
-      #{selector-list(".#{$aether-gridprefix}-#{$media}-#{$aether-col_prefix}", $columns)} {
-        @include grid-item-base;
-      }
-
-      // Generate column classes.
-      @for $n from 1 through $columns {
-        .#{$aether-gridprefix}-#{$media}-#{$aether-col_prefix}#{$n} {
-          @include span-columns($n,$aether-columns);
-        }
-      }
-
-      @if $aether-nested-classes == true and $aether-grid-type != fixed {
-
-        // Assure nested column classes get the grid base
-        #{nested-selector-list(".#{$aether-gridprefix}-#{$media}-#{$aether-col_prefix}", $columns)} {
-          @include grid-item-base;
-        }
-
-        // Generate column classes.
-        @for $x from 1 through $columns - 1 {
-          @for $n from 1 through $x {
-            .#{$aether-gridprefix}-#{$media}-#{$aether-col_prefix}#{$n}-#{$x} {
-              @include span-columns($n,$x);
-            }
-          }
-        }
-      }
-
-    }
-
-    .#{$aether-gridprefix}-#{$media}-center {
+    .#{$aether-gridprefix}-all-center, .#{$aether-gridprefix}-#{$media}-center {
       margin-left: auto;
       margin-right: auto;
       @include reset-float();
     }
 
-    .#{$aether-gridprefix}-#{$media}-center-text {
+    .#{$aether-gridprefix}-all-center-text, .#{$aether-gridprefix}-#{$media}-center-text {
       text-align: center;
       @include reset-float();
     }
 
-    .#{$aether-gridprefix}-#{$media}-clear {
+    .#{$aether-gridprefix}-#{$media}-#{$aether-col_prefix}#{$aether-columns}, .#{$aether-gridprefix}-all-clear, .#{$aether-gridprefix}-#{$media}-clear {
       clear: both;
     }
 
-    .#{$aether-gridprefix}-#{$media}-#{$aether-col_prefix}#{$aether-columns} {
-      @extend .#{$aether-gridprefix}-#{$aether-media}-clear !optional;
-    }
   }
 
-  @if $default == default {
-    // Generate position classes with all classes
     @for $n from 1 through ($columns) {
-      .#{$aether-gridprefix}-all-#{$aether-pos_prefix}#{$n},
-      .#{$aether-gridprefix}-#{$media}-#{$aether-pos_prefix}#{$n} {
+      .#{$aether-gridprefix}-all-#{$aether-pos_prefix}#{$n}, .#{$aether-gridprefix}-#{$media}-#{$aether-pos_prefix}#{$n} {
         @include position($n,$aether-columns);
       }
     }
@@ -548,33 +522,14 @@ $debug-column-lightness: 70%;
       // Generate nested position classes.
       @for $x from 1 through $columns {
         @for $n from 0 through $x {
-          .#{$aether-gridprefix}-all-#{$aether-pos_prefix}#{$n}-#{$x},
-          .#{$aether-gridprefix}-#{$media}-#{$aether-pos_prefix}#{$n}-#{$x} {
+          .#{$aether-gridprefix}-all-#{$aether-pos_prefix}#{$n}-#{$x}, .#{$aether-gridprefix}-#{$media}-#{$aether-pos_prefix}#{$n}-#{$x} {
             @include position($n,$x);
           }
         }
       }
     }
-  } @else {
-    // Generate position classes without all classes
-    @for $n from 1 through ($columns) {
-      .#{$aether-gridprefix}-#{$aether-media}-p#{$n} {
-        @include position($n,$aether-columns);
-      }
-    }
-    @if $aether-nested-classes == true and $aether-grid-type != fixed {
-      // Generate nested position classes.
-      @for $x from 1 through $columns {
-        @for $n from 0 through $x {
-          .#{$aether-gridprefix}-#{$media}-#{$aether-pos_prefix}#{$n}-#{$x} {
-            @include position($n,$x);
-          }
-        }
-      }
-    }
-  }
 
-  .#{$aether-gridprefix}-#{$media}-right {
+  .#{$aether-gridprefix}-all-right, .#{$aether-gridprefix}-#{$media}-right {
     // Determine the float direction.
     $dir: right;
     @if $aether-float-direction == right {
@@ -583,7 +538,7 @@ $debug-column-lightness: 70%;
     @include float($dir);
   }
 
-  .#{$aether-gridprefix}-#{$media}-left {
+  .#{$aether-gridprefix}-all-left, .#{$aether-gridprefix}-#{$media}-left {
     // Determine the float direction.
     $dir: left;
     @if $aether-float-direction == right {
@@ -592,75 +547,19 @@ $debug-column-lightness: 70%;
     @include float($dir);
   }
 
-  .#{$aether-gridprefix}-#{$media}-f {
+  .#{$aether-gridprefix}-all-f, .#{$aether-gridprefix}-#{$media}-f {
     @include aether-clear(left);
-//    margin-right: -100% !important;
   }
 
-  .#{$aether-gridprefix}-#{$media}-l {
+  .#{$aether-gridprefix}-all-l, .#{$aether-gridprefix}-#{$media}-l {
     @include aether-clear(right);
-    margin-right: 0;
-    #margin-right: -1em;
-//    float: right;
-  }
-
-  @if $default == default {
-    .#{$aether-gridprefix}-all-f {
-      @extend .#{$aether-gridprefix}-#{$media}-f !optional;
+    // Determine the float direction.
+    $dir: right;
+    @if $aether-float-direction == right {
+      $dir: aether-reverse-dir($dir);
     }
-
-    .#{$aether-gridprefix}-all-l {
-      @include aether-clear(right);
-      margin-right: 0 !important;
-      #margin-right: -1em;
-    }
-
-    .#{$aether-gridprefix}-all-clear {
-      @extend .#{$aether-gridprefix}-#{$media}-clear !optional;
-    }
-
-    .#{$aether-gridprefix}-all-right {
-      @extend .#{$aether-gridprefix}-#{$media}-right !optional;
-    }
-
-    .#{$aether-gridprefix}-all-left {
-      @extend .#{$aether-gridprefix}-#{$media}-left !optional;
-    }
-
-    .#{$aether-gridprefix}-all-center {
-      @extend .#{$aether-gridprefix}-#{$media}-center !optional;
-    }
-
-    .#{$aether-gridprefix}-all-center-text {
-      @extend .#{$aether-gridprefix}-#{$media}-center-text !optional;
-    }
-  }
-}
-
-// Zero out certain media classes to avoid specificity problems 
-// in the media class stack when moving things like sidebars around.
-// This must come before column classes.
-@mixin zero-classes($media:$aether-media,$columns: $aether-columns) {
-
-  #{enumerate(".#{$aether-gridprefix}-#{$media}-#{$aether-pos_prefix}", 1, $columns, "")} {
-    margin: {
-      left: 0;
-    }
-  }
-
-  #{enumerate(".#{$aether-gridprefix}-#{$media}-#{$aether-col_prefix}", 1, $columns, "")} {
-    width: auto;
-  }
-
-  .#{$aether-gridprefix}-#{$media}-right {
-    float: $aether-float-direction;
-  }
-
-  .#{$aether-gridprefix}-#{$media}-#{$aether-col_prefix}#{$columns},
-  .#{$aether-gridprefix}-#{$media}-f,
-  .#{$aether-gridprefix}-#{$media}-l,
-  .#{$aether-gridprefix}-#{$media}-clear {
-    clear: none;
+    margin-#{$dir}: 0;
+    #margin-#{$dir}: -1em;
   }
 
 }

@@ -136,3 +136,9 @@
     }
   }
 }
+
+body[class^="page-islandora-solr-search-"] #content-header,
+body[class*=" page-islandora-solr-search-"] #content-header {
+  display: none;
+}
+

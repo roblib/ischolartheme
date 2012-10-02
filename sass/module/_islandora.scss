@@ -152,7 +152,7 @@ body[class*=" page-islandora-solr-search"] #content-header {
   @include trailer(0.5);
   @include nested-container;
   .item-list ul { margin: 0; padding: 0; }
-  .islandora-solr-search-count-limit { @include span-columns(4); }
-  #islandora_solr_result_count { @include span-columns(3); }
+  .islandora-solr-search-count-limit { @include span-columns(4); ul { padding-left: 8px; } }
+  #islandora_solr_result_count { @include span-columns(3); ul { padding-left: 15px; } }
   .islandora-solr-search-pager-top { @include span-columns(5, last); }
 }

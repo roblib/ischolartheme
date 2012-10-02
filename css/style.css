@@ -2577,16 +2577,16 @@ body[class*=" page-islandora-solr-search"] #content-header {
 .islandora-solr-search-controls:after {
   clear: both;
 }
-.islandora-solr-search-controls ul {
-  padding: 0;
+.islandora-solr-search-controls .item-list ul {
+  margin: 0;
 }
 .islandora-solr-search-controls .islandora-solr-search-count-limit {
   margin-right: 1.80505%;
-  width: 23.64621%;
+  width: 32.12996%;
 }
 .islandora-solr-search-controls #islandora_solr_result_count {
   margin-right: 1.80505%;
-  width: 32.12996%;
+  width: 23.64621%;
 }
 .islandora-solr-search-controls .islandora-solr-search-pager-top {
   clear: right;

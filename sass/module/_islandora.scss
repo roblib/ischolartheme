@@ -150,8 +150,8 @@ body[class*=" page-islandora-solr-search"] #content-header {
 
 .islandora-solr-search-controls {
   @include nested-container;
-  ul { padding: 0; }
-  .islandora-solr-search-count-limit { @include span-columns(3); }
-  #islandora_solr_result_count { @include span-columns(4); }
+  .item-list ul { margin: 0; }
+  .islandora-solr-search-count-limit { @include span-columns(4); }
+  #islandora_solr_result_count { @include span-columns(3); }
   .islandora-solr-search-pager-top { @include span-columns(5, last); }
 }

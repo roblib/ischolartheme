@@ -2546,7 +2546,8 @@ div.messages.error {
   background-repeat: no-repeat, repeat;
 }
 
-div[class^="page-islandora-solr-search-"], div[class*=" page-islandora-solr-search-"] {
+body[class^="page-islandora-solr-search-"] #content-header,
+body[class*=" page-islandora-solr-search-"] #content-header {
   display: none;
 }
 

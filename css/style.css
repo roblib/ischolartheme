@@ -2565,6 +2565,7 @@ body[class*=" page-islandora-solr-search"] #content-header {
 }
 
 .islandora-solr-search-controls {
+  margin-bottom: 0.75em;
   clear: left;
   padding-left: 0;
   padding-right: 0;
@@ -2579,6 +2580,7 @@ body[class*=" page-islandora-solr-search"] #content-header {
 }
 .islandora-solr-search-controls .item-list ul {
   margin: 0;
+  padding: 0;
 }
 .islandora-solr-search-controls .islandora-solr-search-count-limit {
   margin-right: 1.80505%;

@@ -2551,7 +2551,9 @@ body[class*=" page-islandora-solr-search"] #content-header {
   display: none;
 }
 
-.islandora-solr-search-count-limit, #islandora_solr_result_count, .islandora-solr-search-pager-top {
+.islandora-solr-search-count-limit,
+#islandora_solr_result_count,
+.islandora-solr-search-pager-top {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -2576,7 +2578,6 @@ body[class*=" page-islandora-solr-search"] #content-header {
 .islandora-solr-search-controls:after {
   clear: both;
 }
-
 .islandora-solr-search-controls ul {
   padding: 0;
 }

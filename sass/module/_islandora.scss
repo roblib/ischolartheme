@@ -142,15 +142,14 @@ body[class*=" page-islandora-solr-search"] #content-header {
   display: none;
 }
 
-.islandora-solr-search-count-limit, #islandora_solr_result_count, .islandora-solr-search-pager-top {
+.islandora-solr-search-count-limit,
+#islandora_solr_result_count,
+.islandora-solr-search-pager-top {
   @include grid-item-base();
 }
 
 .islandora-solr-search-controls {
-  @include container;
-}
-
-.islandora-solr-search-controls {
+  @include container(nested);
   ul { padding: 0; }
   .islandora-solr-search-count-limit { @include span-columns(3); }
   #islandora_solr_result_count { @include span-columns(4); }

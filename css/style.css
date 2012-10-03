@@ -2493,7 +2493,7 @@ div.messages.error {
 }
 .islandora-solr-search-query-inline dd, .islandora-solr-search-query-inline dt {
   font-size: 1em;
-  line-height: 0.75em;
+  line-height: 1.125em;
 }
 
 input.form-my-list-exists {

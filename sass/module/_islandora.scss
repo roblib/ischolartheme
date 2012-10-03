@@ -109,7 +109,7 @@
     padding-left: 35px;
   }
   dd, dt {
-    @include adjust-font-size-to($font-size-normal, 0.5);
+    @include adjust-font-size-to($font-size-normal, 0.75);
   }
 }
 

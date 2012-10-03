@@ -2475,12 +2475,15 @@ div.messages.error {
 }
 
 .islandora-solr-search-query-inline {
-  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #ededed), color-stop(100%, #f4f4f4));
-  background-image: -webkit-linear-gradient(left, #ededed, #f4f4f4);
-  background-image: -moz-linear-gradient(left, #ededed, #f4f4f4);
-  background-image: -o-linear-gradient(left, #ededed, #f4f4f4);
-  background-image: -ms-linear-gradient(left, #ededed, #f4f4f4);
-  background-image: linear-gradient(left, #ededed, #f4f4f4);
+  background: url('../images/solr-search-magglass.png?1349270836') 10px 8px no-repeat, -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #ededed), color-stop(100%, #f4f4f4));
+  background: url('../images/solr-search-magglass.png?1349270836') 10px 8px no-repeat, -webkit-linear-gradient(left, #ededed, #f4f4f4);
+  background: url('../images/solr-search-magglass.png?1349270836') 10px 8px no-repeat, -moz-linear-gradient(left, #ededed, #f4f4f4);
+  background: url('../images/solr-search-magglass.png?1349270836') 10px 8px no-repeat, -o-linear-gradient(left, #ededed, #f4f4f4);
+  background: url('../images/solr-search-magglass.png?1349270836') 10px 8px no-repeat, -ms-linear-gradient(left, #ededed, #f4f4f4);
+  background: url('../images/solr-search-magglass.png?1349270836') 10px 8px no-repeat, linear-gradient(left, #ededed, #f4f4f4);
+}
+.islandora-solr-search-query-inline dl {
+  padding-left: 35px;
 }
 
 .my-list-remove .form-submit {

@@ -2619,7 +2619,7 @@ body[class*=" page-islandora-solr-search"] #content-header {
   width: 23.64621%;
 }
 .islandora-solr-search-controls .islandora-solr-result-count #islandora_solr_result_count {
-  padding-left: 15px;
+  padding-left: 30px;
 }
 .islandora-solr-search-controls .islandora-solr-search-pager-top {
   clear: right;

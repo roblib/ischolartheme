@@ -173,7 +173,7 @@ body[class*=" page-islandora-solr-search"] #content-header {
   .islandora-solr-result-count {
     @include span-columns(3);
     #islandora_solr_result_count {
-      padding-left: 15px;
+      padding-left: 30px;
     }
    }
   .islandora-solr-search-pager-top {

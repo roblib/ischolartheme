@@ -2479,6 +2479,8 @@ div.messages.error {
 }
 
 .islandora-solr-search-query-inline {
+  padding-top: 0.75em;
+  padding-bottom: 0.75em;
   background: url('../images/solr-search-magglass.png?1349270836') 10px 8px no-repeat, -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #ededed), color-stop(100%, #f4f4f4));
   background: url('../images/solr-search-magglass.png?1349270836') 10px 8px no-repeat, -webkit-linear-gradient(left, #ededed, #f4f4f4);
   background: url('../images/solr-search-magglass.png?1349270836') 10px 8px no-repeat, -moz-linear-gradient(left, #ededed, #f4f4f4);
@@ -2488,6 +2490,10 @@ div.messages.error {
 }
 .islandora-solr-search-query-inline dl {
   padding-left: 35px;
+}
+.islandora-solr-search-query-inline dd, .islandora-solr-search-query-inline dt {
+  font-size: 1em;
+  line-height: 0.75em;
 }
 
 input.form-my-list-exists {

@@ -102,9 +102,14 @@
 }
 
 .islandora-solr-search-query-inline {
+  @include padding-leader(0.5);
+  @include padding-trailer(0.5);
   @include background(image-url('solr-search-magglass.png') 10px 8px no-repeat,linear-gradient(left, #ededed, #f4f4f4));
   dl {
     padding-left: 35px;
+  }
+  dd, dt {
+    @include adjust-font-size-to($font-size-normal, 0.5);
   }
 }
 

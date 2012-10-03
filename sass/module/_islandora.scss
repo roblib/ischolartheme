@@ -97,6 +97,10 @@
   }
 }
 
+#block-islandora_solr_search-scholar_current_query {
+  @include trailer(0.5);
+}
+
 .islandora-solr-search-query-inline {
   @include background(image-url('solr-search-magglass.png') 10px 8px no-repeat,linear-gradient(left, #ededed, #f4f4f4));
   dl {

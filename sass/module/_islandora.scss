@@ -176,5 +176,11 @@ body[class*=" page-islandora-solr-search"] #content-header {
       padding-left: 15px;
     }
    }
-  .islandora-solr-search-pager-top { @include span-columns(6, last); }
+  .islandora-solr-search-pager-top {
+    @include span-columns(6, last);
+    .item-list { float: right; }
+    .pager-last, .pager-first {
+      display: none;
+    }
+  }
 }

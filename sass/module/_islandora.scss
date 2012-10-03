@@ -152,6 +152,11 @@ body[class*=" page-islandora-solr-search"] #content-header {
 }
 
 .islandora-solr-search-controls {
+  @include rhythm-borders(1px);
+  border-color: #ddd;
+  border-style: solid;
+  background-color: #ededed;
+  @include border-radius(5px);
   @include trailer(0.5);
   @include nested-container;
   .item-list ul { margin: 0; padding: 0; }

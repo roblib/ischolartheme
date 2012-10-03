@@ -152,7 +152,7 @@ body[class*=" page-islandora-solr-search"] #content-header {
 }
 
 .islandora-solr-search-controls {
-  @include rhythm-borders(1px);
+  @include rhythm-borders(1px, 0.5);
   border-color: #ddd;
   border-style: solid;
   background-color: #ededed;

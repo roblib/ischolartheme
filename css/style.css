@@ -2571,7 +2571,7 @@ body[class*=" page-islandora-solr-search"] #content-header {
 .islandora-solr-search-controls {
   border-style: solid;
   border-width: 0.0625em;
-  padding: 1.4375em;
+  padding: 0.6875em;
   border-color: #ddd;
   border-style: solid;
   background-color: #ededed;

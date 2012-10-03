@@ -2481,19 +2481,19 @@ div.messages.error {
 .islandora-solr-search-query-inline {
   padding-top: 0.75em;
   padding-bottom: 0.75em;
-  background: url('../images/solr-search-magglass.png?1349270836') 10px 8px no-repeat, -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #ededed), color-stop(100%, #f4f4f4));
-  background: url('../images/solr-search-magglass.png?1349270836') 10px 8px no-repeat, -webkit-linear-gradient(left, #ededed, #f4f4f4);
-  background: url('../images/solr-search-magglass.png?1349270836') 10px 8px no-repeat, -moz-linear-gradient(left, #ededed, #f4f4f4);
-  background: url('../images/solr-search-magglass.png?1349270836') 10px 8px no-repeat, -o-linear-gradient(left, #ededed, #f4f4f4);
-  background: url('../images/solr-search-magglass.png?1349270836') 10px 8px no-repeat, -ms-linear-gradient(left, #ededed, #f4f4f4);
-  background: url('../images/solr-search-magglass.png?1349270836') 10px 8px no-repeat, linear-gradient(left, #ededed, #f4f4f4);
+  background: url('../images/solr-search-magglass.png?1349270836') 12px 14px no-repeat, -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #ededed), color-stop(100%, #f4f4f4));
+  background: url('../images/solr-search-magglass.png?1349270836') 12px 14px no-repeat, -webkit-linear-gradient(left, #ededed, #f4f4f4);
+  background: url('../images/solr-search-magglass.png?1349270836') 12px 14px no-repeat, -moz-linear-gradient(left, #ededed, #f4f4f4);
+  background: url('../images/solr-search-magglass.png?1349270836') 12px 14px no-repeat, -o-linear-gradient(left, #ededed, #f4f4f4);
+  background: url('../images/solr-search-magglass.png?1349270836') 12px 14px no-repeat, -ms-linear-gradient(left, #ededed, #f4f4f4);
+  background: url('../images/solr-search-magglass.png?1349270836') 12px 14px no-repeat, linear-gradient(left, #ededed, #f4f4f4);
 }
 .islandora-solr-search-query-inline dl {
   padding-left: 35px;
 }
 .islandora-solr-search-query-inline dd, .islandora-solr-search-query-inline dt {
   font-size: 1em;
-  line-height: 1.125em;
+  line-height: 1.275em;
 }
 
 input.form-my-list-exists {

@@ -1112,17 +1112,10 @@ input[type="submit"]:active {
   border-color: #989898 #b9b9b9 #dddddd;
 }
 
-.ie7 button,
-.ie7 a.button,
 .ie7 input[type="reset"],
 .ie7 input[type="submit"] {
   padding-bottom: 0;
   padding-top: 2px;
-}
-
-.ie7 button {
-  padding-bottom: 1px;
-  padding-top: 1px;
 }
 
 input[type="file"] {

@@ -1052,10 +1052,9 @@ address {
 }
 
 button,
-.button a,
+a.button,
 input[type="reset"],
-input[type="submit"],
-input[type="button"] {
+input[type="submit"] {
   -webkit-background-clip: padding;
   -moz-background-clip: padding;
   background-clip: padding-box;
@@ -1089,10 +1088,9 @@ input[type="button"] {
   width: auto;
 }
 button:hover,
-.button a:hover,
+a.button:hover,
 input[type="reset"]:hover,
-input[type="submit"]:hover,
-input[type="button"]:hover {
+input[type="submit"]:hover {
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(33%, #ebebeb), color-stop(100%, #e6e6e6));
   background: -webkit-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
   background: -moz-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
@@ -1101,10 +1099,9 @@ input[type="button"]:hover {
   background: linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
 }
 button:active,
-.button a:active,
+a.button:active,
 input[type="reset"]:active,
-input[type="submit"]:active,
-input[type="button"]:active {
+input[type="submit"]:active {
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(33%, #dedede), color-stop(100%, #ededed));
   background: -webkit-linear-gradient(#ffffff, #dedede 33%, #ededed);
   background: -moz-linear-gradient(#ffffff, #dedede 33%, #ededed);
@@ -1118,10 +1115,9 @@ input[type="button"]:active {
 }
 
 .ie7 button,
-.ie7 .button a,
+.ie7 a.button,
 .ie7 input[type="reset"],
-.ie7 input[type="submit"],
-.ie7 input[type="button"] {
+.ie7 input[type="submit"] {
   padding-bottom: 0;
   padding-top: 2px;
 }

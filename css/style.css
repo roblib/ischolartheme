@@ -392,7 +392,6 @@ textarea {
 
 input[type="submit"],
 input[type="reset"],
-input[type="button"],
 input[type="radio"],
 input[type="checkbox"] {
   width: auto;
@@ -504,7 +503,6 @@ input[type="week"][disabled] {
   padding-top: 2px;
 }
 
-button[disabled],
 input[disabled],
 select[disabled],
 select[disabled] option,

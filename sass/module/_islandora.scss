@@ -17,8 +17,10 @@
 
 /* Islandora Solr Facet block */
 
-.islandora_solr_search_facet_list .plusminus .minus {
+.islandora_solr_search_facet_list .plusminus {
+  .minus, .plus {
   display: none;
+  }
 }
 
 .islandora_solr_search_facet_wrap {

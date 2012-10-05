@@ -101,7 +101,8 @@ body {
     @include margin-trailer(0.4, $font-size-xxl);
     font-family: $site-name-font-family;
     font-weight: normal;
-    @extend %uppercase;
+    font-variant: small-caps;
+    letter-spacing:1px;
     a {
       @include link-colors($link-color-alt2, $hover: $link-color-alt2, $focus: $link-color-alt2, $visited: $link-color-alt2, $active: $link-color-alt2);
       text-decoration: none;
@@ -109,8 +110,8 @@ body {
   }
 
   .site-slogan {
-    font-variant: small-caps;
-    letter-spacing:1px;
+    @extend %uppercase;
+
     font-family: $site-name-font-family;
     font-weight: normal;
     @include adjust-font-size-to($font-size-xl,0.85);

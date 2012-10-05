@@ -92,7 +92,7 @@ body {
   }
 
   .site-name {
-    @include adjust-font-size-to($font-size-xxl,0.8);
+    @include adjust-font-size-to($font-size-xxl,0.75);
     // Target webkit because of font size difference with small-caps
     @include margin-leader(0);
     @include margin-trailer(0.4, $font-size-xxl);

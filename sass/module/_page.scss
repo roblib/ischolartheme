@@ -76,7 +76,7 @@ body {
     border-left: 1px solid #C7C7C7;
     &.with-logo {
       padding: {
-        top: 3px;
+        top: 5px;
         left: 15px;
       }
       padding-left: 10px;
@@ -92,10 +92,10 @@ body {
   }
 
   .site-name {
-    @include adjust-font-size-to($font-size-xxl,0.8);
+    @include adjust-font-size-to($font-size-xl,0.8);
     // Target webkit because of font size difference with small-caps
     @media screen and (-webkit-min-device-pixel-ratio:0) {
-      @include adjust-font-size-to($font-size-xxxl,0.8);
+      @include adjust-font-size-to($font-size-xxl,0.8);
     }
     @include margin-leader(0);
     @include margin-trailer(0.4, $font-size-xxl);

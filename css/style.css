@@ -2163,7 +2163,7 @@ body.not-front, body.front, body .postscript-wrapper {
   *display: inline;
 }
 .branding .name-and-slogan.with-logo {
-  padding-top: 3px;
+  padding-top: 5px;
   padding-left: 15px;
   padding-left: 10px;
   margin-top: 5px;
@@ -2175,8 +2175,8 @@ body.not-front, body.front, body .postscript-wrapper {
   padding-right: 10px;
 }
 .branding .site-name {
-  font-size: 1.625em;
-  line-height: 0.73846em;
+  font-size: 1.375em;
+  line-height: 0.87273em;
   margin-top: 0em;
   margin-bottom: 0.36923em;
   font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
@@ -2186,8 +2186,8 @@ body.not-front, body.front, body .postscript-wrapper {
 }
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   .branding .site-name {
-    font-size: 1.75em;
-    line-height: 0.68571em;
+    font-size: 1.625em;
+    line-height: 0.73846em;
   }
 }
 .branding .site-name a {

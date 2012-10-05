@@ -94,11 +94,8 @@ body {
   .site-name {
     @include adjust-font-size-to($font-size-xl,0.8);
     // Target webkit because of font size difference with small-caps
-    @media screen and (-webkit-min-device-pixel-ratio:0) {
-      @include adjust-font-size-to($font-size-xxl,0.8);
-    }
     @include margin-leader(0);
-    @include margin-trailer(0.4, $font-size-xxl);
+    @include margin-trailer(0.4, $font-size-xl);
     font-family: $site-name-font-family;
     font-weight: normal;
     font-variant: small-caps;
@@ -111,7 +108,9 @@ body {
 
   .site-slogan {
     @extend %uppercase;
-
+    @media screen and (-webkit-min-device-pixel-ratio:0) {
+      @include adjust-font-size-to($font-size-xxl,0.8);
+    }
     font-family: $site-name-font-family;
     font-weight: normal;
     @include adjust-font-size-to($font-size-xl,0.85);

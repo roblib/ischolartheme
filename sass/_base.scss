@@ -70,6 +70,13 @@ $link-color-visited-alt3:       $link-color-alt3;
 $link-color-active-alt3:        adjust-color($link-color-hover-alt3, $lightness: +10);
 
 
+$link-color-alt4:               #888;
+$link-color-hover-alt4:         adjust-color($link-color-alt4, $lightness: +5);
+$link-color-visited-alt4:       $link-color-alt4;
+$link-color-active-alt4:        adjust-color($link-color-hover-alt4, $lightness: -10);
+
+
+
 // Text Colors
 $text-color:                   #222;
 $text-color-light:             adjust-color($text-color, $lightness: 54);

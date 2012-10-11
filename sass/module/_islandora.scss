@@ -104,7 +104,10 @@
 }
 
 .islandora-solr-simple-adv-search {
-  font-size: 90%;
+  @include adjust-font-size-to($font-size-sm);
+  a {
+    @include link-colors($link-color-alt4, $hover: $link-color-alt4, $focus: $link-color-alt4, $visited: $link-color-alt4, $active: $link-color-alt4)
+  }
 }
 
 #islandora-solr-simple-search-form {

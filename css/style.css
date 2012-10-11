@@ -2500,7 +2500,23 @@ div.messages.error {
 }
 
 .islandora-solr-simple-adv-search {
-  font-size: 90%;
+  font-size: 0.75em;
+  line-height: 2em;
+}
+.islandora-solr-simple-adv-search a {
+  color: #888888;
+}
+.islandora-solr-simple-adv-search a:visited {
+  color: #888888;
+}
+.islandora-solr-simple-adv-search a:focus {
+  color: #888888;
+}
+.islandora-solr-simple-adv-search a:hover {
+  color: #888888;
+}
+.islandora-solr-simple-adv-search a:active {
+  color: #888888;
 }
 
 #islandora-solr-simple-search-form {

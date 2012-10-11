@@ -116,7 +116,7 @@
     }
   }
   @include respond-to(handheld) {
-    margin-top: 0;
+    @include leader(0.5);
     .form-text {
       width: 195px;
     }

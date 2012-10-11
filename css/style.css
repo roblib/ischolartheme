@@ -2514,7 +2514,7 @@ div.messages.error {
 }
 @media only screen and (max-width: 479px) {
   #islandora-solr-simple-search-form {
-    margin-top: 0;
+    margin-top: 0.75em;
   }
   #islandora-solr-simple-search-form .form-text {
     width: 195px;

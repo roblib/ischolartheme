@@ -1237,6 +1237,13 @@ textarea {
   max-width: 100%;
   padding: 2px;
 }
+@media only screen and (max-width: 767px) {
+  input[type=text],
+  input[type=password],
+  textarea {
+    width: 100%;
+  }
+}
 
 /* Form styling */
 form > div,

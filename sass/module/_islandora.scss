@@ -162,7 +162,7 @@ input.form-my-list-exists {
   }
 }
 
-input.form-my-list-add {
+#islandora-bibliography-citation-form .form-submit, input.form-my-list-add {
   @include background(image-url('button-addlist-darkgrey.png'), linear-gradient($button-color-1, $button-color-3));
   background-position: 6px 7px, 0 0;
   background-repeat: no-repeat, repeat;

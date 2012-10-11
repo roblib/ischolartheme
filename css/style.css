@@ -2607,7 +2607,7 @@ input.form-my-list-exists:active {
   background-repeat: no-repeat, repeat;
 }
 
-input.form-my-list-add {
+#islandora-bibliography-citation-form .form-submit, input.form-my-list-add {
   background: url('../images/button-addlist-darkgrey.png?1348858325'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #dedede));
   background: url('../images/button-addlist-darkgrey.png?1348858325'), -webkit-linear-gradient(#ffffff, #dedede);
   background: url('../images/button-addlist-darkgrey.png?1348858325'), -moz-linear-gradient(#ffffff, #dedede);
@@ -2618,7 +2618,7 @@ input.form-my-list-add {
   background-repeat: no-repeat, repeat;
   padding-left: 28px;
 }
-input.form-my-list-add:hover {
+#islandora-bibliography-citation-form .form-submit:hover, input.form-my-list-add:hover {
   background: url('../images/button-addlist-darkgrey.png?1348858325'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(33%, #ebebeb), color-stop(100%, #e6e6e6));
   background: url('../images/button-addlist-darkgrey.png?1348858325'), -webkit-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
   background: url('../images/button-addlist-darkgrey.png?1348858325'), -moz-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
@@ -2628,7 +2628,7 @@ input.form-my-list-add:hover {
   background-position: 6px 7px, 0 0;
   background-repeat: no-repeat, repeat;
 }
-input.form-my-list-add:active {
+#islandora-bibliography-citation-form .form-submit:active, input.form-my-list-add:active {
   background: url('../images/button-addlist-darkgrey.png?1348858325'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(33%, #ebebeb), color-stop(100%, #e6e6e6));
   background: url('../images/button-addlist-darkgrey.png?1348858325'), -webkit-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
   background: url('../images/button-addlist-darkgrey.png?1348858325'), -moz-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);

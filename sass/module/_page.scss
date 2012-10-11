@@ -19,6 +19,7 @@
 .navigation,
 .preface,
 .feature,
+#content,
 .postscript,
 .sidebar,
 #footer,
@@ -26,8 +27,8 @@
   @include margin-trailer(1, $base-font-size);
 }
 
-#content {
-  @include margin-trailer(2, $base-font-size);
+#content .content-inner {
+  @include padding-trailer(2, $base-font-size);
 }
 
 .front .content-inner {

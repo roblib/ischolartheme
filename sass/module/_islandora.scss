@@ -109,6 +109,17 @@
       width: 300px;
     }
   }
+  @include respond-to(handheld-landscape) {
+    .form-text {
+      width: 310px;
+    }
+  }
+  @include respond-to(handheld) {
+    margin-top: 0;
+    .form-text {
+      width: 310px;
+    }
+  }
 }
 
 .islandora-solr-search-query-inline {

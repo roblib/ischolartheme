@@ -2500,23 +2500,23 @@ div.messages.error {
 }
 
 @media only screen and (min-width: 980px) {
-  #edit-islandora-simple-search-query-wrapper .form-text {
+  #islandora-solr-simple-search-form .form-text {
     width: 300px;
   }
 }
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-  #edit-islandora-simple-search-query-wrapper {
+  #islandora-solr-simple-search-form {
     margin-top: 0;
   }
-  #edit-islandora-simple-search-query-wrapper .form-text {
+  #islandora-solr-simple-search-form .form-text {
     width: 310px;
   }
 }
 @media only screen and (max-width: 479px) {
-  #edit-islandora-simple-search-query-wrapper {
+  #islandora-solr-simple-search-form {
     margin-top: 0;
   }
-  #edit-islandora-simple-search-query-wrapper .form-text {
+  #islandora-solr-simple-search-form .form-text {
     width: 195px;
   }
 }

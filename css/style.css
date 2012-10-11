@@ -2108,12 +2108,15 @@ ul li.leaf.comments {
 .navigation,
 .preface,
 .feature,
-#content,
 .postscript,
 .sidebar,
 #footer,
 .footer-columns-wrapper {
   margin-bottom: 1.5em;
+}
+
+#content {
+  margin-bottom: 3em;
 }
 
 .front .content-inner {

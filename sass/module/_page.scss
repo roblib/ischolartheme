@@ -19,12 +19,15 @@
 .navigation,
 .preface,
 .feature,
-#content,
 .postscript,
 .sidebar,
 #footer,
 .footer-columns-wrapper {
   @include margin-trailer(1, $base-font-size);
+}
+
+#content {
+  @include margin-trailer(2, $base-font-size);
 }
 
 .front .content-inner {

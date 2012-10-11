@@ -2504,6 +2504,19 @@ div.messages.error {
     width: 300px;
   }
 }
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  #edit-islandora-simple-search-query-wrapper .form-text {
+    width: 310px;
+  }
+}
+@media only screen and (max-width: 479px) {
+  #edit-islandora-simple-search-query-wrapper {
+    margin-top: 0;
+  }
+  #edit-islandora-simple-search-query-wrapper .form-text {
+    width: 310px;
+  }
+}
 
 .islandora-solr-search-query-inline {
   padding-top: 0.375em;

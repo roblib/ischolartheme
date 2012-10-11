@@ -2499,6 +2499,12 @@ div.messages.error {
   margin-bottom: 0.75em;
 }
 
+@media only screen and (min-width: 768px) {
+  #edit-islandora-simple-search-query-wrapper .form-text {
+    width: 300px;
+  }
+}
+
 .islandora-solr-search-query-inline {
   padding-top: 0.375em;
   padding-bottom: 0.375em;
@@ -2515,11 +2521,6 @@ div.messages.error {
 .islandora-solr-search-query-inline dd, .islandora-solr-search-query-inline dt {
   font-size: 1em;
   line-height: 1.275em;
-}
-@media only screen and (min-width: 768px) {
-  .islandora-solr-search-query-inline input.form-text {
-    width: 300px;
-  }
 }
 
 input.form-my-list-exists {

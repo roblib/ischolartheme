@@ -103,6 +103,14 @@
   @include trailer(0.5);
 }
 
+#edit-islandora-simple-search-query-wrapper {
+  @include respond-above(tablet) {
+    .form-text {
+      width: 300px;
+    }
+  }
+}
+
 .islandora-solr-search-query-inline {
   @include padding-leader(0.25);
   @include padding-trailer(0.25);
@@ -112,11 +120,6 @@
   }
   dd, dt {
     @include adjust-font-size-to($font-size-normal, 0.85);
-  }
-  @include respond-above(tablet) {
-    input.form-text {
-      width: 300px;
-    }
   }
 }
 

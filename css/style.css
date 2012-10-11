@@ -2177,11 +2177,11 @@ body.not-front, body.front, body .postscript-wrapper {
 @media only screen and (max-width: 479px) {
   .branding .name-and-slogan.with-logo {
     border-left: 0;
-    padding-left: 0em;
-    padding-top: 0;
+    font-size: 90%;
     margin-top: 0;
+    padding-left: 2.4em;
+    padding-top: 0;
     text-align: left;
-    font-size: 80%;
   }
 }
 .branding .logo {
@@ -2201,7 +2201,7 @@ body.not-front, body.front, body .postscript-wrapper {
 @media only screen and (max-width: 479px) {
   .branding .logo {
     border-left: 0;
-    padding-left: 0em;
+    padding-left: 2em;
     padding-top: 1em;
   }
 }
@@ -2510,13 +2510,13 @@ div.messages.error {
   color: #888888;
 }
 .islandora-solr-simple-adv-search a:focus {
-  color: #888888;
+  color: #959595;
 }
 .islandora-solr-simple-adv-search a:hover {
-  color: #888888;
+  color: #959595;
 }
 .islandora-solr-simple-adv-search a:active {
-  color: #888888;
+  color: #7b7b7b;
 }
 
 #islandora-solr-simple-search-form {

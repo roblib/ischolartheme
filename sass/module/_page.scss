@@ -87,11 +87,11 @@ body {
       }
       @include respond-to(handheld) {
         border-left: 0;
-        padding-left: 0em;
-        padding-top: 0;
+        font-size: 90%;
         margin-top: 0;
+        padding-left: 2.4em;
+        padding-top: 0;
         text-align: left;
-        font-size: 80%;
       }
     }
   }
@@ -108,7 +108,7 @@ body {
     }
     @include respond-to(handheld) {
       border-left: 0;
-      padding-left: 0em;
+      padding-left: 2em;
       padding-top: 1em;
     }
   }

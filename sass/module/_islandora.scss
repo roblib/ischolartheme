@@ -106,7 +106,7 @@
 .islandora-solr-simple-adv-search {
   @include adjust-font-size-to($font-size-sm);
   a {
-    @include link-colors($link-color-alt4, $hover: $link-color-alt4, $focus: $link-color-alt4, $visited: $link-color-alt4, $active: $link-color-alt4)
+    @include link-colors($link-color-alt4, $hover: $link-color-hover-alt4, $focus: $link-color-hover-alt4, $visited: $link-color-visited-alt4, $active: $link-color-active-alt4)
   }
 }
 

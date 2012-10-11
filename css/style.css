@@ -110,11 +110,6 @@ textarea {
   font-size: 100%;
 }
 
-button {
-  color: #222222;
-  font-family: "Helvetica Neue", "Helvetica", Arial, "Liberation Sans", FreeSans, sans-serif;
-}
-
 /* Links */
 a {
   text-decoration: none;
@@ -1049,6 +1044,7 @@ address {
   content: "";
 }
 
+.teaser-button,
 button,
 a.button,
 input[type="reset"],
@@ -1085,6 +1081,7 @@ input[type="submit"] {
   padding: 3px 10px;
   width: auto;
 }
+.teaser-button:hover,
 button:hover,
 a.button:hover,
 input[type="reset"]:hover,
@@ -1096,6 +1093,7 @@ input[type="submit"]:hover {
   background: -ms-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
   background: linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
 }
+.teaser-button:active,
 button:active,
 a.button:active,
 input[type="reset"]:active,
@@ -2117,7 +2115,7 @@ ul li.leaf.comments {
 }
 
 #content .content-inner {
-  padding-bottom: 3em;
+  padding-bottom: 1.5em;
 }
 
 .front .content-inner {

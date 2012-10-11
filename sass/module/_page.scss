@@ -28,7 +28,7 @@
 }
 
 #content .content-inner {
-  @include padding-trailer(2, $base-font-size);
+  @include padding-trailer(1, $base-font-size);
 }
 
 .front .content-inner {

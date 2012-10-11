@@ -103,7 +103,7 @@
   @include trailer(0.5);
 }
 
-#edit-islandora-simple-search-query-wrapper {
+#islandora-solr-simple-search-form {
   @include respond-above(tablet) {
     .form-text {
       width: 300px;

@@ -2157,7 +2157,6 @@ body.not-front, body.front, body .postscript-wrapper {
   vertical-align: middle;
   *vertical-align: auto;
   color: #333;
-  border-left: 1px solid #C7C7C7;
 }
 .branding .name-and-slogan {
   *display: inline;
@@ -2165,6 +2164,7 @@ body.not-front, body.front, body .postscript-wrapper {
 .branding .name-and-slogan.with-logo {
   padding-top: 5px;
   padding-left: 15px;
+  border-left: 1px solid #C7C7C7;
   padding-left: 10px;
   margin-top: 5px;
 }

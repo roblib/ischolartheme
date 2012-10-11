@@ -73,22 +73,28 @@ body {
   .name-and-slogan {
     @include inline-block;
     color: #333;
-    border-left: 1px solid #C7C7C7;
     &.with-logo {
       padding: {
         top: 5px;
         left: 15px;
       }
+      border-left: 1px solid #C7C7C7;
       padding-left: 10px;
       margin-top: 5px;
+      @include respond-below(handheld-landscape) {
+        border-left: 0;
+        padding-left: 3px;
+      }
     }
   }
 
   .logo {
     @include float(left);
-//  @extend .element-invisible;
     @include margin-trailer(0.5);
     padding-right: 10px;
+    @include respond-below(handheld-landscape) {
+      padding-right: 0;
+    }
   }
 
   .site-name {

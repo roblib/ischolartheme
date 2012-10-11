@@ -2499,7 +2499,7 @@ div.messages.error {
   margin-bottom: 0.75em;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 980px) {
   #edit-islandora-simple-search-query-wrapper .form-text {
     width: 300px;
   }

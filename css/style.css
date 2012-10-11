@@ -2499,6 +2499,10 @@ div.messages.error {
   margin-bottom: 0.75em;
 }
 
+.islandora-solr-simple-adv-search {
+  font-size: 90%;
+}
+
 #islandora-solr-simple-search-form {
   margin-bottom: 0em;
 }

@@ -51,3 +51,27 @@
     }
   }
 }
+
+@mixin respond-above($aether-device) {
+  // Used by visibility classes only
+  @if $aether-device == handheld {
+    @media only screen and (min-width: $aether-break-small) {
+      @content;
+    }
+  }
+  @if $aether-device == tablet {
+    @media only screen and (min-width: $aether-break-medium) {
+      @content;
+    }
+  }
+  @if $aether-device == tablet-landscape {
+    @media only screen and (min-width: $aether-break-large) {
+      @content;
+    }
+  }
+  @if $aether-device == desktop {
+    @media only screen and (min-width: $aether-break-wide) {
+      @content;
+    }
+  }
+}

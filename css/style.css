@@ -2516,6 +2516,11 @@ div.messages.error {
   font-size: 1em;
   line-height: 1.275em;
 }
+@media only screen and (min-width: 768px) {
+  .islandora-solr-search-query-inline #edit-islandora-simple-search-query {
+    width: 300px;
+  }
+}
 
 input.form-my-list-exists {
   background: url('../images/button-list-darkgrey.png?1348858394'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #dedede));

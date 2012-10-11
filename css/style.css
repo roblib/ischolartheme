@@ -1146,7 +1146,7 @@ fieldset {
 .form-item,
 .form-actions {
   margin-top: 0em;
-  margin-bottom: 0em;
+  margin-bottom: 1.5em;
 }
 
 .container-inline .form-actions,
@@ -1198,12 +1198,6 @@ div.form-item div.password-suggestions {
 .form-type-radio .description,
 .form-type-checkbox .description {
   margin-left: 1.365em;
-}
-
-.form-item,
-.form-actions {
-  margin-top: 1em;
-  margin-bottom: 1em;
 }
 
 tr.odd .form-item,

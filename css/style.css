@@ -2165,14 +2165,24 @@ body.not-front, body.front, body .postscript-wrapper {
   padding-top: 5px;
   padding-left: 15px;
   border-left: 1px solid #C7C7C7;
-  padding-left: 10px;
   margin-top: 5px;
+}
+@media only screen and (max-width: 767px) {
+  .branding .name-and-slogan.with-logo {
+    border-left: 0;
+    padding-left: 3px;
+  }
 }
 .branding .logo {
   display: inline;
   float: left;
   margin-bottom: 0.75em;
   padding-right: 10px;
+}
+@media only screen and (max-width: 767px) {
+  .branding .logo {
+    padding-right: 0;
+  }
 }
 .branding .site-name {
   font-size: 1.625em;

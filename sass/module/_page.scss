@@ -79,9 +79,8 @@ body {
         left: 15px;
       }
       border-left: 1px solid #C7C7C7;
-      padding-left: 10px;
       margin-top: 5px;
-      @include respond-below(handheld-landscape) {
+      @include respond-below(tablet) {
         border-left: 0;
         padding-left: 3px;
       }
@@ -92,7 +91,7 @@ body {
     @include float(left);
     @include margin-trailer(0.5);
     padding-right: 10px;
-    @include respond-below(handheld-landscape) {
+    @include respond-below(tablet) {
       padding-right: 0;
     }
   }

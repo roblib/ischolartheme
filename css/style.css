@@ -1059,7 +1059,7 @@ input[type="submit"] {
   background: -o-linear-gradient(#ffffff, #dedede);
   background: -ms-linear-gradient(#ffffff, #dedede);
   background: linear-gradient(#ffffff, #dedede);
-  font-size: 12px;
+  font-size: 0.75em;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;

@@ -10,7 +10,7 @@ input[type="submit"] {
   @include background-clip(padding-box);
   background: $button-background image-url("button.png") repeat-x;
   @include background(linear-gradient($button-color-1, $button-color-3));
-  font-size: $font-size-sm;
+  font-size: px-to-em($font-size-sm);
   @include border-radius(4px);
   @include text-shadow(rgba(white, 0) 0 1px 1px);
   -webkit-appearance: none;

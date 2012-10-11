@@ -436,7 +436,6 @@ input[type="time"],
 input[type="url"],
 input[type="week"] {
   font-size: 1em;
-  line-height: 1.5em;
   -webkit-background-clip: padding;
   -moz-background-clip: padding;
   background-clip: padding-box;
@@ -457,7 +456,7 @@ input[type="week"] {
   color: #222222;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   outline: 0;
-  padding: 2px;
+  padding: 3px;
   text-align: left;
 }
 textarea[disabled],
@@ -1243,9 +1242,8 @@ input[type=file] {
 input[type=text],
 input[type=password],
 textarea {
-  line-height: 24px;
   max-width: 100%;
-  padding: 2px;
+  padding: 3px;
 }
 @media only screen and (max-width: 767px) {
   input[type=text],

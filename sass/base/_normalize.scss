@@ -413,7 +413,7 @@ input[type="text"],
 input[type="time"],
 input[type="url"],
 input[type="week"] {
-  @include adjust-font-size-to($font-size-normal,1);
+  font-size: px-to-em($font-size-normal);
   @include background-clip(padding-box);
   @include border-radius(0);
   @include box-sizing(border-box);
@@ -424,7 +424,7 @@ input[type="week"] {
   color: $text-color;
   font-family: $input-font-family;
   outline: 0;
-  padding: 2px;
+  padding: 3px;
   text-align: left;
   &[disabled] {
     background-color: $form-background-disabled;

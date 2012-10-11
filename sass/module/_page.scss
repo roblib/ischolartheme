@@ -82,7 +82,8 @@ body {
       margin-top: 5px;
       @include respond-below(tablet) {
         border-left: 0;
-        padding-left: 3px;
+        padding-left: 0;
+        font-size: 80%;
       }
     }
   }
@@ -93,6 +94,9 @@ body {
     padding-right: 10px;
     @include respond-below(tablet) {
       padding-right: 0;
+      img {
+        width: 90%;
+      }
     }
   }
 

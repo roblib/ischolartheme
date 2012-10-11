@@ -110,6 +110,7 @@
     }
   }
   @include respond-to(handheld-landscape) {
+    margin-top: 0;
     .form-text {
       width: 310px;
     }
@@ -117,7 +118,7 @@
   @include respond-to(handheld) {
     margin-top: 0;
     .form-text {
-      width: 310px;
+      width: 195px;
     }
   }
 }

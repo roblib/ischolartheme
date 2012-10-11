@@ -2505,6 +2505,9 @@ div.messages.error {
   }
 }
 @media only screen and (min-width: 480px) and (max-width: 767px) {
+  #edit-islandora-simple-search-query-wrapper {
+    margin-top: 0;
+  }
   #edit-islandora-simple-search-query-wrapper .form-text {
     width: 310px;
   }
@@ -2514,7 +2517,7 @@ div.messages.error {
     margin-top: 0;
   }
   #edit-islandora-simple-search-query-wrapper .form-text {
-    width: 310px;
+    width: 195px;
   }
 }
 

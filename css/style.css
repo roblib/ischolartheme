@@ -2167,10 +2167,20 @@ body.not-front, body.front, body .postscript-wrapper {
   border-left: 1px solid #C7C7C7;
   margin-top: 5px;
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (min-width: 480px) and (max-width: 767px) {
   .branding .name-and-slogan.with-logo {
     border-left: 0;
     padding-left: 0;
+    font-size: 80%;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .branding .name-and-slogan.with-logo {
+    border-left: 0;
+    padding-left: 0em;
+    padding-top: 0;
+    margin-top: 0;
+    text-align: left;
     font-size: 80%;
   }
 }
@@ -2180,12 +2190,19 @@ body.not-front, body.front, body .postscript-wrapper {
   margin-bottom: 0.75em;
   padding-right: 10px;
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (min-width: 480px) and (max-width: 767px) {
   .branding .logo {
     padding-right: 0;
   }
   .branding .logo img {
     width: 90%;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .branding .logo {
+    border-left: 0;
+    padding-left: 0em;
+    padding-top: 1em;
   }
 }
 .branding .site-name {

@@ -1081,6 +1081,15 @@ input[type="submit"] {
   padding: 3px 10px;
   width: auto;
 }
+.teaser-button::-moz-focus-inner,
+button::-moz-focus-inner,
+a.button::-moz-focus-inner,
+input[type="reset"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
 .teaser-button:hover,
 button:hover,
 a.button:hover,

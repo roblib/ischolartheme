@@ -16,8 +16,8 @@ fieldset {
 
 .form-item,
 .form-actions {
-  @include margin-leader(1, $font-size-normal);
-  @include margin-trailer(1, $font-size-normal);
+  @include margin-leader(0);
+  @include margin-trailer(0, $font-size-normal);
 }
 
 // system.theme.css override

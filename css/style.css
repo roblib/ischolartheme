@@ -1110,6 +1110,10 @@ input[type="submit"]:active {
   border-color: #989898 #b9b9b9 #dddddd;
 }
 
+.teaser-button {
+  margin-bottom: 1.5em;
+}
+
 .ie7 input[type="reset"],
 .ie7 input[type="submit"] {
   padding-bottom: 0;

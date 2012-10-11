@@ -104,6 +104,7 @@
 }
 
 #islandora-solr-simple-search-form {
+  @include trailer(0);
   @include respond-above(tablet) {
     .form-text {
       width: 300px;

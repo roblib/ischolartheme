@@ -114,7 +114,7 @@
     @include adjust-font-size-to($font-size-normal, 0.85);
   }
   @include respond-above(tablet) {
-    #edit-islandora-simple-search-query {
+    input.form-text {
       width: 300px;
     }
   }

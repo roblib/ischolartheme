@@ -2517,7 +2517,7 @@ div.messages.error {
   line-height: 1.275em;
 }
 @media only screen and (min-width: 768px) {
-  .islandora-solr-search-query-inline #edit-islandora-simple-search-query {
+  .islandora-solr-search-query-inline input.form-text {
     width: 300px;
   }
 }

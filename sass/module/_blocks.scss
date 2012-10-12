@@ -76,7 +76,7 @@
       @include horizontal-list-container;
       @include horizontal-list-item(10px, left);
       list-style: none;
-      @include adjust-font-size-to($font-size-lg);
+      @include adjust-font-size-to($font-size-normal);
       &.first {
         float: left;
         @include font-icon-base(entypo, 1.1em, 0em);
@@ -92,17 +92,18 @@
       &.last {
         float: right;
         a {
+          padding-left: 24px;
           position: relative;
-          padding-left: 26px;
+          text-transform: uppercase;
           &:before {
+            border-bottom: 2px solid $link-color-hover-alt;
+            border-top: 7px double $link-color-hover-alt;
             content: "";
+            height: 3px;
+            left: 0px;
             position: absolute;
             top: 20%;
-            left: 0px;
-            width: 20px;
-            height: 3px;
-            border-top: 9px double $link-color-hover-alt;
-            border-bottom: 3px solid $link-color-hover-alt;
+            width: 18px;
           }
         }
       }

@@ -93,13 +93,13 @@
         float: right;
         a {
           position: relative;
-          padding-left: 35px;
+          padding-left: 26px;
           &:before {
             content: "";
             position: absolute;
             top: 20%;
             left: 0px;
-            width: 25px;
+            width: 20px;
             height: 3px;
             border-top: 9px double $link-color-hover-alt;
             border-bottom: 3px solid $link-color-hover-alt;

@@ -70,6 +70,7 @@ stylesheets[all][] = css/style.css
 scripts[] = js/ios-orientationchange-fix.js
 scripts[] = js/jquery_example/jquery.example.min.js
 scripts[] = js/searchtext.js
+scripts[] = js/responsivemenu.js
 
 ; --------------------------------------------------------------------------------
 ; Optional Drupal Compass Module Support

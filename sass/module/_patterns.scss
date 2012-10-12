@@ -57,7 +57,7 @@
 %inline-login {
   #user-login-form .item-list ul { margin: 0 !important; }
   #edit-submit {
-    @include margin-leader(1);
+    @include margin-leader(0);
     @include margin-trailer(0);
   }
   &.block {

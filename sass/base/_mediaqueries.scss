@@ -55,12 +55,12 @@
 @mixin respond-above($aether-device) {
   // Used by visibility classes only
   @if $aether-device == handheld {
-    @media only screen and (min-width: $aether-break-smallest) {
+    @media only screen and (min-width: $aether-break-small) {
       @content;
     }
   }
   @if $aether-device == handheld-landscape {
-    @media only screen and (min-width: $aether-break-small) {
+    @media only screen and (min-width: $aether-break-medium) {
       @content;
     }
   }

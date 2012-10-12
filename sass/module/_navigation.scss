@@ -12,6 +12,13 @@
 // Look here for the Compass mixin docs http://compass-style.org/index/mixins/
 // ---------------------------------------------------------------------------
 
+.region-user-first {
+  display: none;
+  color: #B9B9B9;
+  background-color: #363636;
+  @include border-bottom-left-radius(5px);
+}
+
 /* Primary and Secondary menus */
 
 #primary {
@@ -41,10 +48,9 @@
 
 // Secondary links get a default styling and must be in upper right region
 
-#secondary, .region-user-second ul.menu {
+%round-bottom-menu {
   background-color: #363636;
   @include border-bottom-radius(5px);
-  @include horizontal-list-container;
   float: right;
   padding: 0 $typographic-indent 6px $typographic-indent;
   > li {
@@ -53,11 +59,21 @@
       @include link-colors($link-color-alt, $link-color-hover-alt, $link-color-active-alt, $link-color-visited-alt, $link-color-hover-alt);
       &.active { color: $link-color-active-alt }
     }
-    @include horizontal-list-item(10px, left);
-    @include adjust-font-size-to($font-size-sm, 0.4);
-    border-right: 1px solid $link-color-alt;
-    &.last {
-      border-right: 0px;
+  }
+}
+
+#block-menu-secondary-links {
+  ul.menu {
+    @extend %round-bottom-menu;
+    margin: 0;
+  > li {
+      @include horizontal-list-container;
+      @include horizontal-list-item(10px, left);
+      @include adjust-font-size-to($font-size-sm, 0.4);
+      border-right: 1px solid $link-color-alt;
+      &.last {
+        border-right: 0px;
+      }
     }
   }
 }
@@ -67,6 +83,7 @@
 @include font-icon-family(entypo);
 
 #block-menu-primary-links {
+  @extend %above-handheld-landscape-visible !optional;
   ul { padding-left: 0; }
   a {
     @include link-colors($link-color-alt3, $link-color-hover-alt3, $link-color-active-alt3, $link-color-visited-alt3, $link-color-hover-alt3);

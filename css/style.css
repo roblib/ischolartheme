@@ -706,38 +706,6 @@ optgroup {
   text-transform: lowercase;
 }
 
-#user-login-form #user-login-form .item-list ul {
-  margin: 0 !important;
-}
-#user-login-form #edit-submit {
-  margin-top: 1.5em;
-  margin-bottom: 0em;
-}
-.block#user-login-form {
-  margin-bottom: 0em;
-}
-#user-login-form .form-item, #user-login-form .form-actions, #user-login-form label, #user-login-form .item-list ul li {
-  display: -moz-inline-box;
-  -moz-box-orient: vertical;
-  display: inline-block;
-  vertical-align: middle;
-  *vertical-align: auto;
-  display: inline;
-  float: left;
-  margin-bottom: 0em;
-  padding-right: 3px;
-  border-radius: 0;
-}
-#user-login-form .form-item, #user-login-form .form-actions, #user-login-form label, #user-login-form .item-list ul li {
-  *display: inline;
-}
-#user-login-form .item-list {
-  clear: left;
-}
-#user-login-form .item-list ul li {
-  padding-right: 10px;
-}
-
 /*
  * ==================================================
  * Typography
@@ -1671,6 +1639,15 @@ ul.primary a.active {
  * General link styling is located in normalize.scss
  * ==================================================
  */
+.region-user-first {
+  display: none;
+  color: #B9B9B9;
+  background-color: #363636;
+  -moz-border-radius-bottomleft: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
 /* Primary and Secondary menus */
 .grid-dis-nav #primary > li {
   list-style-image: none;
@@ -1699,7 +1676,7 @@ ul.primary a.active {
   padding-top: 0;
 }
 
-#secondary, .region-user-second ul.menu {
+#block-menu-secondary-links ul.menu, #block-menu-menu-handheld-menu {
   background-color: #363636;
   -moz-border-radius-bottomleft: 5px;
   -webkit-border-bottom-left-radius: 5px;
@@ -1707,20 +1684,36 @@ ul.primary a.active {
   -moz-border-radius-bottomright: 5px;
   -webkit-border-bottom-right-radius: 5px;
   border-bottom-right-radius: 5px;
-  margin: 0;
-  padding: 0;
-  border: 0;
   float: right;
   padding: 0 26px 6px 26px;
 }
-#secondary:before, #secondary:after, .region-user-second ul.menu:before, .region-user-second ul.menu:after {
-  content: " ";
-  display: table;
+#block-menu-secondary-links ul.menu > li a, #block-menu-menu-handheld-menu > li a {
+  text-transform: uppercase;
+  color: #b9b9b9;
 }
-#secondary:after, .region-user-second ul.menu:after {
-  clear: both;
+#block-menu-secondary-links ul.menu > li a:visited, #block-menu-menu-handheld-menu > li a:visited {
+  color: #b9b9b9;
 }
-#secondary > li, .region-user-second ul.menu > li {
+#block-menu-secondary-links ul.menu > li a:focus, #block-menu-menu-handheld-menu > li a:focus {
+  color: #c6c6c6;
+}
+#block-menu-secondary-links ul.menu > li a:hover, #block-menu-menu-handheld-menu > li a:hover {
+  color: #c6c6c6;
+}
+#block-menu-secondary-links ul.menu > li a:active, #block-menu-menu-handheld-menu > li a:active {
+  color: #dfdfdf;
+}
+#block-menu-secondary-links ul.menu > li a.active, #block-menu-menu-handheld-menu > li a.active {
+  color: #dfdfdf;
+}
+
+#block-menu-secondary-links ul.menu {
+  margin: 0;
+}
+#block-menu-secondary-links ul.menu > li {
+  margin: 0;
+  padding: 0;
+  border: 0;
   list-style-image: none;
   list-style-type: none;
   margin-left: 0;
@@ -1733,35 +1726,23 @@ ul.primary a.active {
   line-height: 0.8em;
   border-right: 1px solid #b9b9b9;
 }
-#secondary > li a, .region-user-second ul.menu > li a {
-  text-transform: uppercase;
-  color: #b9b9b9;
+#block-menu-secondary-links ul.menu > li:before, #block-menu-secondary-links ul.menu > li:after {
+  content: " ";
+  display: table;
 }
-#secondary > li a:visited, .region-user-second ul.menu > li a:visited {
-  color: #b9b9b9;
+#block-menu-secondary-links ul.menu > li:after {
+  clear: both;
 }
-#secondary > li a:focus, .region-user-second ul.menu > li a:focus {
-  color: #c6c6c6;
-}
-#secondary > li a:hover, .region-user-second ul.menu > li a:hover {
-  color: #c6c6c6;
-}
-#secondary > li a:active, .region-user-second ul.menu > li a:active {
-  color: #dfdfdf;
-}
-#secondary > li a.active, .region-user-second ul.menu > li a.active {
-  color: #dfdfdf;
-}
-#secondary > li:first-child, #secondary > li.first, .region-user-second ul.menu > li:first-child, .region-user-second ul.menu > li.first {
+#block-menu-secondary-links ul.menu > li:first-child, #block-menu-secondary-links ul.menu > li.first {
   padding-left: 0;
 }
-#secondary > li:last-child, .region-user-second ul.menu > li:last-child {
+#block-menu-secondary-links ul.menu > li:last-child {
   padding-right: 0;
 }
-#secondary > li.last, .region-user-second ul.menu > li.last {
+#block-menu-secondary-links ul.menu > li.last {
   padding-right: 0;
 }
-#secondary > li.last, .region-user-second ul.menu > li.last {
+#block-menu-secondary-links ul.menu > li.last {
   border-right: 0px;
 }
 
@@ -2013,6 +1994,110 @@ ul li.leaf.comments {
  */
 .block {
   margin-bottom: 1.5em;
+}
+
+.region-user-first a {
+  color: #b9b9b9;
+}
+.region-user-first a:visited {
+  color: #b9b9b9;
+}
+.region-user-first a:focus {
+  color: #c6c6c6;
+}
+.region-user-first a:hover {
+  color: #c6c6c6;
+}
+.region-user-first a:active {
+  color: #dfdfdf;
+}
+
+#block-menu-menu-clone-primary-links,
+#block-menu-menu-clone-secondary-links {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-background-clip: padding;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  display: inline;
+  float: left;
+}
+#block-menu-menu-clone-primary-links h2,
+#block-menu-menu-clone-secondary-links h2 {
+  display: none;
+}
+#block-menu-menu-clone-primary-links ul,
+#block-menu-menu-clone-secondary-links ul {
+  margin: 0;
+  padding: 0;
+}
+#block-menu-menu-clone-primary-links ul li.leaf,
+#block-menu-menu-clone-secondary-links ul li.leaf {
+  list-style: none;
+  list-style-image: none;
+}
+
+#block-menu-menu-clone-secondary-links {
+  margin-right: 1.80505%;
+  width: 32.12996%;
+  text-align: right;
+}
+#block-menu-menu-clone-secondary-links ul {
+  padding-right: 0px;
+}
+
+#block-menu-menu-clone-primary-links {
+  clear: right;
+  margin-right: 0;
+  #margin-right: -1em;
+  width: 66.06498%;
+}
+#block-menu-menu-clone-primary-links ul {
+  border-left: 1px solid #797979;
+  padding-left: 8px;
+}
+
+#block-menu-menu-handheld-menu {
+  margin-bottom: 0.75em;
+}
+#block-menu-menu-handheld-menu a {
+  color: #b9b9b9;
+}
+#block-menu-menu-handheld-menu a:visited {
+  color: #b9b9b9;
+}
+#block-menu-menu-handheld-menu a:focus {
+  color: #c6c6c6;
+}
+#block-menu-menu-handheld-menu a:hover {
+  color: #c6c6c6;
+}
+#block-menu-menu-handheld-menu a:active {
+  color: #dfdfdf;
+}
+#block-menu-menu-handheld-menu ul {
+  margin: 0;
+  padding: 0;
+}
+#block-menu-menu-handheld-menu ul li {
+  list-style: none;
+  font-size: 1.125em;
+  line-height: 1.33333em;
+}
+#block-menu-menu-handheld-menu ul li a {
+  position: relative;
+  padding-left: 35px;
+}
+#block-menu-menu-handheld-menu ul li a:before {
+  content: "";
+  position: absolute;
+  top: 20%;
+  left: 0px;
+  width: 25px;
+  height: 3px;
+  border-top: 9px double #fff;
+  border-bottom: 3px solid #fff;
 }
 
 /* Search block form */
@@ -2782,6 +2867,74 @@ body[class*=" page-islandora-solr-search"] #content-header {
   line-height: 1.71429em;
 }
 
+#block-menu-primary-links li a.menu-item-id-308:before {
+  content: "👤";
+}
+
+#block-menu-primary-links li a.menu-item-id-172:before {
+  content: "👥";
+}
+
+.islandora-solr-search-query-x-icon:before {
+  content: "✖";
+}
+
+#block-menu-primary-links li a.menu-item-id-274:before {
+  content: "📤";
+}
+
+#block-menu-primary-links li a.menu-item-id-288:before {
+  content: "";
+}
+
+#block-menu-primary-links li a.menu-item-id-290:before {
+  content: "📁";
+}
+
+#block-menu-primary-links li a.menu-item-id-289:before {
+  content: "";
+}
+
+/*
+ * ==================================================
+ * Media Visibility
+ * ==================================================
+ */
+/* These classes make it possible to display elements in only certain medias */
+#block-menu-menu-handheld-menu,
+#block-menu-primary-links,
+#block-menu-secondary-links {
+  display: none;
+}
+
+/* Only handheld portrait */
+/* Only handheld landscape */
+/* Only above handheld landscape */
+@media only screen and (min-width: 768px) {
+  #block-menu-primary-links, #block-menu-secondary-links {
+    display: block !important;
+  }
+
+  a#block-menu-primary-links, a#block-menu-secondary-links, abbr#block-menu-primary-links, abbr#block-menu-secondary-links, acronym#block-menu-primary-links, acronym#block-menu-secondary-links, audio#block-menu-primary-links, audio#block-menu-secondary-links, b#block-menu-primary-links, b#block-menu-secondary-links, basefont#block-menu-primary-links, basefont#block-menu-secondary-links, bdo#block-menu-primary-links, bdo#block-menu-secondary-links, big#block-menu-primary-links, big#block-menu-secondary-links, br#block-menu-primary-links, br#block-menu-secondary-links, canvas#block-menu-primary-links, canvas#block-menu-secondary-links, cite#block-menu-primary-links, cite#block-menu-secondary-links, code#block-menu-primary-links, code#block-menu-secondary-links, command#block-menu-primary-links, command#block-menu-secondary-links, datalist#block-menu-primary-links, datalist#block-menu-secondary-links, dfn#block-menu-primary-links, dfn#block-menu-secondary-links, em#block-menu-primary-links, em#block-menu-secondary-links, embed#block-menu-primary-links, embed#block-menu-secondary-links, font#block-menu-primary-links, font#block-menu-secondary-links, i#block-menu-primary-links, i#block-menu-secondary-links, img#block-menu-primary-links, img#block-menu-secondary-links, input#block-menu-primary-links, input#block-menu-secondary-links, keygen#block-menu-primary-links, keygen#block-menu-secondary-links, kbd#block-menu-primary-links, kbd#block-menu-secondary-links, label#block-menu-primary-links, label#block-menu-secondary-links, mark#block-menu-primary-links, mark#block-menu-secondary-links, meter#block-menu-primary-links, meter#block-menu-secondary-links, output#block-menu-primary-links, output#block-menu-secondary-links, progress#block-menu-primary-links, progress#block-menu-secondary-links, q#block-menu-primary-links, q#block-menu-secondary-links, rp#block-menu-primary-links, rp#block-menu-secondary-links, rt#block-menu-primary-links, rt#block-menu-secondary-links, ruby#block-menu-primary-links, ruby#block-menu-secondary-links, s#block-menu-primary-links, s#block-menu-secondary-links, samp#block-menu-primary-links, samp#block-menu-secondary-links, select#block-menu-primary-links, select#block-menu-secondary-links, small#block-menu-primary-links, small#block-menu-secondary-links, span#block-menu-primary-links, span#block-menu-secondary-links, strike#block-menu-primary-links, strike#block-menu-secondary-links, strong#block-menu-primary-links, strong#block-menu-secondary-links, sub#block-menu-primary-links, sub#block-menu-secondary-links, sup#block-menu-primary-links, sup#block-menu-secondary-links, textarea#block-menu-primary-links, textarea#block-menu-secondary-links, time#block-menu-primary-links, time#block-menu-secondary-links, tt#block-menu-primary-links, tt#block-menu-secondary-links, u#block-menu-primary-links, u#block-menu-secondary-links, var#block-menu-primary-links, var#block-menu-secondary-links, video#block-menu-primary-links, video#block-menu-secondary-links, wbr#block-menu-primary-links, wbr#block-menu-secondary-links {
+    display: inline !important;
+  }
+}
+/* Only tablet portrait */
+/* Only handhelds */
+@media only screen and (max-width: 767px) {
+  #block-menu-menu-handheld-menu {
+    display: block !important;
+  }
+
+  a#block-menu-menu-handheld-menu, abbr#block-menu-menu-handheld-menu, acronym#block-menu-menu-handheld-menu, audio#block-menu-menu-handheld-menu, b#block-menu-menu-handheld-menu, basefont#block-menu-menu-handheld-menu, bdo#block-menu-menu-handheld-menu, big#block-menu-menu-handheld-menu, br#block-menu-menu-handheld-menu, canvas#block-menu-menu-handheld-menu, cite#block-menu-menu-handheld-menu, code#block-menu-menu-handheld-menu, command#block-menu-menu-handheld-menu, datalist#block-menu-menu-handheld-menu, dfn#block-menu-menu-handheld-menu, em#block-menu-menu-handheld-menu, embed#block-menu-menu-handheld-menu, font#block-menu-menu-handheld-menu, i#block-menu-menu-handheld-menu, img#block-menu-menu-handheld-menu, input#block-menu-menu-handheld-menu, keygen#block-menu-menu-handheld-menu, kbd#block-menu-menu-handheld-menu, label#block-menu-menu-handheld-menu, mark#block-menu-menu-handheld-menu, meter#block-menu-menu-handheld-menu, output#block-menu-menu-handheld-menu, progress#block-menu-menu-handheld-menu, q#block-menu-menu-handheld-menu, rp#block-menu-menu-handheld-menu, rt#block-menu-menu-handheld-menu, ruby#block-menu-menu-handheld-menu, s#block-menu-menu-handheld-menu, samp#block-menu-menu-handheld-menu, select#block-menu-menu-handheld-menu, small#block-menu-menu-handheld-menu, span#block-menu-menu-handheld-menu, strike#block-menu-menu-handheld-menu, strong#block-menu-menu-handheld-menu, sub#block-menu-menu-handheld-menu, sup#block-menu-menu-handheld-menu, textarea#block-menu-menu-handheld-menu, time#block-menu-menu-handheld-menu, tt#block-menu-menu-handheld-menu, u#block-menu-menu-handheld-menu, var#block-menu-menu-handheld-menu, video#block-menu-menu-handheld-menu, wbr#block-menu-menu-handheld-menu {
+    display: inline !important;
+  }
+}
+/* Only tablet landscape */
+/* Only tablet portrait and below */
+/* Only tablets */
+/* Only widescreens */
+/* Only below widescreens */
 /*
  * ==================================================
  * Global States

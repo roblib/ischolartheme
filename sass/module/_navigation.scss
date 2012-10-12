@@ -51,7 +51,6 @@
 %round-bottom-menu {
   background-color: #363636;
   @include border-bottom-radius(5px);
-  float: right;
   padding: 0 $typographic-indent 6px $typographic-indent;
   > li {
     a {
@@ -64,6 +63,7 @@
 
 #block-menu-secondary-links {
   ul.menu {
+    float: right;
     @extend %round-bottom-menu;
     margin: 0;
   > li {

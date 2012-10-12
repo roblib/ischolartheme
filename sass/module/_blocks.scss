@@ -19,6 +19,13 @@
   }
 }
 
+@include respond-below(tablet) {
+  .user-columns-wrapper {
+    background-color: #363636;
+    @include trailer(0.5);
+  }
+}
+
 #block-menu-menu-clone-primary-links,
 #block-menu-menu-clone-secondary-links {
   h2 {
@@ -56,30 +63,47 @@
 }
 
 #block-menu-menu-handheld-menu {
-  @include trailer(0.5);
+  clear: both;
+  @include padding-trailer(0.25);
   a {
     @include link-colors($link-color-alt, $link-color-hover-alt, $link-color-active-alt, $link-color-visited-alt, $link-color-hover-alt);
   }
-  @extend %round-bottom-menu;
   @extend %below-tablet-visible !optional;
   ul {
     margin: 0;
     padding: 0;
     li {
+      @include horizontal-list-container;
+      @include horizontal-list-item(10px, left);
       list-style: none;
       @include adjust-font-size-to($font-size-lg);
-      a {
-        position: relative;
-        padding-left: 35px;
-        &:before {
-          content: "";
+      &.first {
+        float: left;
+        @include font-icon-base(entypo, 1.1em, 0em);
+        @extend %entypo-home;
+        color: $link-color-alt;
+        a {
           position: absolute;
-          top: 20%;
-          left: 0px;
-          width: 25px;
-          height: 3px;
-          border-top: 9px double #fff;
-          border-bottom: 3px solid #fff;
+          text-indent: -9999px;
+          white-space: nowrap;
+          width: 1em;
+        }
+      }
+      &.last {
+        float: right;
+        a {
+          position: relative;
+          padding-left: 35px;
+          &:before {
+            content: "";
+            position: absolute;
+            top: 20%;
+            left: 0px;
+            width: 25px;
+            height: 3px;
+            border-top: 9px double $link-color-hover-alt;
+            border-bottom: 3px solid $link-color-hover-alt;
+          }
         }
       }
     }

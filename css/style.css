@@ -11,6 +11,10 @@
   content: "✖";
 }
 
+#block-menu-menu-handheld-menu ul li.first:before {
+  content: "⌂";
+}
+
 #block-menu-primary-links li a.menu-item-id-274:before {
   content: "📤";
 }
@@ -995,6 +999,10 @@ address {
   content: "✖";
 }
 
+#block-menu-menu-handheld-menu ul li.first:before {
+  content: "⌂";
+}
+
 #block-menu-primary-links li a.menu-item-id-274:before {
   content: "📤";
 }
@@ -1676,7 +1684,7 @@ ul.primary a.active {
   padding-top: 0;
 }
 
-#block-menu-secondary-links ul.menu, #block-menu-menu-handheld-menu {
+#block-menu-secondary-links ul.menu {
   background-color: #363636;
   -moz-border-radius-bottomleft: 5px;
   -webkit-border-bottom-left-radius: 5px;
@@ -1684,30 +1692,30 @@ ul.primary a.active {
   -moz-border-radius-bottomright: 5px;
   -webkit-border-bottom-right-radius: 5px;
   border-bottom-right-radius: 5px;
-  float: right;
   padding: 0 26px 6px 26px;
 }
-#block-menu-secondary-links ul.menu > li a, #block-menu-menu-handheld-menu > li a {
+#block-menu-secondary-links ul.menu > li a {
   text-transform: uppercase;
   color: #b9b9b9;
 }
-#block-menu-secondary-links ul.menu > li a:visited, #block-menu-menu-handheld-menu > li a:visited {
+#block-menu-secondary-links ul.menu > li a:visited {
   color: #b9b9b9;
 }
-#block-menu-secondary-links ul.menu > li a:focus, #block-menu-menu-handheld-menu > li a:focus {
+#block-menu-secondary-links ul.menu > li a:focus {
   color: #c6c6c6;
 }
-#block-menu-secondary-links ul.menu > li a:hover, #block-menu-menu-handheld-menu > li a:hover {
+#block-menu-secondary-links ul.menu > li a:hover {
   color: #c6c6c6;
 }
-#block-menu-secondary-links ul.menu > li a:active, #block-menu-menu-handheld-menu > li a:active {
+#block-menu-secondary-links ul.menu > li a:active {
   color: #dfdfdf;
 }
-#block-menu-secondary-links ul.menu > li a.active, #block-menu-menu-handheld-menu > li a.active {
+#block-menu-secondary-links ul.menu > li a.active {
   color: #dfdfdf;
 }
 
 #block-menu-secondary-links ul.menu {
+  float: right;
   margin: 0;
 }
 #block-menu-secondary-links ul.menu > li {
@@ -2012,6 +2020,12 @@ ul li.leaf.comments {
   color: #dfdfdf;
 }
 
+@media only screen and (max-width: 767px) {
+  .user-columns-wrapper {
+    background-color: #363636;
+    margin-bottom: 0.75em;
+  }
+}
 #block-menu-menu-clone-primary-links,
 #block-menu-menu-clone-secondary-links {
   -webkit-box-sizing: border-box;
@@ -2059,7 +2073,8 @@ ul li.leaf.comments {
 }
 
 #block-menu-menu-handheld-menu {
-  margin-bottom: 0.75em;
+  clear: both;
+  padding-bottom: 0.375em;
 }
 #block-menu-menu-handheld-menu a {
   color: #b9b9b9;
@@ -2081,23 +2096,72 @@ ul li.leaf.comments {
   padding: 0;
 }
 #block-menu-menu-handheld-menu ul li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0;
+  white-space: nowrap;
+  display: inline;
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
   list-style: none;
   font-size: 1.125em;
   line-height: 1.33333em;
 }
-#block-menu-menu-handheld-menu ul li a {
+#block-menu-menu-handheld-menu ul li:before, #block-menu-menu-handheld-menu ul li:after {
+  content: " ";
+  display: table;
+}
+#block-menu-menu-handheld-menu ul li:after {
+  clear: both;
+}
+#block-menu-menu-handheld-menu ul li:first-child, #block-menu-menu-handheld-menu ul li.first {
+  padding-left: 0;
+}
+#block-menu-menu-handheld-menu ul li:last-child {
+  padding-right: 0;
+}
+#block-menu-menu-handheld-menu ul li.last {
+  padding-right: 0;
+}
+#block-menu-menu-handheld-menu ul li.first {
+  float: left;
+  color: #b9b9b9;
+}
+#block-menu-menu-handheld-menu ul li.first:before {
+  font-family: "entypo";
+  font-style: normal;
+  font-size: 1.1em;
+  margin-right: 0.8em;
+  text-align: center;
+  display: inline-block;
+  width: 0em;
+}
+#block-menu-menu-handheld-menu ul li.first a {
+  position: absolute;
+  text-indent: -9999px;
+  white-space: nowrap;
+  width: 1em;
+}
+#block-menu-menu-handheld-menu ul li.last {
+  float: right;
+}
+#block-menu-menu-handheld-menu ul li.last a {
   position: relative;
   padding-left: 35px;
 }
-#block-menu-menu-handheld-menu ul li a:before {
+#block-menu-menu-handheld-menu ul li.last a:before {
   content: "";
   position: absolute;
   top: 20%;
   left: 0px;
   width: 25px;
   height: 3px;
-  border-top: 9px double #fff;
-  border-bottom: 3px solid #fff;
+  border-top: 9px double #c6c6c6;
+  border-bottom: 3px solid #c6c6c6;
 }
 
 /* Search block form */
@@ -2877,6 +2941,10 @@ body[class*=" page-islandora-solr-search"] #content-header {
 
 .islandora-solr-search-query-x-icon:before {
   content: "✖";
+}
+
+#block-menu-menu-handheld-menu ul li.first:before {
+  content: "⌂";
 }
 
 #block-menu-primary-links li a.menu-item-id-274:before {

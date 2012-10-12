@@ -119,13 +119,13 @@
   }
   @include respond-above(tablet) {
     .form-text {
-      width: 320px;
+      width: 340px;
     }
   }
   @include respond-to(handheld-landscape) {
     margin-top: 0;
     .form-text {
-      width: 340px;
+      width: 320px;
     }
   }
   @include respond-to(handheld) {

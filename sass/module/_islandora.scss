@@ -112,15 +112,20 @@
 
 #islandora-solr-simple-search-form {
   @include trailer(0);
+  @include respond-to(tablet) {
+    .form-text {
+      width: 200px;
+    }
+  }
   @include respond-above(tablet) {
     .form-text {
-      width: 300px;
+      width: 320px;
     }
   }
   @include respond-to(handheld-landscape) {
     margin-top: 0;
     .form-text {
-      width: 310px;
+      width: 340px;
     }
   }
   @include respond-to(handheld) {

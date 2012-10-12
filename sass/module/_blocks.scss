@@ -78,8 +78,9 @@
       list-style: none;
       @include adjust-font-size-to($font-size-normal);
       &.first {
+        padding-left: 0.3em;
         float: left;
-        @include font-icon-base(entypo, 1.1em, 0em);
+        @include font-icon-base(entypo, 1.2em, 0em);
         @extend %entypo-home;
         color: $link-color-alt;
         a {

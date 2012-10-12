@@ -2128,13 +2128,14 @@ ul li.leaf.comments {
   padding-right: 0;
 }
 #block-menu-menu-handheld-menu ul li.first {
+  padding-left: 0.3em;
   float: left;
   color: #b9b9b9;
 }
 #block-menu-menu-handheld-menu ul li.first:before {
   font-family: "entypo";
   font-style: normal;
-  font-size: 1.1em;
+  font-size: 1.2em;
   margin-right: 0.8em;
   text-align: center;
   display: inline-block;

@@ -58,4 +58,11 @@
   }
 }
 
+.inner-footeraddress {
+  @include respond-above(handheld) {
+    background: url("http://students.upei.ca/files/misc/shieldfooter.png") no-repeat right center;
+  }
+  color: $link-color-hover-alt;
+  @include adjust-font-size-to($font-size-md);
+}
 

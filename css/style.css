@@ -2640,9 +2640,10 @@ div.messages.error {
 }
 
 /* Islandora Inline Query block */
-.islandora-solr-search-query-x-icon ul li {
+#block-islandora_solr_search-scholar_current_query ul li {
   margin-right: 1em;
 }
+
 .islandora-solr-search-query-x-icon:before {
   font-family: "entypo";
   font-style: normal;

@@ -80,10 +80,11 @@
 
 /* Islandora Inline Query block */
 
+#block-islandora_solr_search-scholar_current_query ul li {
+  margin-right: 1em;
+}
+
 .islandora-solr-search-query-x-icon {
-  ul li {
-    margin-right: 1em;
-  }
   @include font-icon-base(entypo, 1em, 0, 0);
   @extend %entypo-cancel-circle;
   &:before {

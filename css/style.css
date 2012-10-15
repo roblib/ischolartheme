@@ -2136,10 +2136,10 @@ ul li.leaf.comments {
   font-family: "entypo";
   font-style: normal;
   font-size: 1.2em;
-  margin-right: 0.8em;
+  margin-right: 0;
   text-align: center;
   display: inline-block;
-  width: 0em;
+  width: 0;
 }
 #block-menu-menu-handheld-menu ul li.first a {
   position: absolute;
@@ -2639,10 +2639,10 @@ div.messages.error {
   font-family: "entypo";
   font-style: normal;
   font-size: 1em;
-  margin-right: 0.8em;
+  margin-right: 0;
   text-align: center;
   display: inline-block;
-  width: 0em;
+  width: 0;
 }
 .islandora-solr-search-query-x-icon:before {
   color: #8b2004;

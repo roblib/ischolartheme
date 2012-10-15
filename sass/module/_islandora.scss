@@ -81,7 +81,7 @@
 /* Islandora Inline Query block */
 
 .islandora-solr-search-query-x-icon {
-  @include font-icon-base(entypo, 1em, 0em);
+  @include font-icon-base(entypo, 1em, 0, 0);
   @extend %entypo-cancel-circle;
   &:before {
     color: $link-color;

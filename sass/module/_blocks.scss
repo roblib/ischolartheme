@@ -80,7 +80,7 @@
       &.first {
         padding-left: 0.3em;
         float: left;
-        @include font-icon-base(entypo, 1.2em, 0em);
+        @include font-icon-base(entypo, 1.2em, 0, 0);
         @extend %entypo-home;
         color: $link-color-alt;
         a {

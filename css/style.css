@@ -2640,6 +2640,9 @@ div.messages.error {
 }
 
 /* Islandora Inline Query block */
+.islandora-solr-search-query-x-icon li {
+  margin-right: 1em;
+}
 .islandora-solr-search-query-x-icon:before {
   font-family: "entypo";
   font-style: normal;

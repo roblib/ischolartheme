@@ -81,6 +81,9 @@
 /* Islandora Inline Query block */
 
 .islandora-solr-search-query-x-icon {
+  li {
+    margin-right: 1em;
+  }
   @include font-icon-base(entypo, 1em, 0, 0);
   @extend %entypo-cancel-circle;
   &:before {

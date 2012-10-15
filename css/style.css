@@ -2592,13 +2592,10 @@ div.messages.error {
 
 /* Islandora Search results */
 .scholar_pdf {
-  margin-top: 2px;
+  margin-top: 1px;
 }
 .scholar_pdf a {
   padding-left: 21px;
-  border-bottom: 1px solid #989898;
-  padding-top: 5px;
-  padding-bottom: 4px;
   background: url('../images/button-pdf-darkgrey.png?1348797722'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #dedede));
   background: url('../images/button-pdf-darkgrey.png?1348797722'), -webkit-linear-gradient(#ffffff, #dedede);
   background: url('../images/button-pdf-darkgrey.png?1348797722'), -moz-linear-gradient(#ffffff, #dedede);
@@ -2617,7 +2614,6 @@ div.messages.error {
   background: url('../images/button-pdf-darkgrey.png?1348797722'), linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
   background-position: 6px 5px, 0 0;
   background-repeat: no-repeat, repeat;
-  border-bottom: 1px solid #989898;
 }
 .scholar_pdf a:active {
   background: url('../images/button-pdf-darkgrey.png?1348797722'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(33%, #dedede), color-stop(100%, #ededed));

@@ -2149,6 +2149,7 @@ ul li.leaf.comments {
 }
 #block-menu-menu-handheld-menu ul li.last {
   float: right;
+  cursor: pointer;
 }
 #block-menu-menu-handheld-menu ul li.last a {
   padding-left: 24px;
@@ -2162,7 +2163,7 @@ ul li.leaf.comments {
   height: 3px;
   left: 0px;
   position: absolute;
-  top: 20%;
+  top: 19%;
   width: 18px;
 }
 

@@ -2594,10 +2594,7 @@ div.messages.error {
 .scholar_pdf {
   margin-top: 2px;
 }
-.scholar_pdf.button {
-  margin-top: 1px;
-}
-.scholar_pdf.button a {
+.scholar_pdf a {
   padding-left: 21px;
   border-bottom: 1px solid #989898;
   padding-top: 5px;
@@ -2611,7 +2608,7 @@ div.messages.error {
   background-position: 6px 5px, 0 0;
   background-repeat: no-repeat, repeat;
 }
-.scholar_pdf.button a:hover {
+.scholar_pdf a:hover {
   background: url('../images/button-pdf-darkgrey.png?1348797722'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(33%, #ebebeb), color-stop(100%, #e6e6e6));
   background: url('../images/button-pdf-darkgrey.png?1348797722'), -webkit-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
   background: url('../images/button-pdf-darkgrey.png?1348797722'), -moz-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
@@ -2622,7 +2619,7 @@ div.messages.error {
   background-repeat: no-repeat, repeat;
   border-bottom: 1px solid #989898;
 }
-.scholar_pdf.button a:active {
+.scholar_pdf a:active {
   background: url('../images/button-pdf-darkgrey.png?1348797722'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(33%, #dedede), color-stop(100%, #ededed));
   background: url('../images/button-pdf-darkgrey.png?1348797722'), -webkit-linear-gradient(#ffffff, #dedede 33%, #ededed);
   background: url('../images/button-pdf-darkgrey.png?1348797722'), -moz-linear-gradient(#ffffff, #dedede 33%, #ededed);
@@ -2631,12 +2628,6 @@ div.messages.error {
   background: url('../images/button-pdf-darkgrey.png?1348797722'), linear-gradient(#ffffff, #dedede 33%, #ededed);
   background-position: 6px 5px, 0 0;
   background-repeat: no-repeat, repeat;
-}
-.scholar_pdf a {
-  border-bottom: 0;
-}
-.scholar_pdf a:hover {
-  border-bottom: 0;
 }
 
 /* Islandora Inline Query block */

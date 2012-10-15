@@ -2371,7 +2371,7 @@ body.not-front, body.front, body .postscript-wrapper {
   .branding .logo {
     border-left: 0;
     padding-left: 2em;
-    padding-top: 1em;
+    padding-top: 0;
   }
 }
 .branding .site-name {

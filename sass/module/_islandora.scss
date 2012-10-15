@@ -47,7 +47,7 @@
 
 .scholar_pdf {
   margin-top: 1px;
-  a {
+  a.button {
     padding-left: 21px;
     @include background(image-url('button-pdf-darkgrey.png'), linear-gradient($button-color-1, $button-color-3));
     background-position: 6px 5px, 0 0;

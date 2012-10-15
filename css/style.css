@@ -2594,7 +2594,7 @@ div.messages.error {
 .scholar_pdf {
   margin-top: 1px;
 }
-.scholar_pdf a {
+.scholar_pdf a.button {
   padding-left: 21px;
   background: url('../images/button-pdf-darkgrey.png?1348797722'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #dedede));
   background: url('../images/button-pdf-darkgrey.png?1348797722'), -webkit-linear-gradient(#ffffff, #dedede);
@@ -2605,7 +2605,7 @@ div.messages.error {
   background-position: 6px 5px, 0 0;
   background-repeat: no-repeat, repeat;
 }
-.scholar_pdf a:hover {
+.scholar_pdf a.button:hover {
   background: url('../images/button-pdf-darkgrey.png?1348797722'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(33%, #ebebeb), color-stop(100%, #e6e6e6));
   background: url('../images/button-pdf-darkgrey.png?1348797722'), -webkit-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
   background: url('../images/button-pdf-darkgrey.png?1348797722'), -moz-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
@@ -2615,7 +2615,7 @@ div.messages.error {
   background-position: 6px 5px, 0 0;
   background-repeat: no-repeat, repeat;
 }
-.scholar_pdf a:active {
+.scholar_pdf a.button:active {
   background: url('../images/button-pdf-darkgrey.png?1348797722'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(33%, #dedede), color-stop(100%, #ededed));
   background: url('../images/button-pdf-darkgrey.png?1348797722'), -webkit-linear-gradient(#ffffff, #dedede 33%, #ededed);
   background: url('../images/button-pdf-darkgrey.png?1348797722'), -moz-linear-gradient(#ffffff, #dedede 33%, #ededed);

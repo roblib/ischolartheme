@@ -2417,6 +2417,13 @@ body.not-front, body.front, body .postscript-wrapper {
   color: #000;
 }
 
+/* Content */
+#content-header h1 {
+  text-indent: 110%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
 /* Postscript */
 .postscript-wrapper {
   margin-top: 4.5em;

@@ -148,6 +148,13 @@ body {
 
 }
 
+/* Content */
+
+// Hide front page title
+#content-header h1 {
+  @include hide-text;
+}
+
 /* Postscript */ 
 
 .postscript-wrapper {

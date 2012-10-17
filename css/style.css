@@ -2419,9 +2419,7 @@ body.not-front, body.front, body .postscript-wrapper {
 
 /* Content */
 #content-header h1 {
-  text-indent: 110%;
-  white-space: nowrap;
-  overflow: hidden;
+  display: none;
 }
 
 /* Postscript */

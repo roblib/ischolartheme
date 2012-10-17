@@ -152,7 +152,7 @@ body {
 
 // Hide front page title
 #content-header h1 {
-  @include hide-text;
+  display: none;
 }
 
 /* Postscript */ 

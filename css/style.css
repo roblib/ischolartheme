@@ -2560,6 +2560,10 @@ div.messages.error {
   padding: 0 0.5em;
 }
 
+#views-ajax-pad .form-buttons .form-submit {
+  padding: 5px 10px;
+}
+
 /*
  * ==================================================
  * Islandora overrides

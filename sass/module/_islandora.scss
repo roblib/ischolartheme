@@ -87,6 +87,25 @@
 
 }
 
+.scholar_associate_button .form-submit {
+    border-color: $button-border-1 $button-border-2 $button-border-3;
+    padding-left: 21px;
+    @include background(image-url('button-link-darkgrey.png'), linear-gradient($button-color-1, $button-color-3));
+    background-position: 6px 5px, 0 0;
+    background-repeat: no-repeat, repeat;
+    &:hover {
+      @include background(image-url('button-link-darkgrey.png'), linear-gradient($button-color-hover-1, $button-color-hover-2 33%, $button-color-hover-3));
+      background-position: 6px 5px, 0 0;
+      background-repeat: no-repeat, repeat;
+    }
+    &:active {
+      border-color: $text-border-alt-2 $text-border-alt $text-border;
+      @include background(image-url('button-link-darkgrey.png'), linear-gradient($button-color-active-1, $button-color-active-2 33%, $button-color-active-3));
+      background-position: 6px 5px, 0 0;
+      background-repeat: no-repeat, repeat;
+    }
+}
+
 /* Islandora Inline Query block */
 
 #block-islandora_solr_search-scholar_current_query ul li {

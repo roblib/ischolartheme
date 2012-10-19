@@ -89,7 +89,7 @@
 
 .scholar_associate_button .form-submit {
     border-color: $button-border-1 $button-border-2 $button-border-3;
-    padding-left: 21px;
+    padding-left: 24px;
     @include background(image-url('button-link-darkgrey.png'), linear-gradient($button-color-1, $button-color-3));
     background-position: 6px 5px, 0 0;
     background-repeat: no-repeat, repeat;

@@ -2635,6 +2635,38 @@ div.messages.error {
   background-position: 6px 5px, 0 0;
   background-repeat: no-repeat, repeat;
 }
+.scholar_pdf a.supplement {
+  border-color: #dddddd #b9b9b9 #989898;
+  padding-left: 21px;
+  background: url('../images/button-docs-darkgrey.png?1350670075'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #dedede));
+  background: url('../images/button-docs-darkgrey.png?1350670075'), -webkit-linear-gradient(#ffffff, #dedede);
+  background: url('../images/button-docs-darkgrey.png?1350670075'), -moz-linear-gradient(#ffffff, #dedede);
+  background: url('../images/button-docs-darkgrey.png?1350670075'), -o-linear-gradient(#ffffff, #dedede);
+  background: url('../images/button-docs-darkgrey.png?1350670075'), -ms-linear-gradient(#ffffff, #dedede);
+  background: url('../images/button-docs-darkgrey.png?1350670075'), linear-gradient(#ffffff, #dedede);
+  background-position: 6px 5px, 0 0;
+  background-repeat: no-repeat, repeat;
+}
+.scholar_pdf a.supplement:hover {
+  background: url('../images/button-docs-darkgrey.png?1350670075'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(33%, #ebebeb), color-stop(100%, #e6e6e6));
+  background: url('../images/button-docs-darkgrey.png?1350670075'), -webkit-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
+  background: url('../images/button-docs-darkgrey.png?1350670075'), -moz-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
+  background: url('../images/button-docs-darkgrey.png?1350670075'), -o-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
+  background: url('../images/button-docs-darkgrey.png?1350670075'), -ms-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
+  background: url('../images/button-docs-darkgrey.png?1350670075'), linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
+  background-position: 6px 5px, 0 0;
+  background-repeat: no-repeat, repeat;
+}
+.scholar_pdf a.supplement:active {
+  background: url('../images/button-docs-darkgrey.png?1350670075'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(33%, #dedede), color-stop(100%, #ededed));
+  background: url('../images/button-docs-darkgrey.png?1350670075'), -webkit-linear-gradient(#ffffff, #dedede 33%, #ededed);
+  background: url('../images/button-docs-darkgrey.png?1350670075'), -moz-linear-gradient(#ffffff, #dedede 33%, #ededed);
+  background: url('../images/button-docs-darkgrey.png?1350670075'), -o-linear-gradient(#ffffff, #dedede 33%, #ededed);
+  background: url('../images/button-docs-darkgrey.png?1350670075'), -ms-linear-gradient(#ffffff, #dedede 33%, #ededed);
+  background: url('../images/button-docs-darkgrey.png?1350670075'), linear-gradient(#ffffff, #dedede 33%, #ededed);
+  background-position: 6px 5px, 0 0;
+  background-repeat: no-repeat, repeat;
+}
 
 /* Islandora Inline Query block */
 #block-islandora_solr_search-scholar_current_query ul li {

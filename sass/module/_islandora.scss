@@ -58,7 +58,8 @@
       background-position: 6px 5px, 0 0;
       background-repeat: no-repeat, repeat;
     }
-    &:active {
+    &:active, &:focus {
+      border-color: $text-border-alt-2 $text-border-alt $text-border;
       @include background(image-url('button-pdf-darkgrey.png'), linear-gradient($button-color-active-1, $button-color-active-2 33%, $button-color-active-3));
       background-position: 6px 5px, 0 0;
       background-repeat: no-repeat, repeat;
@@ -76,7 +77,8 @@
       background-position: 6px 5px, 0 0;
       background-repeat: no-repeat, repeat;
     }
-    &:active {
+    &:active, &:focus {
+      border-color: $text-border-alt-2 $text-border-alt $text-border;
       @include background(image-url('button-docs-darkgrey.png'), linear-gradient($button-color-active-1, $button-color-active-2 33%, $button-color-active-3));
       background-position: 6px 5px, 0 0;
       background-repeat: no-repeat, repeat;

@@ -2625,7 +2625,7 @@ div.messages.error {
   background-position: 6px 5px, 0 0;
   background-repeat: no-repeat, repeat;
 }
-.scholar_pdf a.button:active, .scholar_pdf a.button:focus {
+.scholar_pdf a.button:active {
   border-color: #989898 #b9b9b9 #dddddd;
   background: url('../images/button-pdf-darkgrey.png?1348797722'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(33%, #dedede), color-stop(100%, #ededed));
   background: url('../images/button-pdf-darkgrey.png?1348797722'), -webkit-linear-gradient(#ffffff, #dedede 33%, #ededed);
@@ -2658,7 +2658,7 @@ div.messages.error {
   background-position: 6px 5px, 0 0;
   background-repeat: no-repeat, repeat;
 }
-.scholar_pdf a.supplement:active, .scholar_pdf a.supplement:focus {
+.scholar_pdf a.supplement:active {
   border-color: #989898 #b9b9b9 #dddddd;
   background: url('../images/button-docs-darkgrey.png?1350670552'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(33%, #dedede), color-stop(100%, #ededed));
   background: url('../images/button-docs-darkgrey.png?1350670552'), -webkit-linear-gradient(#ffffff, #dedede 33%, #ededed);

@@ -2604,6 +2604,7 @@ div.messages.error {
   margin-top: 1px;
 }
 .scholar_pdf a.button {
+  border-color: #dddddd #b9b9b9 #989898;
   padding-left: 21px;
   background: url('../images/button-pdf-darkgrey.png?1348797722'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #dedede));
   background: url('../images/button-pdf-darkgrey.png?1348797722'), -webkit-linear-gradient(#ffffff, #dedede);

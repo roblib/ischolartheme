@@ -48,6 +48,7 @@
 .scholar_pdf {
   margin-top: 1px;
   a.button {
+    border-color: $button-border-1 $button-border-2 $button-border-3;
     padding-left: 21px;
     @include background(image-url('button-pdf-darkgrey.png'), linear-gradient($button-color-1, $button-color-3));
     background-position: 6px 5px, 0 0;

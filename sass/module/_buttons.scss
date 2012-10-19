@@ -22,7 +22,7 @@ input[type="submit"] {
   margin-right: 3px;
   outline: 0;
   overflow: visible;
-  padding: 5px 10px;
+  padding: 0.37em 0.6em;
   width: auto;
   &:hover {
     @include background(linear-gradient($button-color-hover-1, $button-color-hover-2 33%, $button-color-hover-3));

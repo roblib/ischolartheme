@@ -154,6 +154,11 @@
       width: 340px;
     }
   }
+  .ie6-8 & {
+    .form-text {
+      width: 340px;
+    }
+  }
   @include respond-to(handheld-landscape) {
     margin-top: 0;
     .form-text {

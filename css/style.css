@@ -2035,6 +2035,8 @@ ul li.leaf.comments {
   }
 }
 #block-block-17 {
+  clear: both;
+  float: right;
   margin-bottom: 0em;
 }
 

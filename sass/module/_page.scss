@@ -34,13 +34,18 @@
   }
 }
 
-.front .content-inner, .front .region-sidebar-second .section {
-  @include leader(0.5);
+.front {
+  .region-sidebar-second .section,
+  #content .content-inner {
+    @include leader(0.5);
     @include trailer(0);
-}
-
-.front .region-sidebar-first {
-  @include respond-below(tablet) {
+  }
+  .region-sidebar-first {
+    @include respond-below(tablet) {
+      @include trailer(0);
+    }
+  }
+  #content {
     @include trailer(0);
   }
 }

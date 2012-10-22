@@ -2306,15 +2306,18 @@ ul li.leaf.comments {
   padding-bottom: 0em;
 }
 
-.front .content-inner, .front .region-sidebar-second .section {
+.front .region-sidebar-second .section,
+.front #content .content-inner {
   margin-top: 0.75em;
   margin-bottom: 0em;
 }
-
 @media only screen and (max-width: 767px) {
   .front .region-sidebar-first {
     margin-bottom: 0em;
   }
+}
+.front #content {
+  margin-bottom: 0em;
 }
 
 #skip-link {

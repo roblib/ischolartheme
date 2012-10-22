@@ -185,10 +185,11 @@
     width: 398px;
   }
   .ie6-8 & {
-    width: 378px;
+    width: 370px;
   }
   @include respond-to(handheld-landscape) {
     float: left !important;
+    padding-left: 10px;
   }
   @include respond-to(handheld) {
     float: left !important;

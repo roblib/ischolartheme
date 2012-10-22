@@ -2957,11 +2957,12 @@ div.messages.error {
   }
 }
 .ie6-8 #block-block-17 {
-  width: 378px;
+  width: 370px;
 }
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   #block-block-17 {
     float: left !important;
+    padding-left: 10px;
   }
 }
 @media only screen and (max-width: 479px) {

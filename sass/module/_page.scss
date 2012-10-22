@@ -24,18 +24,19 @@
 .sidebar,
 #footer,
 .footer-columns-wrapper {
-  @include margin-trailer(1, $base-font-size);
+  @include trailer(1);
 }
 
 #content .content-inner {
-  @include padding-trailer(1, $base-font-size);
+  @include padding-trailer(1);
   .front & {
     @include padding-trailer(0);
   }
 }
 
 .front .content-inner, .front .region-sidebar-second .section {
-  @include margin-leader(0.5, $base-font-size);
+  @include leader(0.5);
+    @include trailer(0);
 }
 
 .front .region-sidebar-first {

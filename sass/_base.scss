@@ -156,8 +156,8 @@ $aether-grid-width-handheld-landscape:428px; // http://gridcalculator.dk/#/428/1
 $aether-grid-width-handheld:          308px; // http://gridcalculator.dk/#/308/12/20/20
 
 // Grid overlay
-// Used by aether-grids to create a grid debugging overlay.
-$aether-show-grid-background:         false;
+// Used by aether-grids to create a grid ging overlay.
+$aether-show-grid-background:         true;
 $show-column-grid-backgrounds:        true;
 $show-baseline-grid-backgrounds:      false;
 $grid-background-baseline-color:      hsl(0, 0%, 87%);

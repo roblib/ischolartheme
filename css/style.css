@@ -2303,6 +2303,20 @@ ul li.leaf.comments {
 .region-header {
   display: inline;
   float: right;
+  clear: right;
+  margin-right: 0;
+  #margin-right: -1em;
+  float: right;
+  width: 49.09747%;
+}
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .region-header {
+    clear: right;
+    margin-right: 0;
+    #margin-right: -1em;
+    float: right;
+    width: 32.12996%;
+  }
 }
 
 #skip-link {

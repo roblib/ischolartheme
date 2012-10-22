@@ -37,6 +37,10 @@
 
 .region-header {
   @include float(right);
+  @include span-columns(6, last right);
+  @include respond-to(tablet) {
+    @include span-columns(4, last right);
+  }
 }
 
 // Skip link is hidden until it's tabbed to.

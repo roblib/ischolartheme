@@ -2312,7 +2312,8 @@ ul li.leaf.comments {
   margin-bottom: 0em;
 }
 @media only screen and (max-width: 767px) {
-  .front .region-sidebar-first {
+  .front .region-sidebar-first,
+  .front .region-sidebar-second {
     margin-bottom: 0em;
   }
 }

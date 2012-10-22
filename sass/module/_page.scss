@@ -40,7 +40,8 @@
     @include leader(0.5);
     @include trailer(0);
   }
-  .region-sidebar-first {
+  .region-sidebar-first,
+  .region-sidebar-second {
     @include respond-below(tablet) {
       @include trailer(0);
     }

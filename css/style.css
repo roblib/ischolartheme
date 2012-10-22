@@ -2012,12 +2012,15 @@ ul li.leaf.comments {
   margin-bottom: 1.5em;
 }
 
-.front #block-block-19 .block-inner {
+.front #block-block-19 {
   -webkit-box-shadow: 0 0 45px -20px black inset;
   -moz-box-shadow: 0 0 45px -20px black inset;
   box-shadow: 0 0 45px -20px black inset;
   padding: 10px;
   font-size: 90%;
+}
+.front #block-block-19 p:last-child {
+  margin-bottom: 0em;
 }
 
 .region-user-first a {

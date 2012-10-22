@@ -14,10 +14,13 @@
 }
 
 .front {
-  #block-block-19 .block-inner {
+  #block-block-19 {
     @include box-shadow(0 0 45px -20px #000000 inset);
     padding: 10px;
     font-size: 90%;
+    p:last-child {
+      @include trailer(0);
+    }
   }
 }
 

@@ -1770,6 +1770,11 @@ ul.primary a.active {
   display: block !important;
 }
 
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  #block-menu-primary-links {
+    font-size: 90%;
+  }
+}
 #block-menu-primary-links ul {
   padding-left: 0;
 }

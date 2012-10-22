@@ -91,6 +91,9 @@
 }
 
 #block-menu-primary-links {
+  @include respond-to(tablet) {
+    font-size: 90%;
+  }
   @extend %above-handheld-landscape-visible !optional;
   ul { padding-left: 0; }
   a {

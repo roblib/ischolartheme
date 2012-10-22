@@ -13,6 +13,13 @@
   @include margin-trailer(1, $base-font-size);
 }
 
+.front {
+  #block-block-19 {
+    box-shadow: 0 0 45px -20px #000000 inset;
+    padding: 5px;
+  }
+}
+
 .region-user-first {
   a {
     @include link-colors($link-color-alt, $link-color-hover-alt, $link-color-active-alt, $link-color-visited-alt, $link-color-hover-alt);

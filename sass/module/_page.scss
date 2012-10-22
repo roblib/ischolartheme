@@ -31,7 +31,7 @@
   @include padding-trailer(1, $base-font-size);
 }
 
-.front .content-inner {
+.front .content-inner, .front .region-sidebar-second .section {
   @include margin-leader(0.5, $base-font-size);
 }
 

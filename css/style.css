@@ -2012,6 +2012,11 @@ ul li.leaf.comments {
   margin-bottom: 1.5em;
 }
 
+.front #block-block-19 {
+  box-shadow: 0 0 45px -20px black inset;
+  padding: 5px;
+}
+
 .region-user-first a {
   color: #b9b9b9;
 }
@@ -2292,7 +2297,7 @@ ul li.leaf.comments {
   padding-bottom: 1.5em;
 }
 
-.front .content-inner {
+.front .content-inner, .front .region-sidebar-second .section {
   margin-top: 0.75em;
 }
 

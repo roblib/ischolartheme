@@ -119,12 +119,12 @@ body {
     .site-name, .site-slogan {
       padding-left: 12px;
     }
-    .ie6-8 & {
-      @include span-columns(4);
-      @include position(3);
-      .site-name, .site-slogan {
-        padding-left: 12px;
-      }
+  }
+  .ie6-8 & {
+    @include span-columns(4);
+    @include position(3);
+    .site-name, .site-slogan {
+      padding-left: 12px;
     }
   }
   @include respond-to(tablet-landscape) {

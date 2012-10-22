@@ -2399,15 +2399,15 @@ body.not-front, body.front, body .postscript-wrapper {
   .name-and-slogan .site-name, .name-and-slogan .site-slogan {
     padding-left: 12px;
   }
-  .ie6-8 .name-and-slogan {
-    margin-right: 1.80505%;
-    width: 32.12996%;
-    margin-left: 16.96751%;
-    margin-right: -100%;
-  }
-  .ie6-8 .name-and-slogan .site-name, .ie6-8 .name-and-slogan .site-slogan {
-    padding-left: 12px;
-  }
+}
+.ie6-8 .name-and-slogan {
+  margin-right: 1.80505%;
+  width: 32.12996%;
+  margin-left: 16.96751%;
+  margin-right: -100%;
+}
+.ie6-8 .name-and-slogan .site-name, .ie6-8 .name-and-slogan .site-slogan {
+  padding-left: 12px;
 }
 @media only screen and (min-width: 980px) and (max-width: 1159px) {
   .name-and-slogan {

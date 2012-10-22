@@ -35,13 +35,13 @@
   @include margin-leader(0.5, $base-font-size);
 }
 
-.region-header {
-  @include float(right);
-  @include span-columns(6, last right);
-  @include respond-to(tablet) {
-    @include span-columns(4, last right);
-  }
-}
+//.region-header {
+//  @include float(right);
+//  @include span-columns(6, last right);
+//  @include respond-to(tablet) {
+//    @include span-columns(4, last right);
+//  }
+//}
 
 // Skip link is hidden until it's tabbed to.
 #skip-link {
@@ -76,81 +76,174 @@ body {
   border-top: 6px solid #363636;
 }
 
-.branding {
+.logo, .name-and-slogan, .region-header {
+  @include grid-item-base;
+}
 
-  .name-and-slogan {
-    @include inline-block;
-    color: #333;
-    &.with-logo {
-      padding: {
-        top: 5px;
-        left: 15px;
-      }
-      border-left: 1px solid #C7C7C7;
-      margin-top: 5px;
-      @include respond-to(handheld-landscape) {
-        border-left: 0;
-        padding-left: 0;
-        font-size: 80%;
-      }
-      @include respond-to(handheld) {
-        border-left: 0;
-        font-size: 90%;
-        margin-top: 0;
-        padding-left: 2.4em;
-        padding-top: 0;
-        text-align: left;
+.logo {
+  @include respond-to(desktop) {
+    @include span-columns(3);
+    @include position(1);
+  }
+  @include respond-to(tablet-landscape) {
+    @include span-columns(3);
+    @include position(1);
+  }
+  @include respond-to(tablet) {
+    @include span-columns(4);
+    @include position(1);
+  }
+  @include respond-to(handheld-landscape) {
+    @include span-columns(6);
+    @include position(1);
+    img {
+      border-right: 0 !important;
+    }
+  }
+  @include respond-to(handheld) {
+    @include span-columns(12);
+    img {
+      border-right: 0 !important;
+    }
+  }
+}
+
+.name-and-slogan{
+  @include respond-to(desktop) {
+    @include span-columns(4);
+    @include position(3);
+    .site-name, .site-slogan {
+      padding-left: 12px;
+    }
+    .ie6-8 & {
+      @include span-columns(4);
+      @include position(3);
+      .site-name, .site-slogan {
+        padding-left: 12px;
       }
     }
   }
+  @include respond-to(tablet-landscape) {
+    @include span-columns(4);
+    @include position(3);
+    .site-name, .site-slogan {
+      padding-left: 45px;
+    }
+  }
+  @include respond-to(tablet) {
+    @include span-columns(5);
+    @include position(4);
+    .site-name, .site-slogan {
+      padding-left: 20px;
+    }
+  }
+  @include respond-to(handheld-landscape) {
+    @include span-columns(7);
+    @include position(6);
+    .site-name, .site-slogan {
+      padding-left: 20px;
+    }
+  }
+}
 
-  .logo {
-    @include float(left);
-    @include margin-trailer(0.5);
-    padding-right: 10px;
+.region-header {
+  @include respond-to(desktop) {
+    @include span-columns(6);
+    @include position(7);
+  }
+  @include respond-to(tablet-landscape) {
+    @include span-columns(6);
+    @include position(7);
+  }
+  @include respond-to(tablet) {
+    @include span-columns(4);
+    @include position(9);
+  }
+  @include respond-to(handheld-landscape) {
+    @include span-columns(12, first);
+    @include position(1);
+  }
+}
+
+
+.name-and-slogan {
+//    @include inline-block;
+  color: #333;
+  &.with-logo {
+    padding: {
+      top: 5px;
+//      left: 15px;
+    }
+    margin-top: 5px;
     @include respond-to(handheld-landscape) {
-      padding-right: 0;
-      img {
-        width: 90%;
-      }
+      border-left: 0;
+//      padding-left: 0;
+      font-size: 80%;
     }
     @include respond-to(handheld) {
       border-left: 0;
-      padding-left: 2em;
+      font-size: 90%;
+      margin-top: 0;
+//      padding-left: 2.4em;
       padding-top: 0;
+      text-align: left;
     }
   }
-
-  .site-name {
-    @include adjust-font-size-to($font-size-xxl,0.8);
-    // Target webkit because of font size difference with small-caps
-    @include margin-leader(0);
-    @include margin-trailer(0.3, $font-size-xxl);
-    font-family: $site-name-font-family;
-    font-weight: normal;
-    font-variant: small-caps;
-    letter-spacing:1px;
-    a {
-      @include link-colors($link-color-alt2, $hover: $link-color-alt2, $focus: $link-color-alt2, $visited: $link-color-alt2, $active: $link-color-alt2);
-      text-decoration: none;
-    }
-  }
-
-  .site-slogan {
-    @extend %uppercase;
-    @media screen and (-webkit-min-device-pixel-ratio:0) {
-      @include adjust-font-size-to($font-size-xxl,0.8);
-    }
-    font-family: $site-name-font-family;
-    font-weight: normal;
-    @include adjust-font-size-to($font-size-xl,0.85);
-    @include margin-trailer(0.185, $font-size-xl);
-    a, a:link, a:hover, a:active, a:focus, a:visited {
-      color: #000;
-    }
-  }
-
 }
+
+.logo {
+  img {
+    border-right: 1px solid #C7C7C7;
+    padding-right: 10px;
+  }
+//    @include float(left);
+  @include margin-trailer(0.5);
+//    padding-right: 10px;
+  @include respond-to(handheld-landscape) {
+    padding-right: 0;
+    img {
+      width: 90%;
+    }
+  }
+  @include respond-to(handheld) {
+    border-left: 0;
+    padding-left: 2em;
+    padding-top: 0;
+  }
+}
+
+.site-name {
+
+  @include adjust-font-size-to($font-size-xxl,0.8);
+  // Target webkit because of font size difference with small-caps
+  @include margin-leader(0);
+  @include margin-trailer(0.3, $font-size-xxl);
+  font-family: $site-name-font-family;
+  font-weight: normal;
+  font-variant: small-caps;
+  letter-spacing:1px;
+  a {
+    @include link-colors($link-color-alt2, $hover: $link-color-alt2, $focus: $link-color-alt2, $visited: $link-color-alt2, $active: $link-color-alt2);
+    text-decoration: none;
+  }
+}
+
+.site-slogan {
+//  padding-left: 12px;
+  @extend %uppercase;
+  @media screen and (-webkit-min-device-pixel-ratio:0) {
+    @include adjust-font-size-to($font-size-xxl,0.8);
+  }
+  font-family: $site-name-font-family;
+  font-weight: normal;
+  @include adjust-font-size-to($font-size-xl,0.85);
+  @include margin-trailer(0.185, $font-size-xl);
+  a, a:link, a:hover, a:active, a:focus, a:visited {
+    color: #000;
+  }
+}
+
+
 
 /* Content */
 

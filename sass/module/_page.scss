@@ -85,6 +85,10 @@ body {
     @include span-columns(3);
     @include position(1);
   }
+  .ie6-8 & {
+    @include span-columns(3);
+    @include position(1);
+  }
   @include respond-to(tablet-landscape) {
     @include span-columns(3);
     @include position(1);
@@ -148,6 +152,10 @@ body {
 
 .region-header {
   @include respond-to(desktop) {
+    @include span-columns(6);
+    @include position(7);
+  }
+  .ie6-8 {
     @include span-columns(6);
     @include position(7);
   }

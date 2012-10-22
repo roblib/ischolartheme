@@ -2346,6 +2346,12 @@ body.not-front, body.front, body .postscript-wrapper {
     margin-right: -100%;
   }
 }
+.ie6-8 .logo {
+  margin-right: 1.80505%;
+  width: 23.64621%;
+  margin-left: 0%;
+  margin-right: -100%;
+}
 @media only screen and (min-width: 980px) and (max-width: 1159px) {
   .logo {
     margin-right: 1.80505%;
@@ -2444,6 +2450,12 @@ body.not-front, body.front, body .postscript-wrapper {
     margin-left: 50.90253%;
     margin-right: -100%;
   }
+}
+.region-header .ie6-8 {
+  margin-right: 1.80505%;
+  width: 49.09747%;
+  margin-left: 50.90253%;
+  margin-right: -100%;
 }
 @media only screen and (min-width: 980px) and (max-width: 1159px) {
   .region-header {

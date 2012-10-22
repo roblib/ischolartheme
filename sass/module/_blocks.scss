@@ -15,8 +15,8 @@
 
 .front {
   #block-block-19 {
-    box-shadow: 0 0 45px -20px #000000 inset;
-    padding: 5px;
+    @include box-shadow(0 0 45px -20px #000000 inset);
+    padding: 10px;
   }
 }
 

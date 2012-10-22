@@ -2013,8 +2013,10 @@ ul li.leaf.comments {
 }
 
 .front #block-block-19 {
+  -webkit-box-shadow: 0 0 45px -20px black inset;
+  -moz-box-shadow: 0 0 45px -20px black inset;
   box-shadow: 0 0 45px -20px black inset;
-  padding: 5px;
+  padding: 10px;
 }
 
 .region-user-first a {

@@ -14,9 +14,10 @@
 }
 
 .front {
-  #block-block-19 {
+  #block-block-19 .block-inner {
     @include box-shadow(0 0 45px -20px #000000 inset);
     padding: 10px;
+    font-size: 90%;
   }
 }
 

@@ -29,10 +29,19 @@
 
 #content .content-inner {
   @include padding-trailer(1, $base-font-size);
+  .front & {
+    @include padding-trailer(0);
+  }
 }
 
 .front .content-inner, .front .region-sidebar-second .section {
   @include margin-leader(0.5, $base-font-size);
+}
+
+.front .region-sidebar-first {
+  @include respond-below(tablet) {
+    @include trailer(0);
+  }
 }
 
 //.region-header {

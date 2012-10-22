@@ -22,6 +22,15 @@
     .bottom-links {
       @include grid-item-base;
     }
+    // IE6-8
+    .ie6-8 & {
+      .section {
+        @include span-columns(2);
+        &.bl-last {
+          margin-right: 0;
+        }
+      }
+    }
     // Set the widths of each menu
     @include respond-to(desktop) {
       .section {

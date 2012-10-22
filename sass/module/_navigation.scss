@@ -19,6 +19,10 @@
   @include border-bottom-left-radius(5px);
 }
 
+.ie6-8 .region-user-first {
+  display: none !important;
+}
+
 /* Primary and Secondary menus */
 
 #primary {
@@ -81,6 +85,10 @@
 // Primary links block gets fat styling
 
 @include font-icon-family(entypo);
+
+.ie6-8 #block-menu-primary-links {
+  display: block !important;
+}
 
 #block-menu-primary-links {
   @extend %above-handheld-landscape-visible !optional;

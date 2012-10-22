@@ -67,6 +67,10 @@
   @extend %above-handheld-landscape-visible !optional;
 }
 
+.ie6-8 #block-menu-secondary-links {
+  display: block !important;
+}
+
 #block-menu-menu-handheld-menu {
   clear: both;
   @include padding-trailer(0.25);

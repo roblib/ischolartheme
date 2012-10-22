@@ -2324,6 +2324,7 @@ ul li.leaf.comments {
 }
 .front #content {
   margin-bottom: 0em;
+  padding-top: 0.5em;
 }
 
 #skip-link {
@@ -2605,7 +2606,7 @@ body.not-front, body.front, body .postscript-wrapper {
 
 /* Postscript */
 .postscript-wrapper {
-  margin-top: 4.5em;
+  margin-top: 4em;
 }
 
 .postscript .region {

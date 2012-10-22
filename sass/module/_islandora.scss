@@ -156,7 +156,7 @@
   }
   .ie6-8 & {
     .form-text {
-      width: 340px;
+      width: 300px;
     }
   }
   @include respond-to(handheld-landscape) {

@@ -2301,6 +2301,7 @@ ul li.leaf.comments {
 }
 
 .region-header {
+  display: inline;
   float: right;
 }
 
@@ -2783,7 +2784,7 @@ div.messages.error {
   }
 }
 .ie6-8 #islandora-solr-simple-search-form .form-text {
-  width: 340px;
+  width: 300px;
 }
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   #islandora-solr-simple-search-form {

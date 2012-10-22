@@ -36,7 +36,7 @@
 }
 
 .region-header {
-  float: right;
+  @include float(right);
 }
 
 // Skip link is hidden until it's tabbed to.

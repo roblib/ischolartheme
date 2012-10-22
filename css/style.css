@@ -2451,7 +2451,7 @@ body.not-front, body.front, body .postscript-wrapper {
     margin-right: -100%;
   }
 }
-.region-header .ie6-8 {
+.ie6-8 .region-header {
   margin-right: 1.80505%;
   width: 49.09747%;
   margin-left: 50.90253%;

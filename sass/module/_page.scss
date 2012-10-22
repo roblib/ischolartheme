@@ -155,7 +155,7 @@ body {
     @include span-columns(6);
     @include position(7);
   }
-  .ie6-8 {
+  .ie6-8 & {
     @include span-columns(6);
     @include position(7);
   }

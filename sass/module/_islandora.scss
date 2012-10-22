@@ -173,6 +173,27 @@
   }
 }
 
+// Advanced Search Block margin
+#block-block-17 {
+  clear: both;
+  float: right;
+  @include trailer(0);
+  @include respond-to(tablet) {
+    width: 200px;
+  }
+  @include respond-above(tablet) {
+    width: 398px;
+  }
+  .ie6-8 & {
+    width: 398px;
+  }
+  @include respond-to(handheld-landscape) {
+    width: 320px;
+  }
+  @include respond-to(handheld) {
+    width: 195px;
+  }
+}
 
 .islandora-solr-search-query-inline {
   @include padding-leader(0.25);

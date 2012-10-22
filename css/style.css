@@ -2948,7 +2948,7 @@ div.messages.error {
 }
 @media only screen and (min-width: 768px) and (max-width: 979px) {
   #block-block-17 {
-    width: 200px;
+    width: 258px;
   }
 }
 @media only screen and (min-width: 980px) {
@@ -2957,16 +2957,16 @@ div.messages.error {
   }
 }
 .ie6-8 #block-block-17 {
-  width: 398px;
+  width: 378px;
 }
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   #block-block-17 {
-    width: 320px;
+    float: left !important;
   }
 }
 @media only screen and (max-width: 479px) {
   #block-block-17 {
-    width: 195px;
+    float: left !important;
   }
 }
 

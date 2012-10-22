@@ -179,19 +179,19 @@
   float: right;
   @include trailer(0);
   @include respond-to(tablet) {
-    width: 200px;
+    width: 258px;
   }
   @include respond-above(tablet) {
     width: 398px;
   }
   .ie6-8 & {
-    width: 398px;
+    width: 378px;
   }
   @include respond-to(handheld-landscape) {
-    width: 320px;
+    float: left !important;
   }
   @include respond-to(handheld) {
-    width: 195px;
+    float: left !important;
   }
 }
 

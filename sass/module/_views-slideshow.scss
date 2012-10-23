@@ -79,9 +79,11 @@
 .scholar-slideshow--link,
 .scholar-slideshow--link a {
   @include float(right);
+  width: auto !important;
 }
 
 .scholar-slideshow--title,
 .scholar-slideshow--subtitle {
   @include float(left);
+  width: auto !important;
 }

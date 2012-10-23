@@ -3298,10 +3298,10 @@ body[class*=" page-islandora-solr-search"] #content-header {
 
 @media only screen and (min-width: 1160px) {
   .scholar-slideshow-wrapper {
-    top: 0;
+    top: 150px;
   }
   .ie6-8 .scholar-slideshow-wrapper {
-    top: 0px;
+    top: 150px;
   }
 }
 

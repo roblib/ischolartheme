@@ -50,9 +50,9 @@
 
 .scholar-slideshow-wrapper {
   @include respond-to(desktop) {
-    top: 0;
+    top: 150px;
     .ie6-8 & {
-      top: 0px;
+      top: 150px;
     }
   }
 }

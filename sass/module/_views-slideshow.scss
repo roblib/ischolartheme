@@ -62,6 +62,9 @@
   @include respond-to(tablet) {
     top: 185px;
   }
+  @include respond-to(handheld-landscape) {
+    top: 105px;
+  }
   div {
     position: absolute !important;
   }
@@ -81,6 +84,9 @@
     height: 80px;
   }
   @include respond-to(tablet) {
+    height: 80px;
+  }
+  @include respond-to(handheld-landscape) {
     height: 80px;
   }
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);

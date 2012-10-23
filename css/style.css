@@ -3318,6 +3318,12 @@ body[class*=" page-islandora-solr-search"] #content-header {
     top: 185px;
   }
 }
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .views_slideshow_singleframe_main .scholar-slideshow-overlay,
+  .scholar-slideshow-wrapper {
+    top: 105px;
+  }
+}
 .views_slideshow_singleframe_main .scholar-slideshow-overlay div,
 .scholar-slideshow-wrapper div {
   position: absolute !important;
@@ -3346,6 +3352,11 @@ body[class*=" page-islandora-solr-search"] #content-header {
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 979px) {
+  .views_slideshow_singleframe_main .scholar-slideshow-overlay {
+    height: 80px;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
   .views_slideshow_singleframe_main .scholar-slideshow-overlay {
     height: 80px;
   }

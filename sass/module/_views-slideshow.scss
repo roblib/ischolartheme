@@ -27,8 +27,8 @@
   @include respond-to(handheld-landscape) {
     height: 240px;
   }
-  @include respond-to(handheld-landscape) {
-    height: 240px;
+  @include respond-to(handheld) {
+    height: 170px;
   }
 }
 

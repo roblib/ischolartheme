@@ -3321,7 +3321,8 @@ body[class*=" page-islandora-solr-search"] #content-header {
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   .views_slideshow_singleframe_main .scholar-slideshow-overlay,
   .scholar-slideshow-wrapper {
-    top: 105px;
+    top: 138px;
+    font-size: 90%;
   }
 }
 .views_slideshow_singleframe_main .scholar-slideshow-overlay div,

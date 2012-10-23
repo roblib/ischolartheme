@@ -63,7 +63,8 @@
     top: 185px;
   }
   @include respond-to(handheld-landscape) {
-    top: 105px;
+    top: 138px;
+    font-size: 90%;
   }
   div {
     position: absolute !important;

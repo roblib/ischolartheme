@@ -43,10 +43,28 @@
 
 .views_slideshow_singleframe_main .views-field-teaser,
 .views_slideshow_singleframe_main .views-field-teaser .field-content,
+.views_slideshow_singleframe_main .views-field-teaser .scholar-slideshow-wrapper
 .scholar-slideshow-overlay {
   position: absolute !important;
+  @include respond-to(desktop) {
+    top: 78px;
+    .ie6-8 & {
+      top: 78px;
+    }
+  }
 }
 
+.views_slideshow_singleframe_main .scholar-slideshow-overlay {
+  background: #3c2c1a;
+  width: 100%;
+  @include opacity(0.8);
+  @include respond-to(desktop) {
+    height: 100px;
+    .ie6-8 & {
+      height: 100px;
+    }
+  }
+}
 
 
 //.campslideshow .views-slideshow-controls-bottom {

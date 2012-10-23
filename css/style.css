@@ -3385,6 +3385,11 @@ body[class*=" page-islandora-solr-search"] #content-header {
   left: 10px;
   top: 5px;
 }
+@media only screen and (max-width: 479px) {
+  .scholar-slideshow--title {
+    font-size: 90%;
+  }
+}
 
 .scholar-slideshow--subtitle {
   left: 10px;

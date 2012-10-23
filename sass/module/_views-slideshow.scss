@@ -113,6 +113,9 @@
 .scholar-slideshow--title {
   left: 10px;
   top: 5px;
+  @include respond-to(handheld) {
+    font-size: 90%;
+  }
 }
 
 .scholar-slideshow--subtitle {

@@ -3311,6 +3311,7 @@ body[class*=" page-islandora-solr-search"] #content-header {
 }
 
 .views_slideshow_singleframe_main .scholar-slideshow-overlay {
+  position: absolute !important;
   background: #F6F5EE;
   width: 100%;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
@@ -3324,7 +3325,7 @@ body[class*=" page-islandora-solr-search"] #content-header {
     height: 100px;
   }
   .ie6-8 .views_slideshow_singleframe_main .scholar-slideshow-overlay {
-    height: 100px;
+    height: 80px;
   }
 }
 

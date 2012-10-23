@@ -69,7 +69,7 @@
   @include respond-to(handheld) {
     top: 50px;
     font-size: 90%;
-    top: 100px;
+    top: 110px;
   }
   div {
     position: absolute !important;
@@ -96,7 +96,7 @@
     height: 80px;
   }
   @include respond-to(handheld) {
-    height: 50px;
+    height: 30px;
   }
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
   opacity: 0.8;
@@ -119,6 +119,7 @@
   top: 5px;
   @include respond-to(handheld) {
     font-size: 80%;
+    top: 3px;
   }
 }
 

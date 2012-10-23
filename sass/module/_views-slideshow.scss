@@ -69,6 +69,7 @@
   @include respond-to(handheld) {
     top: 50px;
     font-size: 90%;
+    top: 100px;
   }
   div {
     position: absolute !important;
@@ -108,13 +109,16 @@
   position: absolute !important;
   right: 10px;
   top: 5px;
+  @include respond-to(handheld) {
+    font-size: 90%;
+  }
 }
 
 .scholar-slideshow--title {
   left: 10px;
   top: 5px;
   @include respond-to(handheld) {
-    font-size: 90%;
+    font-size: 80%;
   }
 }
 

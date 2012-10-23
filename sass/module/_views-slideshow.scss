@@ -25,10 +25,10 @@
     height: 270px;
   }
   @include respond-to(handheld-landscape) {
-    height: 240px;
+    height: 225px;
   }
   @include respond-to(handheld) {
-    height: 170px;
+    height: 155px;
   }
 }
 

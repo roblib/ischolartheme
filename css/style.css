@@ -3270,12 +3270,12 @@ body[class*=" page-islandora-solr-search"] #content-header {
 }
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   .view-front-feature-image .view-content {
-    height: 240px;
+    height: 225px;
   }
 }
 @media only screen and (max-width: 479px) {
   .view-front-feature-image .view-content {
-    height: 170px;
+    height: 155px;
   }
 }
 

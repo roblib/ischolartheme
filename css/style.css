@@ -3330,7 +3330,7 @@ body[class*=" page-islandora-solr-search"] #content-header {
 
 .scholar-slideshow--link a {
   position: absolute !important;
-  right: 0;
+  right: 5px;
 }
 
 .scholar-slideshow--title {

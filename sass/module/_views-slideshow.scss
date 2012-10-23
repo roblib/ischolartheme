@@ -14,7 +14,8 @@
   margin:0;
   padding:0;
   width: 100% !important;
-  position: relative;
+  position: relative !important;
+  height: auto !important;
 }
 
 .views_slideshow_singleframe_slide .views-row .views-field-field-image-fid img {
@@ -23,5 +24,5 @@
   left: 0;
   width: 100% !important;
   max-width: 612px; /* what is the biggest width you would want the image scaled to? */
-  height: auto;
+  height: auto !important;
 }

@@ -3311,12 +3311,12 @@ body[class*=" page-islandora-solr-search"] #content-header {
 }
 
 .views_slideshow_singleframe_main .scholar-slideshow-overlay {
-  background: #3c2c1a;
+  background: #F6F5EE;
   width: 100%;
-  filter: alpha(opacity=0.8);
-  opacity: 0.008;
-  -khtml-opacity: 0.008;
-  -moz-opacity: 0.008;
+  filter: alpha(opacity=0.2);
+  opacity: 0.002;
+  -khtml-opacity: 0.002;
+  -moz-opacity: 0.002;
 }
 @media only screen and (min-width: 1160px) {
   .views_slideshow_singleframe_main .scholar-slideshow-overlay {

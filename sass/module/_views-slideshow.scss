@@ -42,9 +42,10 @@
 }
 
 .views_slideshow_singleframe_main .views-field-teaser,
+.views_slideshow_singleframe_main .views-field-teaser div,
 .views_slideshow_singleframe_main .views-field-teaser .field-content,
-.scholar-slideshow-wrapper div,
-.scholar-slideshow-overlay div {
+.scholar-slideshow-wrapper,
+.scholar-slideshow-overlay {
   position: absolute !important;
   @include respond-to(desktop) {
     top: 78px;

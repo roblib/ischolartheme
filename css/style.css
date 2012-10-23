@@ -3290,22 +3290,25 @@ body[class*=" page-islandora-solr-search"] #content-header {
 }
 
 .views_slideshow_singleframe_main .views-field-teaser,
+.views_slideshow_singleframe_main .views-field-teaser div,
 .views_slideshow_singleframe_main .views-field-teaser .field-content,
-.scholar-slideshow-wrapper div,
-.scholar-slideshow-overlay div {
+.scholar-slideshow-wrapper,
+.scholar-slideshow-overlay {
   position: absolute !important;
 }
 @media only screen and (min-width: 1160px) {
   .views_slideshow_singleframe_main .views-field-teaser,
+  .views_slideshow_singleframe_main .views-field-teaser div,
   .views_slideshow_singleframe_main .views-field-teaser .field-content,
-  .scholar-slideshow-wrapper div,
-  .scholar-slideshow-overlay div {
+  .scholar-slideshow-wrapper,
+  .scholar-slideshow-overlay {
     top: 78px;
   }
   .ie6-8 .views_slideshow_singleframe_main .views-field-teaser, .ie6-8
+  .views_slideshow_singleframe_main .views-field-teaser div, .ie6-8
   .views_slideshow_singleframe_main .views-field-teaser .field-content, .ie6-8
-  .scholar-slideshow-wrapper div, .ie6-8
-  .scholar-slideshow-overlay div {
+  .scholar-slideshow-wrapper, .ie6-8
+  .scholar-slideshow-overlay {
     top: 78px;
   }
 }

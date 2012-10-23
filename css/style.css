@@ -3255,7 +3255,7 @@ body[class*=" page-islandora-solr-search"] #content-header {
   margin: 0;
   padding: 0;
   width: 100% !important;
-  position: relative !important;
+  position: relative;
 }
 
 @media only screen and (min-width: 980px) and (max-width: 1159px) {

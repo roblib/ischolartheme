@@ -41,7 +41,9 @@
   height: auto !important;
 }
 
-.views_slideshow_singleframe_main .views-field-teaser {
+.views_slideshow_singleframe_main .views-field-teaser,
+.views_slideshow_singleframe_main .field-content,
+.scholar-slideshow-overlay {
   position: absolute;
 }
 

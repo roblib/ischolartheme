@@ -66,6 +66,10 @@
     top: 138px;
     font-size: 90%;
   }
+  @include respond-to(handheld) {
+    top: 50px;
+    font-size: 90%;
+  }
   div {
     position: absolute !important;
   }
@@ -90,6 +94,9 @@
   @include respond-to(handheld-landscape) {
     height: 80px;
   }
+  @include respond-to(handheld) {
+    height: 50px;
+  }
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
   opacity: 0.8;
   -moz-opacity: 0.8;
@@ -111,4 +118,7 @@
 .scholar-slideshow--subtitle {
   left: 10px;
   top: 2em;
+  @include respond-to(handheld) {
+    display: none;
+  }
 }

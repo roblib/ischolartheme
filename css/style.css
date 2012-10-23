@@ -3327,16 +3327,14 @@ body[class*=" page-islandora-solr-search"] #content-header {
 
 .scholar-slideshow--link,
 .scholar-slideshow--link a {
-  display: inline;
-  float: right;
-  width: auto !important;
+  position: absolute !important;
+  right: 0;
 }
 
 .scholar-slideshow--title,
 .scholar-slideshow--subtitle {
-  display: inline;
-  float: left;
-  width: auto !important;
+  position: absolute !important;
+  left: 0;
 }
 
 #block-menu-primary-links li a.menu-item-id-308:before {

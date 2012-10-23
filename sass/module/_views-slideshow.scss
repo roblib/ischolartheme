@@ -78,12 +78,12 @@
 
 .scholar-slideshow--link,
 .scholar-slideshow--link a {
-  @include float(right);
-  width: auto !important;
+  position: absolute !important;
+  right: 0;
 }
 
 .scholar-slideshow--title,
 .scholar-slideshow--subtitle {
-  @include float(left);
-  width: auto !important;
+  position: absolute !important;
+  left: 0;
 }

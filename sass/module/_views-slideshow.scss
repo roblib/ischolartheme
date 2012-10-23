@@ -55,6 +55,9 @@
       top: 150px;
     }
   }
+  div {
+    position: absolute !important;
+  }
 }
 
 
@@ -76,14 +79,11 @@
   -o-opacity: 0.8;
 }
 
-.scholar-slideshow--link,
-.scholar-slideshow--link a {
-  position: absolute !important;
+.scholar-slideshow--link {
   right: 0;
 }
 
 .scholar-slideshow--title,
 .scholar-slideshow--subtitle {
-  position: absolute !important;
   left: 0;
 }

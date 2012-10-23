@@ -3339,7 +3339,7 @@ body[class*=" page-islandora-solr-search"] #content-header {
 
 .scholar-slideshow--subtitle {
   left: 0;
-  top: 10px;
+  top: 2em;
 }
 
 #block-menu-primary-links li a.menu-item-id-308:before {

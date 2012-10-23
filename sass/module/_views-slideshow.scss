@@ -59,6 +59,9 @@
   @include respond-to(tablet-landscape) {
     top: 265px;
   }
+  @include respond-to(tablet) {
+    top: 165px;
+  }
   div {
     position: absolute !important;
   }
@@ -75,6 +78,9 @@
     }
   }
   @include respond-to(tablet-landscape) {
+    height: 80px;
+  }
+  @include respond-to(tablet) {
     height: 80px;
   }
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);

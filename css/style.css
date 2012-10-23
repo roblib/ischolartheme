@@ -3290,7 +3290,7 @@ body[class*=" page-islandora-solr-search"] #content-header {
 }
 
 .views_slideshow_singleframe_main .views-field-teaser,
-.views_slideshow_singleframe_main .field-content,
+.views_slideshow_singleframe_main .views-field-teaser .field-content,
 .scholar-slideshow-overlay {
   position: absolute;
 }

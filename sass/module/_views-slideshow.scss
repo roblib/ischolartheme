@@ -45,18 +45,18 @@
 .views_slideshow_singleframe_main .views-field-teaser .field-content,
 .scholar-slideshow-wrapper,
 .scholar-slideshow-overlay {
-  position: absolute !important;
+  position: absolute;
 }
 
 .scholar-slideshow-wrapper {
   @include respond-to(desktop) {
-    top: 150px;
+    top: 230px;
     .ie6-8 & {
-      top: 150px;
+      top: 230px;
     }
   }
   div {
-    position: absolute !important;
+    position: absolute;
   }
 }
 
@@ -80,7 +80,7 @@
 }
 
 .scholar-slideshow--link a{
-  position: absolute !important;
+  position: absolute;
   right: 0;
 }
 

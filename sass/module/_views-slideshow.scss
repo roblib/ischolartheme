@@ -40,3 +40,65 @@
   max-width: 612px; /* what is the biggest width you would want the image scaled to? */
   height: auto !important;
 }
+
+#scholar-slideshow {
+  position: absolute;
+}
+
+//.campslideshow .views-slideshow-controls-bottom {
+//    color: #FFFFFF;
+//    display: inline;
+//    left: 10px;
+//    position: absolute;
+//    top: 10px;
+//    z-index: 100;
+//}
+//.campslideshow #campslideshowcontent {
+//    bottom: 20px;
+//    color: #FFFFFF;
+//    left: 10px;
+//    padding-right: 10px;
+
+//}
+//.campslideshow .campslideshowtitle {
+//    color: #EFEFEF;
+//    display: none;
+//    font-family: "Trebuchet MS","Lucida Grande","Lucida Sans","Lucida Sans Unicode",Tahoma,Helvetica,sans-serif;
+//    font-size: 2em;
+//    font-weight: bold;
+//    margin-bottom: 4px;
+//    text-shadow: 0 1px 4px #000000;
+//}
+//.campslideshow .campslideshowcolllink {
+//    color: #FFFFFF;
+//    font-size: 1.5em;
+//    font-weight: bold;
+//}
+//#content-bottom .campslideshow .campslideshowcolllink a:link, #content-bottom .campslideshow .campslideshowcolllink a:visited {
+//    background: none repeat scroll 0 0 #FFFFFF;
+//    border-radius: 2px 2px 2px 2px;
+//    opacity: 0.85;
+//    padding: 3px;
+//    text-decoration: none;
+//}
+//#content-bottom .campslideshow .campslideshowcolllink a:hover, #content-bottom .campslideshow .campslideshowcolllink a:active, #feature .campslideshow .campslideshowcolllink a:focus {
+//    background: none repeat scroll 0 0 #CCCCCC;
+//    color: #000000;
+//    opacity: 1;
+//}
+//.campslideshow .views_slideshow_thumbnailhover_div_breakout_teaser {
+//    background: none repeat scroll 0 0 #888888;
+//    border-radius: 2px 2px 2px 2px;
+//    cursor: pointer;
+//    float: left;
+//    font-weight: bold;
+//    margin-right: 3px;
+//    opacity: 0.9;
+//    padding: 1px 6px;
+//}
+//.campslideshow .views_slideshow_thumbnailhover_div_breakout_teaser.activeSlide {
+//    background: none repeat scroll 0 0 #CCCCCC;
+//    border-radius: 2px 2px 2px 2px;
+//    color: #000000;
+//    opacity: 1;
+//}

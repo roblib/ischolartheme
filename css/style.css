@@ -3289,6 +3289,10 @@ body[class*=" page-islandora-solr-search"] #content-header {
   height: auto !important;
 }
 
+#scholar-slideshow {
+  position: absolute;
+}
+
 #block-menu-primary-links li a.menu-item-id-308:before {
   content: "👤";
 }

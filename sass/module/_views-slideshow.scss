@@ -43,8 +43,8 @@
 
 .views_slideshow_singleframe_main .views-field-teaser,
 .views_slideshow_singleframe_main .views-field-teaser .field-content,
-.views_slideshow_singleframe_main .views-field-teaser .scholar-slideshow-wrapper
-.scholar-slideshow-overlay {
+.scholar-slideshow-wrapper div,
+.scholar-slideshow-overlay div {
   position: absolute !important;
   @include respond-to(desktop) {
     top: 78px;
@@ -55,18 +55,19 @@
 }
 
 .views_slideshow_singleframe_main .scholar-slideshow-overlay {
-  position: absolute !important;
   background: #F6F5EE;
   width: 100%;
+  @include respond-to(desktop) {
+    height: 80px;
+    .ie6-8 & {
+      height: 80px;
+    }
+  }
+
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
   opacity: 0.8;
   -moz-opacity: 0.8;
   -webkit-opacity: 0.8;
   -o-opacity: 0.8;
-  @include respond-to(desktop) {
-    height: 100px;
-    .ie6-8 & {
-      height: 80px;
-    }
-  }
+
 }

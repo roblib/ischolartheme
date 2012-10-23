@@ -84,7 +84,11 @@
   right: 0;
 }
 
-.scholar-slideshow--title,
+.scholar-slideshow--title {
+  left: 0;
+}
+
 .scholar-slideshow--subtitle {
   left: 0;
+  top: 10px;
 }

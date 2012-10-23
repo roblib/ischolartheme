@@ -45,7 +45,7 @@
 .views_slideshow_singleframe_main .views-field-teaser .field-content,
 .scholar-slideshow-wrapper,
 .scholar-slideshow-overlay {
-  position: absolute;
+  position: absolute !important;
 }
 
 .scholar-slideshow-wrapper {
@@ -56,7 +56,7 @@
     }
   }
   div {
-    position: absolute;
+    position: absolute !important;
   }
 }
 
@@ -80,7 +80,7 @@
 }
 
 .scholar-slideshow--link a{
-  position: absolute;
+  position: absolute !important;
   right: 0;
 }
 

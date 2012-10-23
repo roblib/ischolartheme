@@ -3293,7 +3293,7 @@ body[class*=" page-islandora-solr-search"] #content-header {
 .views_slideshow_singleframe_main .views-field-teaser .field-content,
 .scholar-slideshow-wrapper,
 .scholar-slideshow-overlay {
-  position: absolute;
+  position: absolute !important;
 }
 
 @media only screen and (min-width: 1160px) {
@@ -3305,7 +3305,7 @@ body[class*=" page-islandora-solr-search"] #content-header {
   }
 }
 .scholar-slideshow-wrapper div {
-  position: absolute;
+  position: absolute !important;
 }
 
 .views_slideshow_singleframe_main .scholar-slideshow-overlay {
@@ -3329,7 +3329,7 @@ body[class*=" page-islandora-solr-search"] #content-header {
 }
 
 .scholar-slideshow--link a {
-  position: absolute;
+  position: absolute !important;
   right: 0;
 }
 

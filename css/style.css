@@ -3240,6 +3240,34 @@ body[class*=" page-islandora-solr-search"] #content-header {
   }
 }
 
+/*
+ * ==================================================
+ * Views Slideshow
+ * ==================================================
+ */
+/* no margin or padding on any of the elements holding the slides */
+.views_slideshow_singleframe_main,
+.views_slideshow_singleframe_teaser_section,
+.views_slideshow_singleframe_slide,
+.views_slideshow_singleframe_slide .views-row,
+.views_slideshow_singleframe_slide .views-row div,
+.views_slideshow_singleframe_slide .views-row .views-field-field-image-fid {
+  margin: 0;
+  padding: 0;
+  width: 100% !important;
+  position: relative;
+}
+
+.views_slideshow_singleframe_slide .views-row .views-field-field-image-fid img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  max-width: 612px;
+  /* what is the biggest width you would want the image scaled to? */
+  height: auto;
+}
+
 #block-menu-primary-links li a.menu-item-id-308:before {
   content: "👤";
 }

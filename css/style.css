@@ -2954,6 +2954,7 @@ div.messages.error {
 }
 .ie6-8 #islandora-solr-simple-search-form .form-text {
   width: 300px;
+  min-width: 300px;
 }
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   #islandora-solr-simple-search-form {

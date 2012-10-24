@@ -75,7 +75,7 @@ function ischolartheme_theme(&$existing, $type, $theme, $path) {
 }
 
 function  ischolartheme_page_headers(){
-  drupal_set_html_head('<!--[if IE]><script src="' . $base_path . drupal_get_path('theme', 'ischolartheme') . '/js/excanvas.js"></script><![endif]-->
+  drupal_set_html_head('<!--[if IE]><script src="' . '/' . $base_path . drupal_get_path('theme', 'ischolartheme') . '/js/excanvas.js"></script><![endif]-->
 ');
 }
 

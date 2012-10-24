@@ -3192,6 +3192,9 @@ body[class*=" page-islandora-solr-search"] #content-header {
 .item-list ul.islandora-solr-search-sort li:hover {
   background-color: #ededed;
 }
+.item-list ul.islandora-solr-search-sort li a img {
+  vertical-align: middle;
+}
 
 /*
  * ==================================================

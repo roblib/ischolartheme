@@ -301,5 +301,8 @@ body[class*=" page-islandora-solr-search"] #content-header {
     &:hover {
       background-color: #ededed;
     }
+    a img {
+      vertical-align: middle;
+    }
   }
 }

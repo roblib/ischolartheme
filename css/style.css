@@ -3169,9 +3169,6 @@ body[class*=" page-islandora-solr-search"] #content-header {
   list-style: none;
   margin-left: 0;
   border-top-width: 1px;
-  list-style-image: none;
-  list-style-type: none;
-  padding-left: 0;
 }
 .islandora-solr-search-sort > li {
   border: 0 solid #cccccc;
@@ -3182,6 +3179,11 @@ body[class*=" page-islandora-solr-search"] #content-header {
   display: block;
   padding: 0.75em;
   margin: -0.75em;
+}
+.islandora-solr-search-sort li {
+  list-style-image: none;
+  list-style-type: none;
+  padding-left: 0;
 }
 
 /*

@@ -2022,7 +2022,8 @@ ul li.leaf.comments {
   -moz-box-shadow: 0 0 40px -20px #333333 inset;
   box-shadow: 0 0 40px -20px #333333 inset;
   padding: 10px;
-  font-size: 90%;
+  font-size: 0.85em;
+  line-height: 1.77em;
 }
 .front #block-block-19 p:last-child {
   margin-bottom: 0em;

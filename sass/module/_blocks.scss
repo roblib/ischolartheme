@@ -17,7 +17,8 @@
   #block-block-19 {
     @include box-shadow(0 0 40px -20px #333 inset);
     padding: 10px;
-    font-size: 90%;
+    font-size: 0.85em;
+    line-height: 1.77em;
     p:last-child {
       @include trailer(0);
     }

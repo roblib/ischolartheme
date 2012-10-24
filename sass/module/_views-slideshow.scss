@@ -52,9 +52,6 @@
 .scholar-slideshow-wrapper {
   @include respond-to(desktop) {
     top: 230px;
-    .ie6-8 & {
-      top: 230px;
-    }
   }
   @include respond-to(tablet-landscape) {
     top: 265px;
@@ -76,15 +73,24 @@
   }
 }
 
+.views_slideshow_singleframe_main .scholar-slideshow-overlay,
+.scholar-slideshow-wrapper {
+  .ie6-8 & {
+    top: 230px;
+  }
+}
+
+.views_slideshow_singleframe_main .scholar-slideshow-overlay {
+  .ie6-8 & {
+    height: 80px;
+  }
+}
 
 .views_slideshow_singleframe_main .scholar-slideshow-overlay {
   background: #F6F5EE;
   width: 100%;
   @include respond-to(desktop) {
     height: 80px;
-    .ie6-8 & {
-      height: 80px;
-    }
   }
   @include respond-to(tablet-landscape) {
     height: 80px;

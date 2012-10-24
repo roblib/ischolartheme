@@ -294,6 +294,9 @@ body[class*=" page-islandora-solr-search"] #content-header {
   @include block-list;
 }
 
-.item-list ul.islandora-solr-search-sort li {
-  @include no-bullets;
+.item-list ul.islandora-solr-search-sort {
+  padding: 0;
+  li {
+    @include no-bullets;
+  }
 }

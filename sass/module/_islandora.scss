@@ -298,5 +298,8 @@ body[class*=" page-islandora-solr-search"] #content-header {
   padding: 0;
   li {
     @include no-bullets;
+    &:hover {
+      background-color: #ededed;
+    }
   }
 }

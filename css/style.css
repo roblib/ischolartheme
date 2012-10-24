@@ -3173,12 +3173,12 @@ body[class*=" page-islandora-solr-search"] #content-header {
 .islandora-solr-search-sort > li {
   border: 0 solid #cccccc;
   border-bottom-width: 1px;
-  padding: 0.75em;
+  padding: 0.5em;
 }
 .islandora-solr-search-sort > li a {
   display: block;
-  padding: 0.75em;
-  margin: -0.75em;
+  padding: 0.5em;
+  margin: 0;
 }
 
 .item-list ul.islandora-solr-search-sort {
@@ -3188,6 +3188,9 @@ body[class*=" page-islandora-solr-search"] #content-header {
   list-style-image: none;
   list-style-type: none;
   padding-left: 0;
+}
+.item-list ul.islandora-solr-search-sort li:hover {
+  background-color: #ededed;
 }
 
 /*

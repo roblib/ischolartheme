@@ -74,11 +74,17 @@ function ischolartheme_theme(&$existing, $type, $theme, $path) {
   return $hooks;
 }
 
+function  ischolartheme_page_headers(){
+  drupal_set_html_head('<!--[if IE]><script src="' . $base_path . path_to_theme() . '/js/excanvas.js"></script><![endif]-->
+');
+}
+
 function ischolartheme_preprocess_page(&$vars, $hook) {
 
   $vars['logo_img'] = $vars['logo'] ? '<img src="' . $vars['logo'] . '" alt="University of Prince Edward Island" id="logo" />' : '';
   $vars['linked_logo_img'] = $vars['logo'] ? l($vars['logo_img'], 'http://www.upei.ca', array('attributes' => array('rel' => 'home', 'title' => 'University of Prince Edward Island'), 'html' => TRUE)) : '';
-
+  ischolartheme_page_headers();
+  $vars['head'] = drupal_get_html_head();
 }
 
 /**

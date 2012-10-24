@@ -3180,6 +3180,11 @@ body[class*=" page-islandora-solr-search"] #content-header {
   padding: 0.75em;
   margin: -0.75em;
 }
+.islandora-solr-search-sort ul {
+  list-style-image: none;
+  list-style-type: none;
+  padding-left: 0;
+}
 
 /*
  * ==================================================

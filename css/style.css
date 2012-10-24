@@ -3165,6 +3165,22 @@ body[class*=" page-islandora-solr-search"] #content-header {
   *display: inline;
 }
 
+.islandora-solr-search-sort {
+  list-style: none;
+  margin-left: 0;
+  border-top-width: 1px;
+}
+.islandora-solr-search-sort > li {
+  border: 0 solid #cccccc;
+  border-bottom-width: 1px;
+  padding: 0.75em;
+}
+.islandora-solr-search-sort > li a {
+  display: block;
+  padding: 0.75em;
+  margin: -0.75em;
+}
+
 /*
  * ==================================================
  * UPEI footer styling

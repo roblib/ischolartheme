@@ -292,7 +292,5 @@ body[class*=" page-islandora-solr-search"] #content-header {
 // Converts sort block to a touch friendly block
 .islandora-solr-search-sort {
   @include block-list;
-  ul {
-    @include no-bullets;
-  }
+  @include no-bullets;
 }

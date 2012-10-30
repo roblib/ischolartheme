@@ -68,6 +68,7 @@
 }
 
 .inner-footeraddress {
+  padding-top: 10px;
   @include respond-above(handheld) {
     background: url("http://students.upei.ca/files/misc/shieldfooter.png") no-repeat right center;
   }

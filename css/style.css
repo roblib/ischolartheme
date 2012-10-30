@@ -544,7 +544,7 @@ select[multiple] {
 
 @media (-webkit-min-device-pixel-ratio: 0) {
   select {
-    background-image: url('select_arrow.gif?1347889282');
+    background-image: url('../images/select_arrow.gif?1347889282');
     background-repeat: no-repeat;
     background-position: right center;
     padding-right: 26px;
@@ -1027,7 +1027,7 @@ input[type="submit"] {
   -webkit-background-clip: padding;
   -moz-background-clip: padding;
   background-clip: padding-box;
-  background: #dddddd url('button.png?1347889282') repeat-x;
+  background: #dddddd url('../images/button.png?1347889282') repeat-x;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #dedede));
   background: -webkit-linear-gradient(#ffffff, #dedede);
   background: -moz-linear-gradient(#ffffff, #dedede);
@@ -1760,8 +1760,8 @@ ul.primary a.active {
 
 @font-face {
   font-family: "entypo";
-  src: url('/entypo.eot');
-  src: url('/entypo.eot?#iefix') format("embedded-opentype"), url('/entypo.woff') format("woff"), url('/entypo.ttf') format("truetype"), url('/entypo.svg#entypo') format("svg"), url('/entypo.otf') format("opentype");
+  src: url('fonts/entypo.eot');
+  src: url('fonts/entypo.eot?#iefix') format("embedded-opentype"), url('fonts/entypo.woff') format("woff"), url('fonts/entypo.ttf') format("truetype"), url('fonts/entypo.svg#entypo') format("svg"), url('fonts/entypo.otf') format("opentype");
   font-weight: normal;
   font-style: normal;
 }
@@ -2789,66 +2789,66 @@ div.messages.error {
 .scholar_pdf a.button, .scholar_pdf a.fulltext {
   border-color: #dddddd #b9b9b9 #989898;
   padding-left: 21px;
-  background: url('button-pdf-darkgrey.png?1348797722'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #dedede));
-  background: url('button-pdf-darkgrey.png?1348797722'), -webkit-linear-gradient(#ffffff, #dedede);
-  background: url('button-pdf-darkgrey.png?1348797722'), -moz-linear-gradient(#ffffff, #dedede);
-  background: url('button-pdf-darkgrey.png?1348797722'), -o-linear-gradient(#ffffff, #dedede);
-  background: url('button-pdf-darkgrey.png?1348797722'), -ms-linear-gradient(#ffffff, #dedede);
-  background: url('button-pdf-darkgrey.png?1348797722'), linear-gradient(#ffffff, #dedede);
+  background: url('../images/button-pdf-darkgrey.png?1348797722'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #dedede));
+  background: url('../images/button-pdf-darkgrey.png?1348797722'), -webkit-linear-gradient(#ffffff, #dedede);
+  background: url('../images/button-pdf-darkgrey.png?1348797722'), -moz-linear-gradient(#ffffff, #dedede);
+  background: url('../images/button-pdf-darkgrey.png?1348797722'), -o-linear-gradient(#ffffff, #dedede);
+  background: url('../images/button-pdf-darkgrey.png?1348797722'), -ms-linear-gradient(#ffffff, #dedede);
+  background: url('../images/button-pdf-darkgrey.png?1348797722'), linear-gradient(#ffffff, #dedede);
   background-position: 6px 5px, 0 0;
   background-repeat: no-repeat, repeat;
 }
 .scholar_pdf a.button:hover, .scholar_pdf a.fulltext:hover {
-  background: url('button-pdf-darkgrey.png?1348797722'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(33%, #ebebeb), color-stop(100%, #e6e6e6));
-  background: url('button-pdf-darkgrey.png?1348797722'), -webkit-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
-  background: url('button-pdf-darkgrey.png?1348797722'), -moz-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
-  background: url('button-pdf-darkgrey.png?1348797722'), -o-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
-  background: url('button-pdf-darkgrey.png?1348797722'), -ms-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
-  background: url('button-pdf-darkgrey.png?1348797722'), linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
+  background: url('../images/button-pdf-darkgrey.png?1348797722'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(33%, #ebebeb), color-stop(100%, #e6e6e6));
+  background: url('../images/button-pdf-darkgrey.png?1348797722'), -webkit-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
+  background: url('../images/button-pdf-darkgrey.png?1348797722'), -moz-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
+  background: url('../images/button-pdf-darkgrey.png?1348797722'), -o-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
+  background: url('../images/button-pdf-darkgrey.png?1348797722'), -ms-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
+  background: url('../images/button-pdf-darkgrey.png?1348797722'), linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
   background-position: 6px 5px, 0 0;
   background-repeat: no-repeat, repeat;
 }
 .scholar_pdf a.button:active, .scholar_pdf a.fulltext:active {
   border-color: #989898 #b9b9b9 #dddddd;
-  background: url('button-pdf-darkgrey.png?1348797722'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(33%, #dedede), color-stop(100%, #ededed));
-  background: url('button-pdf-darkgrey.png?1348797722'), -webkit-linear-gradient(#ffffff, #dedede 33%, #ededed);
-  background: url('button-pdf-darkgrey.png?1348797722'), -moz-linear-gradient(#ffffff, #dedede 33%, #ededed);
-  background: url('button-pdf-darkgrey.png?1348797722'), -o-linear-gradient(#ffffff, #dedede 33%, #ededed);
-  background: url('button-pdf-darkgrey.png?1348797722'), -ms-linear-gradient(#ffffff, #dedede 33%, #ededed);
-  background: url('button-pdf-darkgrey.png?1348797722'), linear-gradient(#ffffff, #dedede 33%, #ededed);
+  background: url('../images/button-pdf-darkgrey.png?1348797722'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(33%, #dedede), color-stop(100%, #ededed));
+  background: url('../images/button-pdf-darkgrey.png?1348797722'), -webkit-linear-gradient(#ffffff, #dedede 33%, #ededed);
+  background: url('../images/button-pdf-darkgrey.png?1348797722'), -moz-linear-gradient(#ffffff, #dedede 33%, #ededed);
+  background: url('../images/button-pdf-darkgrey.png?1348797722'), -o-linear-gradient(#ffffff, #dedede 33%, #ededed);
+  background: url('../images/button-pdf-darkgrey.png?1348797722'), -ms-linear-gradient(#ffffff, #dedede 33%, #ededed);
+  background: url('../images/button-pdf-darkgrey.png?1348797722'), linear-gradient(#ffffff, #dedede 33%, #ededed);
   background-position: 6px 5px, 0 0;
   background-repeat: no-repeat, repeat;
 }
 .scholar_pdf a.supplement {
   border-color: #dddddd #b9b9b9 #989898;
   padding-left: 21px;
-  background: url('button-docs-darkgrey.png?1350672824'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #dedede));
-  background: url('button-docs-darkgrey.png?1350672824'), -webkit-linear-gradient(#ffffff, #dedede);
-  background: url('button-docs-darkgrey.png?1350672824'), -moz-linear-gradient(#ffffff, #dedede);
-  background: url('button-docs-darkgrey.png?1350672824'), -o-linear-gradient(#ffffff, #dedede);
-  background: url('button-docs-darkgrey.png?1350672824'), -ms-linear-gradient(#ffffff, #dedede);
-  background: url('button-docs-darkgrey.png?1350672824'), linear-gradient(#ffffff, #dedede);
+  background: url('../images/button-docs-darkgrey.png?1350672824'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #dedede));
+  background: url('../images/button-docs-darkgrey.png?1350672824'), -webkit-linear-gradient(#ffffff, #dedede);
+  background: url('../images/button-docs-darkgrey.png?1350672824'), -moz-linear-gradient(#ffffff, #dedede);
+  background: url('../images/button-docs-darkgrey.png?1350672824'), -o-linear-gradient(#ffffff, #dedede);
+  background: url('../images/button-docs-darkgrey.png?1350672824'), -ms-linear-gradient(#ffffff, #dedede);
+  background: url('../images/button-docs-darkgrey.png?1350672824'), linear-gradient(#ffffff, #dedede);
   background-position: 6px 5px, 0 0;
   background-repeat: no-repeat, repeat;
 }
 .scholar_pdf a.supplement:hover {
-  background: url('button-docs-darkgrey.png?1350672824'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(33%, #ebebeb), color-stop(100%, #e6e6e6));
-  background: url('button-docs-darkgrey.png?1350672824'), -webkit-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
-  background: url('button-docs-darkgrey.png?1350672824'), -moz-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
-  background: url('button-docs-darkgrey.png?1350672824'), -o-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
-  background: url('button-docs-darkgrey.png?1350672824'), -ms-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
-  background: url('button-docs-darkgrey.png?1350672824'), linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
+  background: url('../images/button-docs-darkgrey.png?1350672824'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(33%, #ebebeb), color-stop(100%, #e6e6e6));
+  background: url('../images/button-docs-darkgrey.png?1350672824'), -webkit-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
+  background: url('../images/button-docs-darkgrey.png?1350672824'), -moz-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
+  background: url('../images/button-docs-darkgrey.png?1350672824'), -o-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
+  background: url('../images/button-docs-darkgrey.png?1350672824'), -ms-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
+  background: url('../images/button-docs-darkgrey.png?1350672824'), linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
   background-position: 6px 5px, 0 0;
   background-repeat: no-repeat, repeat;
 }
 .scholar_pdf a.supplement:active {
   border-color: #989898 #b9b9b9 #dddddd;
-  background: url('button-docs-darkgrey.png?1350672824'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(33%, #dedede), color-stop(100%, #ededed));
-  background: url('button-docs-darkgrey.png?1350672824'), -webkit-linear-gradient(#ffffff, #dedede 33%, #ededed);
-  background: url('button-docs-darkgrey.png?1350672824'), -moz-linear-gradient(#ffffff, #dedede 33%, #ededed);
-  background: url('button-docs-darkgrey.png?1350672824'), -o-linear-gradient(#ffffff, #dedede 33%, #ededed);
-  background: url('button-docs-darkgrey.png?1350672824'), -ms-linear-gradient(#ffffff, #dedede 33%, #ededed);
-  background: url('button-docs-darkgrey.png?1350672824'), linear-gradient(#ffffff, #dedede 33%, #ededed);
+  background: url('../images/button-docs-darkgrey.png?1350672824'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(33%, #dedede), color-stop(100%, #ededed));
+  background: url('../images/button-docs-darkgrey.png?1350672824'), -webkit-linear-gradient(#ffffff, #dedede 33%, #ededed);
+  background: url('../images/button-docs-darkgrey.png?1350672824'), -moz-linear-gradient(#ffffff, #dedede 33%, #ededed);
+  background: url('../images/button-docs-darkgrey.png?1350672824'), -o-linear-gradient(#ffffff, #dedede 33%, #ededed);
+  background: url('../images/button-docs-darkgrey.png?1350672824'), -ms-linear-gradient(#ffffff, #dedede 33%, #ededed);
+  background: url('../images/button-docs-darkgrey.png?1350672824'), linear-gradient(#ffffff, #dedede 33%, #ededed);
   background-position: 6px 5px, 0 0;
   background-repeat: no-repeat, repeat;
 }
@@ -2856,33 +2856,33 @@ div.messages.error {
 .scholar_associate_button .form-submit {
   border-color: #dddddd #b9b9b9 #989898;
   padding-left: 24px;
-  background: url('button-link-darkgrey.png?1350673034'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #dedede));
-  background: url('button-link-darkgrey.png?1350673034'), -webkit-linear-gradient(#ffffff, #dedede);
-  background: url('button-link-darkgrey.png?1350673034'), -moz-linear-gradient(#ffffff, #dedede);
-  background: url('button-link-darkgrey.png?1350673034'), -o-linear-gradient(#ffffff, #dedede);
-  background: url('button-link-darkgrey.png?1350673034'), -ms-linear-gradient(#ffffff, #dedede);
-  background: url('button-link-darkgrey.png?1350673034'), linear-gradient(#ffffff, #dedede);
+  background: url('../images/button-link-darkgrey.png?1350673034'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #dedede));
+  background: url('../images/button-link-darkgrey.png?1350673034'), -webkit-linear-gradient(#ffffff, #dedede);
+  background: url('../images/button-link-darkgrey.png?1350673034'), -moz-linear-gradient(#ffffff, #dedede);
+  background: url('../images/button-link-darkgrey.png?1350673034'), -o-linear-gradient(#ffffff, #dedede);
+  background: url('../images/button-link-darkgrey.png?1350673034'), -ms-linear-gradient(#ffffff, #dedede);
+  background: url('../images/button-link-darkgrey.png?1350673034'), linear-gradient(#ffffff, #dedede);
   background-position: 6px 5px, 0 0;
   background-repeat: no-repeat, repeat;
 }
 .scholar_associate_button .form-submit:hover {
-  background: url('button-link-darkgrey.png?1350673034'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(33%, #ebebeb), color-stop(100%, #e6e6e6));
-  background: url('button-link-darkgrey.png?1350673034'), -webkit-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
-  background: url('button-link-darkgrey.png?1350673034'), -moz-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
-  background: url('button-link-darkgrey.png?1350673034'), -o-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
-  background: url('button-link-darkgrey.png?1350673034'), -ms-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
-  background: url('button-link-darkgrey.png?1350673034'), linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
+  background: url('../images/button-link-darkgrey.png?1350673034'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(33%, #ebebeb), color-stop(100%, #e6e6e6));
+  background: url('../images/button-link-darkgrey.png?1350673034'), -webkit-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
+  background: url('../images/button-link-darkgrey.png?1350673034'), -moz-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
+  background: url('../images/button-link-darkgrey.png?1350673034'), -o-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
+  background: url('../images/button-link-darkgrey.png?1350673034'), -ms-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
+  background: url('../images/button-link-darkgrey.png?1350673034'), linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
   background-position: 6px 5px, 0 0;
   background-repeat: no-repeat, repeat;
 }
 .scholar_associate_button .form-submit:active {
   border-color: #989898 #b9b9b9 #dddddd;
-  background: url('button-link-darkgrey.png?1350673034'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(33%, #dedede), color-stop(100%, #ededed));
-  background: url('button-link-darkgrey.png?1350673034'), -webkit-linear-gradient(#ffffff, #dedede 33%, #ededed);
-  background: url('button-link-darkgrey.png?1350673034'), -moz-linear-gradient(#ffffff, #dedede 33%, #ededed);
-  background: url('button-link-darkgrey.png?1350673034'), -o-linear-gradient(#ffffff, #dedede 33%, #ededed);
-  background: url('button-link-darkgrey.png?1350673034'), -ms-linear-gradient(#ffffff, #dedede 33%, #ededed);
-  background: url('button-link-darkgrey.png?1350673034'), linear-gradient(#ffffff, #dedede 33%, #ededed);
+  background: url('../images/button-link-darkgrey.png?1350673034'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(33%, #dedede), color-stop(100%, #ededed));
+  background: url('../images/button-link-darkgrey.png?1350673034'), -webkit-linear-gradient(#ffffff, #dedede 33%, #ededed);
+  background: url('../images/button-link-darkgrey.png?1350673034'), -moz-linear-gradient(#ffffff, #dedede 33%, #ededed);
+  background: url('../images/button-link-darkgrey.png?1350673034'), -o-linear-gradient(#ffffff, #dedede 33%, #ededed);
+  background: url('../images/button-link-darkgrey.png?1350673034'), -ms-linear-gradient(#ffffff, #dedede 33%, #ededed);
+  background: url('../images/button-link-darkgrey.png?1350673034'), linear-gradient(#ffffff, #dedede 33%, #ededed);
   background-position: 6px 5px, 0 0;
   background-repeat: no-repeat, repeat;
 }
@@ -3007,12 +3007,12 @@ div.messages.error {
 .islandora-solr-search-query-inline {
   padding-top: 0.375em;
   padding-bottom: 0.375em;
-  background: url('solr-search-magglass.png?1350672822') 12px 10px no-repeat, -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #ededed), color-stop(100%, #f4f4f4));
-  background: url('solr-search-magglass.png?1350672822') 12px 10px no-repeat, -webkit-linear-gradient(left, #ededed, #f4f4f4);
-  background: url('solr-search-magglass.png?1350672822') 12px 10px no-repeat, -moz-linear-gradient(left, #ededed, #f4f4f4);
-  background: url('solr-search-magglass.png?1350672822') 12px 10px no-repeat, -o-linear-gradient(left, #ededed, #f4f4f4);
-  background: url('solr-search-magglass.png?1350672822') 12px 10px no-repeat, -ms-linear-gradient(left, #ededed, #f4f4f4);
-  background: url('solr-search-magglass.png?1350672822') 12px 10px no-repeat, linear-gradient(left, #ededed, #f4f4f4);
+  background: url('../images/solr-search-magglass.png?1350672822') 12px 10px no-repeat, -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #ededed), color-stop(100%, #f4f4f4));
+  background: url('../images/solr-search-magglass.png?1350672822') 12px 10px no-repeat, -webkit-linear-gradient(left, #ededed, #f4f4f4);
+  background: url('../images/solr-search-magglass.png?1350672822') 12px 10px no-repeat, -moz-linear-gradient(left, #ededed, #f4f4f4);
+  background: url('../images/solr-search-magglass.png?1350672822') 12px 10px no-repeat, -o-linear-gradient(left, #ededed, #f4f4f4);
+  background: url('../images/solr-search-magglass.png?1350672822') 12px 10px no-repeat, -ms-linear-gradient(left, #ededed, #f4f4f4);
+  background: url('../images/solr-search-magglass.png?1350672822') 12px 10px no-repeat, linear-gradient(left, #ededed, #f4f4f4);
 }
 .islandora-solr-search-query-inline dl {
   padding-left: 35px;
@@ -3023,65 +3023,65 @@ div.messages.error {
 }
 
 input.form-my-list-exists {
-  background: url('button-list-darkgrey.png?1350672824'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #dedede));
-  background: url('button-list-darkgrey.png?1350672824'), -webkit-linear-gradient(#ffffff, #dedede);
-  background: url('button-list-darkgrey.png?1350672824'), -moz-linear-gradient(#ffffff, #dedede);
-  background: url('button-list-darkgrey.png?1350672824'), -o-linear-gradient(#ffffff, #dedede);
-  background: url('button-list-darkgrey.png?1350672824'), -ms-linear-gradient(#ffffff, #dedede);
-  background: url('button-list-darkgrey.png?1350672824'), linear-gradient(#ffffff, #dedede);
+  background: url('../images/button-list-darkgrey.png?1350672824'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #dedede));
+  background: url('../images/button-list-darkgrey.png?1350672824'), -webkit-linear-gradient(#ffffff, #dedede);
+  background: url('../images/button-list-darkgrey.png?1350672824'), -moz-linear-gradient(#ffffff, #dedede);
+  background: url('../images/button-list-darkgrey.png?1350672824'), -o-linear-gradient(#ffffff, #dedede);
+  background: url('../images/button-list-darkgrey.png?1350672824'), -ms-linear-gradient(#ffffff, #dedede);
+  background: url('../images/button-list-darkgrey.png?1350672824'), linear-gradient(#ffffff, #dedede);
   background-position: 6px 7px, 0 0;
   background-repeat: no-repeat, repeat;
   padding-left: 24px;
 }
 input.form-my-list-exists:hover {
-  background: url('button-list-darkgrey.png?1350672824'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(33%, #ebebeb), color-stop(100%, #e6e6e6));
-  background: url('button-list-darkgrey.png?1350672824'), -webkit-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
-  background: url('button-list-darkgrey.png?1350672824'), -moz-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
-  background: url('button-list-darkgrey.png?1350672824'), -o-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
-  background: url('button-list-darkgrey.png?1350672824'), -ms-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
-  background: url('button-list-darkgrey.png?1350672824'), linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
+  background: url('../images/button-list-darkgrey.png?1350672824'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(33%, #ebebeb), color-stop(100%, #e6e6e6));
+  background: url('../images/button-list-darkgrey.png?1350672824'), -webkit-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
+  background: url('../images/button-list-darkgrey.png?1350672824'), -moz-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
+  background: url('../images/button-list-darkgrey.png?1350672824'), -o-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
+  background: url('../images/button-list-darkgrey.png?1350672824'), -ms-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
+  background: url('../images/button-list-darkgrey.png?1350672824'), linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
   background-position: 6px 7px, 0 0;
   background-repeat: no-repeat, repeat;
 }
 input.form-my-list-exists:active {
-  background: url('button-list-darkgrey.png?1350672824'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(33%, #dedede), color-stop(100%, #ededed));
-  background: url('button-list-darkgrey.png?1350672824'), -webkit-linear-gradient(#ffffff, #dedede 33%, #ededed);
-  background: url('button-list-darkgrey.png?1350672824'), -moz-linear-gradient(#ffffff, #dedede 33%, #ededed);
-  background: url('button-list-darkgrey.png?1350672824'), -o-linear-gradient(#ffffff, #dedede 33%, #ededed);
-  background: url('button-list-darkgrey.png?1350672824'), -ms-linear-gradient(#ffffff, #dedede 33%, #ededed);
-  background: url('button-list-darkgrey.png?1350672824'), linear-gradient(#ffffff, #dedede 33%, #ededed);
+  background: url('../images/button-list-darkgrey.png?1350672824'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(33%, #dedede), color-stop(100%, #ededed));
+  background: url('../images/button-list-darkgrey.png?1350672824'), -webkit-linear-gradient(#ffffff, #dedede 33%, #ededed);
+  background: url('../images/button-list-darkgrey.png?1350672824'), -moz-linear-gradient(#ffffff, #dedede 33%, #ededed);
+  background: url('../images/button-list-darkgrey.png?1350672824'), -o-linear-gradient(#ffffff, #dedede 33%, #ededed);
+  background: url('../images/button-list-darkgrey.png?1350672824'), -ms-linear-gradient(#ffffff, #dedede 33%, #ededed);
+  background: url('../images/button-list-darkgrey.png?1350672824'), linear-gradient(#ffffff, #dedede 33%, #ededed);
   background-position: 6px 7px, 0 0;
   background-repeat: no-repeat, repeat;
 }
 
 #islandora-bibliography-citation-form .form-submit, input.form-my-list-add {
-  background: url('button-addlist-darkgrey.png?1350672825'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #dedede));
-  background: url('button-addlist-darkgrey.png?1350672825'), -webkit-linear-gradient(#ffffff, #dedede);
-  background: url('button-addlist-darkgrey.png?1350672825'), -moz-linear-gradient(#ffffff, #dedede);
-  background: url('button-addlist-darkgrey.png?1350672825'), -o-linear-gradient(#ffffff, #dedede);
-  background: url('button-addlist-darkgrey.png?1350672825'), -ms-linear-gradient(#ffffff, #dedede);
-  background: url('button-addlist-darkgrey.png?1350672825'), linear-gradient(#ffffff, #dedede);
+  background: url('../images/button-addlist-darkgrey.png?1350672825'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #dedede));
+  background: url('../images/button-addlist-darkgrey.png?1350672825'), -webkit-linear-gradient(#ffffff, #dedede);
+  background: url('../images/button-addlist-darkgrey.png?1350672825'), -moz-linear-gradient(#ffffff, #dedede);
+  background: url('../images/button-addlist-darkgrey.png?1350672825'), -o-linear-gradient(#ffffff, #dedede);
+  background: url('../images/button-addlist-darkgrey.png?1350672825'), -ms-linear-gradient(#ffffff, #dedede);
+  background: url('../images/button-addlist-darkgrey.png?1350672825'), linear-gradient(#ffffff, #dedede);
   background-position: 6px 7px, 0 0;
   background-repeat: no-repeat, repeat;
   padding-left: 28px;
 }
 #islandora-bibliography-citation-form .form-submit:hover, input.form-my-list-add:hover {
-  background: url('button-addlist-darkgrey.png?1350672825'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(33%, #ebebeb), color-stop(100%, #e6e6e6));
-  background: url('button-addlist-darkgrey.png?1350672825'), -webkit-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
-  background: url('button-addlist-darkgrey.png?1350672825'), -moz-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
-  background: url('button-addlist-darkgrey.png?1350672825'), -o-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
-  background: url('button-addlist-darkgrey.png?1350672825'), -ms-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
-  background: url('button-addlist-darkgrey.png?1350672825'), linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
+  background: url('../images/button-addlist-darkgrey.png?1350672825'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(33%, #ebebeb), color-stop(100%, #e6e6e6));
+  background: url('../images/button-addlist-darkgrey.png?1350672825'), -webkit-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
+  background: url('../images/button-addlist-darkgrey.png?1350672825'), -moz-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
+  background: url('../images/button-addlist-darkgrey.png?1350672825'), -o-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
+  background: url('../images/button-addlist-darkgrey.png?1350672825'), -ms-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
+  background: url('../images/button-addlist-darkgrey.png?1350672825'), linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
   background-position: 6px 7px, 0 0;
   background-repeat: no-repeat, repeat;
 }
 #islandora-bibliography-citation-form .form-submit:active, input.form-my-list-add:active {
-  background: url('button-addlist-darkgrey.png?1350672825'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(33%, #ebebeb), color-stop(100%, #e6e6e6));
-  background: url('button-addlist-darkgrey.png?1350672825'), -webkit-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
-  background: url('button-addlist-darkgrey.png?1350672825'), -moz-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
-  background: url('button-addlist-darkgrey.png?1350672825'), -o-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
-  background: url('button-addlist-darkgrey.png?1350672825'), -ms-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
-  background: url('button-addlist-darkgrey.png?1350672825'), linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
+  background: url('../images/button-addlist-darkgrey.png?1350672825'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(33%, #ebebeb), color-stop(100%, #e6e6e6));
+  background: url('../images/button-addlist-darkgrey.png?1350672825'), -webkit-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
+  background: url('../images/button-addlist-darkgrey.png?1350672825'), -moz-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
+  background: url('../images/button-addlist-darkgrey.png?1350672825'), -o-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
+  background: url('../images/button-addlist-darkgrey.png?1350672825'), -ms-linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
+  background: url('../images/button-addlist-darkgrey.png?1350672825'), linear-gradient(#ffffff, #ebebeb 33%, #e6e6e6);
   background-position: 6px 7px, 0 0;
   background-repeat: no-repeat, repeat;
 }

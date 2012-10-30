@@ -2025,8 +2025,17 @@ ul li.leaf.comments {
   font-size: 0.875em;
   line-height: 1.725em;
 }
+@media only screen and (min-width: 1160px) {
+  .front #block-block-19 {
+    height: 286px;
+  }
+}
 .front #block-block-19 p:last-child {
   margin-bottom: 0em;
+}
+
+.ie6-8 .front #block-block-19 {
+  height: 286px;
 }
 
 .region-user-first a {

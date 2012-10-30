@@ -15,12 +15,23 @@
 
 .front {
   #block-block-19 {
+    @include respond-to(desktop) {
+      height: 286px;
+    }
     @include box-shadow(0 0 40px -20px #333 inset);
     padding: 10px;
     font-size: 0.875em;
     line-height: 1.725em;
     p:last-child {
       @include trailer(0);
+    }
+  }
+}
+
+.ie6-8 {
+  .front {
+    #block-block-19 {
+      height: 286px;
     }
   }
 }

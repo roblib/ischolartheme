@@ -1,11 +1,9 @@
 .sidebar-layout:not(#foo) > .form-item {
-  display: -moz-inline-box;
-  -moz-box-orient: vertical;
+  display: -moz-inline-stack;
   display: inline-block;
   vertical-align: middle;
   *vertical-align: auto;
-}
-.sidebar-layout:not(#foo) > .form-item {
+  zoom: 1;
   *display: inline;
 }
 .sidebar-layout:not(#foo) > .form-item label {

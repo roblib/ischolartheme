@@ -3284,6 +3284,11 @@ body[class*=" page-islandora-solr-search"] #content-header {
   font-size: 0.875em;
   line-height: 1.71429em;
 }
+@media only screen and (max-width: 479px) {
+  .inner-footeraddress {
+    background: none;
+  }
+}
 
 .links-last {
   text-align: center;

@@ -105,7 +105,7 @@
 .inner-footeraddress {
   padding-top: 10px;
   background: url("http://students.upei.ca/files/misc/shieldfooter.png") no-repeat right top;
-  @include respond-to(handheld-all) {
+  @include respond-to(handheld) {
     background: none;
   }
   .not-responsive & {

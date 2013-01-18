@@ -23,7 +23,7 @@
 }
 
 .footer-wrapper {
-  @include leader(-1);
+  @include leader(-2);
   @include trailer(0.5);
 }
 

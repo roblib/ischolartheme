@@ -2302,9 +2302,7 @@ ul li.leaf.comments {
 .feature,
 #content,
 .postscript,
-.sidebar,
-#footer,
-.footer-columns-wrapper {
+.sidebar {
   margin-bottom: 1.5em;
 }
 

@@ -21,9 +21,7 @@
 .feature,
 #content,
 .postscript,
-.sidebar,
-#footer,
-.footer-columns-wrapper {
+.sidebar {
   @include trailer(1);
 }
 

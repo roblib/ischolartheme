@@ -78,7 +78,7 @@ function ischolartheme_preprocess_page(&$vars, $hook) {
 
   $vars['logo_img'] = $vars['logo'] ? '<img src="' . $vars['logo'] . '" alt="University of Prince Edward Island" id="logo" />' : '';
   $vars['linked_logo_img'] = $vars['logo'] ? l($vars['logo_img'], 'http://www.upei.ca', array('attributes' => array('rel' => 'home', 'title' => 'University of Prince Edward Island'), 'html' => TRUE)) : '';
-  $vars['site_slogan'] = $vars['site_slogan'] ? l($vars['site_slogan'], 'http://library.upei.ca', array('attributes' => array('rel' => 'Robertson Library', 'title' => 'Robertson Library, UPEI'), 'html' => TRUE)) : '';
+  $vars['site_slogan'] = $vars['site_slogan'] ? l($vars['site_slogan'], 'http://library.upei.ca', array('attributes' => array('rel' => 'Go to the Robertson Library', 'title' => 'Robertson Library, UPEI'), 'html' => TRUE)) : '';
 
 }
 
